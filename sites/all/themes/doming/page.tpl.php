@@ -1,0 +1,59 @@
+<div id="main-content" class="container">
+    <div id="header" class="row hidden-print">
+        <div id="banner" class="col-xs-12">
+            <?php if ($logo): ?>
+                <div id="logo" class="col-xs-12 col-sm-2 text-center">
+                  <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+                    <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+                  </a>
+                </div>
+            <?php endif; ?>
+            <div id="title" class="hidden-xs col-sm-10">
+                <?php if ($site_name) { ?>
+                    <h1 class="col-xs-12">
+                        <!--<a class="col-xs-12" href="<?php print $front_page ?>" title="QCS Doming Stickers Factory" >-->
+                            <?php print $site_name ?>
+                        <!--</a>-->
+                    </h1><?php
+                } ?>
+                <?php if ($site_slogan) { ?>
+                    <div class="col-xs-12">
+                        <i><?php print $site_slogan ?></i>
+                    </div><?php
+                } ?>
+               
+            </div>
+        </div>
+        <div id="menu" class="col-xs-12">
+            <?php if ($main_menu): ?>
+                <?php print theme('links__system_main_menu', array(
+                  'links' => $main_menu,
+                  'attributes' => array(
+                    'id' => 'main-menu-links',
+                    'class' => array('nav', 'nav-tabs'),
+                  ),
+                  'heading' => array(
+                    'text' => t('Main menu'),
+                    'level' => 'h2',
+                    'class' => array('element-invisible'),
+                  ),
+                )); ?>
+            <?php endif; ?>
+        </div>
+    </div>
+    <div id="content" class="col-xs-12">
+        <?php if ($breadcrumb): ?>
+          <ol class="breadcrumb hidden-print"><?php print $breadcrumb; ?></ol>
+        <?php endif;
+        if ($is_front) {
+            include('node--home.tpl.php');
+        } else {
+            print render($page['content']);
+        } ?>
+    </div>
+    <?php if ($page['footer']): ?>
+        <div id="footer" class="col-xs-12 border-top">
+            <?php print render($page['footer']); ?>
+        </div> <!-- /#footer -->
+    <?php endif; ?>
+</div>

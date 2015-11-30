@@ -1,0 +1,225 @@
+body {
+    /*background-color: #f5f5f5;*/
+    color: #555;
+}
+h3 {
+    font-size: 20px !important;
+}
+h2 {
+    font-size: 25px !important;
+}
+ol, .breadcrumb {
+    margin-bottom: 0;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+.border {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.border-none {
+    border: none;
+    box-shadow: none;
+}
+.border-top {
+    border-top: 1px solid #ddd;
+}
+.text-underline {
+    text-decoration: underline;
+}
+.margin-left-7 {
+    margin-left: 7%;
+}
+.font-size-20 {
+    font-size: 20px;
+}
+.height-150 {
+    height: 150px !important;
+}
+.line-height-20 {
+    line-height: 30px;
+}
+.border-left {
+    border-left: 1px solid #ddd;
+}
+.border-right {
+    border-right: 1px solid #ddd;
+}
+.padding-0 {
+    padding: 0;
+}
+.padding-0 {
+    padding: 0;
+}
+.margin-auto {
+    margin: auto;
+}
+.margin-top-10 {
+    margin-top: 10px;
+}
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+@media (min-width: 320px) {
+    .margin-top-xs-10 {
+        margin-top: 10px;
+    }
+    .margin-right-xs-10 {
+        margin-right: 10px;
+    }
+    .margin-top-xs-20 {
+        margin-top: 20px;
+    }
+    .margin-right-xs-20 {
+        margin-right: 20px;
+    }
+    .margin-bottom-xs-10 {
+        margin-bottom: 10px;
+    }
+}
+@media (min-width: 768px) {
+    .margin-top-sm-10 {
+        margin-top: 10px;
+    }
+    .margin-right-sm-10 {
+        margin-right: 10px;
+    }
+    .margin-top-sm-20 {
+        margin-top: 20px;
+    }
+    .margin-right-sm-20 {
+        margin-right: 20px;
+    }
+    .line-height-sm-20 {
+        line-height: 20px;
+    }
+}
+@media (min-width: 992px) {
+    .line-height-md-30 {
+        line-height: 30px;
+    }
+}
+@media (min-width: 1200px) {
+    .line-height-lg-40 {
+        line-height: 40px;
+    }
+}
+#header {
+    margin: 20px 0;
+}
+#banner{
+    margin: 0 0 20px 0;
+    color: #000;
+}
+/*@media (min-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}*/
+#main-content {
+    background-color: #fff;
+}
+/****************** SLIDER ********************************/
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+/****************** HOMEPAGE ********************************/
+.node-home .block {
+    margin-top: 30px;
+}
+.node-home .block {
+    padding: 0;
+}
+.node-home .block h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.node-home .thumbnail {
+    margin: 0;
+}
+.image-left {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 315px;
+}
+@media (max-width: 767px) {
+    .node-home .iframe-wrapper {
+        margin-top: 300px;
+        margin-bottom: 232px;
+    }
+}
+@media (max-width: 991px) {
+    .iframe-wrapper iframe {
+        height: 233px;
+    }
+}
+@media (max-width: 320px) {
+    .iframe-wrapper iframe {
+        height: 147px;
+    }
+}
+@media (max-width: 320px) {
+    .image-left {
+        height: 128px;
+    }
+    .node-home .iframe-wrapper {
+        margin-top: 135px;
+        margin-bottom: 163px;
+    }
+}
+@media (min-width: 992px) {
+    .node-home .blocks .col-md-6 {
+        width: 45%;
+    }
+    .node-home .block-left {
+        margin-right: 5%;
+    }
+    .node-home .block-right {
+        margin-left: 5%;
+    }
+}
+/****************** PRODUCTS AND SERVICES *******************/
+@media (min-width: 992px) {
+    .node-products-and-services .col-md-3 {
+        width: 31%;
+    }
+    .node-products-and-services .col-md-1 {
+        width: 3%;
+    }
+    .node-products-and-services .arrow-right {
+        font-size: 26px;
+        margin-top: 95px;
+        padding: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .node-products-and-services .arrow-right {
+        font-size: 32px;
+    }
+ }
+.node-products-and-services #block-title {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+.node-products-and-services .arrow-down {
+    font-size: 45px;
+}
+#a-block {
+    color: inherit;
+}
+/****************** DOMING IS DURABLE *******************/
+/****************** FOOTER *******************/
+#footer {
+    margin-top: 15px;
+    padding-top: 15px;
+}
