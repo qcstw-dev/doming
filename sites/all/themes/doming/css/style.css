@@ -35,7 +35,7 @@ ol, .breadcrumb {
     font-size: 20px;
 }
 .height-150 {
-    height: 150px !important;
+    min-height: 150px !important;
 }
 .line-height-20 {
     line-height: 30px;
@@ -217,7 +217,10 @@ ol, .breadcrumb {
 #a-block {
     color: inherit;
 }
-/****************** DOMING IS DURABLE *******************/
+/****************** CONTACT US *******************/
+.node-contact-us .input-group-addon {
+    min-width: 126px;
+}
 /****************** FOOTER *******************/
 #footer {
     margin-top: 15px;
