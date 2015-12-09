@@ -10,7 +10,7 @@
             <?php endif; ?>
             <div id="title" class="hidden-xs col-sm-10">
                 <?php if ($site_name) { ?>
-                    <h1 class="col-xs-12">
+                    <h1 class="col-xs-12 main-title">
                         <!--<a class="col-xs-12" href="<?php print $front_page ?>" title="QCS Doming Stickers Factory" >-->
                             <?php print $site_name ?>
                         <!--</a>-->

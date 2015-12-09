@@ -23,12 +23,10 @@
 ?>
 <div class="col-xs-12 margin-bottom-10"><h2>Contact us</h2></div>
 <div class="col-xs-12 col-sm-6"><?php
-//    var_dump($form);
     // Print out the progress bar at the top of the page
     print drupal_render($form['progressbar']);
-    var_dump($form);
     // Print out the preview message if on the preview page.
-  /*  if (isset($form['preview_message'])) {
+    if (isset($form['preview_message'])) {
         print '<div class="messages warning">';
         print drupal_render($form['preview_message']);
         print '</div>';
@@ -47,12 +45,16 @@
                 </div><?php
             }
         }
-    }
-
+    } ?>
+    
+    <input type="hidden" name="form_build_id" value="<?= $form['form_build_id']['#value'] ?>">
+    <input type="hidden" name="form_token" value="<?= $form['form_token']['#value'] ?>">
+    <input type="hidden" name="form_id" value="<?= $form['form_id']['#value'] ?>"><?php
+    
     if (isset($form['captcha']) && strpos($form['captcha']['#captcha_type'], 'recaptcha') !== false) {
         print $form['captcha']['captcha_widgets']['recaptcha_widget']['#markup'];
-    } */ ?>
-    <!--<input type="submit" class="btn btn-info margin-top-10" value="Send"/>-->
+    } ?>
+    <input type="submit" class="btn btn-primary margin-top-10" value="<?= $form['#node']->webform['submit_text'] ?>"/>
     <?php
         // Print out the main part of the form.
       // Feel free to break this up and move the pieces within the array.
@@ -60,5 +62,6 @@
 
       // Always print out the entire $form. This renders the remaining pieces of the
       // form that haven't yet been rendered above (buttons, hidden elements, etc).
-      print drupal_render_children($form); ?>
+//      print drupal_render_children($form); ?>
+    
 </div>

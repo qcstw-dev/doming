@@ -101,13 +101,13 @@
                     convallis leo dapibus cursus.
                 </p>
             </div>
-            <div class="col-xs-12 col-sm-6 text-center border-left thumbnail border-none">
+            <div class="col-xs-12 col-sm-6 text-center thumbnail border-none">
                 <img class="" src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" />
             </div>
         </div>
         <div class="block block-right col-xs-12 col-md-6 border">
             <div class="col-xs-12>"><h2 class="text-center">Doming Stickers Factory</h2></div>
-            <div class="col-xs-12 col-sm-6 text-center border-right thumbnail border-none">
+            <div class="col-xs-12 col-sm-6 text-center thumbnail border-none">
                 <img class="" src="<?php print url("/sites/default/files/products-and-services/2ODD-DOUBLE-SIDE-DOMING2.jpg") ?>" />
             </div>
             <div  class="col-xs-12 col-sm-6 margin-top-10-xs">
@@ -129,13 +129,13 @@
                     convallis leo dapibus cursus.
                 </p>
             </div>
-            <div class="col-xs-12 col-sm-6 text-center border-left thumbnail border-none">
+            <div class="col-xs-12 col-sm-6 text-center thumbnail border-none">
                 <img class="" src="<?php print url("/sites/default/files/products-and-services/QAT3ODD.jpg") ?>" />
             </div>
         </div>
         <div class="block block-right col-xs-12 col-md-6 border">
             <div class="col-xs-12>"><h2 class="text-center">Doming Stickers Factory</h2></div>
-            <div class="col-xs-12 col-sm-6 text-center border-right thumbnail border-none">
+            <div class="col-xs-12 col-sm-6 text-center thumbnail border-none">
                 <img class="" src="<?php print url("/sites/default/files/products-and-services/PABH2ODD-COCA-COLA-ZERO.jpg") ?>" />
             </div>
             <div  class="col-xs-12 col-sm-6 margin-top-10-xs">
