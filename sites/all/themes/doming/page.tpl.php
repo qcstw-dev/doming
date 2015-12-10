@@ -26,8 +26,9 @@
         </div>
         <div id="menu" class="col-xs-12">
             <?php if ($main_menu): ?>
-                <?php print theme('links__system_main_menu', array(
-                  'links' => $main_menu,
+                <?php 
+                  print theme('links__system_main_menu', array(
+                  'links' => menu_tree_all_data('main-menu'),
                   'attributes' => array(
                     'id' => 'main-menu-links',
                     'class' => array('nav', 'nav-tabs'),
@@ -37,7 +38,21 @@
                     'level' => 'h2',
                     'class' => array('element-invisible'),
                   ),
-                )); ?>
+                ));
+//                  old version
+//                print theme('links__system_main_menu', array(
+//                  'links' => $main_menu,
+//                  'attributes' => array(
+//                    'id' => 'main-menu-links',
+//                    'class' => array('nav', 'nav-tabs'),
+//                  ),
+//                  'heading' => array(
+//                    'text' => t('Main menu'),
+//                    'level' => 'h2',
+//                    'class' => array('element-invisible'),
+//                  ),
+//                )); 
+                ?>
             <?php endif; ?>
         </div>
     </div>
@@ -59,3 +74,10 @@
         </div> <!-- /#footer -->
     <?php endif; ?>
 </div>
+<script>
+    $('ul.nav li.dropdown').hover(function() {
+        $(this).find('.dropdown-menu').stop(true, true).show();
+    }, function() {
+        $(this).find('.dropdown-menu').stop(true, true).hide();
+    });
+</script>
