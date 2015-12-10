@@ -44,12 +44,14 @@
     <div id="content" class="col-xs-12">
         <?php if ($breadcrumb): ?>
           <ol class="breadcrumb hidden-print"><?php print $breadcrumb; ?></ol>
-        <?php endif;
-        if ($is_front) {
-            include('node--home.tpl.php');
-        } else {
-            print render($page['content']);
-        } ?>
+        <?php endif; ?>
+          <div class=" col-xs-12"><?php
+                if ($is_front) {
+                    include('node--home.tpl.php');
+                } else {
+                    print render($page['content']);
+                } ?>
+          </div>
     </div>
     <?php if ($page['footer']): ?>
         <div id="footer" class="col-xs-12 border-top">
