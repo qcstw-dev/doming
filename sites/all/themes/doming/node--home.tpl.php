@@ -84,14 +84,11 @@
     }
 </style>
 <div id="node-<?php print $node->nid; ?>" class="node-home <?php print $classes; ?> clearfix"<?php print $attributes; ?>> 
-    <div class="col-xs-12">
-        <div class="col-xs-12 col-sm-6 text-center image-left" ></div>
-        <div class="col-sm-6 text-center">
-            <iframe width="100%" height="315" src="https://www.youtube.com/embed/yqAXWzF85Io?rel=0" frameborder="0" allowfullscreen></iframe>
-        </div>
+    <div class="col-xs-12 col-sm-6 padding-0 text-center image-left" ></div>
+    <div class="col-sm-6 padding-0 text-center">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/yqAXWzF85Io?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
-    
-    <div class="col-xs-12 blocks">
+    <div class="blocks">
         <div class="block block-left col-xs-12 col-md-6 border">
             <div class="col-xs-12>"><h2 class="text-center">Doming Stickers Factory</h2></div>
             <div  class="col-xs-12 col-sm-6">
@@ -119,7 +116,7 @@
             </div>
         </div>
     </div>
-    <div class="col-xs-12 blocks">
+    <div class="blocks">
         <div class="block block-left col-xs-12 col-md-6 border">
             <div class="col-xs-12>"><h2 class="text-center">Doming Stickers Factory</h2></div>
             <div  class="col-xs-12 col-sm-6">

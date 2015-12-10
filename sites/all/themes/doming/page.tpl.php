@@ -24,7 +24,7 @@
                
             </div>
         </div>
-        <div id="menu" class="col-xs-12">
+        <div id="menu" class="col-xs-12 padding-xs-0">
             <?php if ($main_menu): ?>
                 <?php 
                   print theme('links__system_main_menu', array(
@@ -56,11 +56,11 @@
             <?php endif; ?>
         </div>
     </div>
-    <div id="content" class="col-xs-12">
+    <div id="content" class="col-xs-12 padding-xs-0">
         <?php if ($breadcrumb): ?>
           <ol class="breadcrumb hidden-print"><?php print $breadcrumb; ?></ol>
         <?php endif; ?>
-          <div class=" col-xs-12"><?php
+          <div class="col-xs-12 padding-xs-0"><?php
                 if ($is_front) {
                     include('node--home.tpl.php');
                 } else {
@@ -71,7 +71,7 @@
     <?php if ($page['footer']): ?>
         <div id="footer" class="col-xs-12 border-top">
             <?php print render($page['footer']); ?>
-        </div> <!-- /#footer -->
+        </div>
     <?php endif; ?>
 </div>
 <script>
