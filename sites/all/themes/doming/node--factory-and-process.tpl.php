@@ -79,16 +79,14 @@
  */
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-    <div class="col-sm-10 col-sm-offset-1">
-        <div class="col-xs-12 margin-top-20">
+    <div class="col-md-10 col-md-offset-1">
+        <div class="row margin-top-20">
             <div class="col-xs-12 col-sm-6 thumbnail">
                 <img src="<?php print url("/sites/default/files/factory-and-process/stamping.jpg") ?>" alt="" title="" />
             </div>
             <div class="col-xs-12 col-sm-6">
-                <div class="col-xs-12">
-                    <h2 class="text-center">Title 1</h2>
-                </div>
-                <div class="col-xs-12 text-justify">
+                <h2 class="text-center">Title 1</h2>
+                <div class="text-justify">
                     <p class="line-height-sm-30 line-height-md-30 line-height-lg-40">
                         Lorem ipsum dolor sit amet, consectetur adipiscing 
                         elit. Donec non felis risus. Suspendisse sit amet lectus facilisis,
@@ -107,12 +105,10 @@
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 margin-top-20">
+        <div class="row margin-top-20">
             <div class="col-sm-6">
-                <div class="col-xs-12">
-                    <h2 class="text-center">Title 2</h2>
-                </div>
-                <div class="col-xs-12 text-justify">
+                <h2 class="text-center">Title 2</h2>
+                <div class="text-justify">
                     <p class="line-height-sm-30 line-height-md-30 line-height-lg-40">
                         Lorem ipsum dolor sit amet, consectetur adipiscing 
                         elit. Donec non felis risus. Suspendisse sit amet lectus facilisis,
@@ -136,3 +132,36 @@
         </div>
     </div>
 </div>
+<div class="gallery-container">
+    <a class="col-xs-3 col-sm-2 col-sm-offset-1 thumbnail" href="<?php print url("/sites/default/files/factory-and-process/LR.jpg") ?>">
+      <img class="" src="<?php print url("/sites/default/files/factory-and-process/LR.jpg") ?>" alt="" title="" />
+    </a>
+    <a class="col-xs-3 col-sm-2 col-sm-offset-1 thumbnail" href="<?php print url("/sites/default/files/factory-and-process/stamping.jpg") ?>">
+      <img class="" src="<?php print url("/sites/default/files/factory-and-process/stamping.jpg") ?>" alt="" title="" />
+    </a>
+    <a class="col-xs-3 col-sm-2 col-sm-offset-1 thumbnail" href="<?php print url("/sites/default/files/factory-and-process/LR.jpg") ?>">
+      <img class="" src="<?php print url("/sites/default/files/factory-and-process/LR.jpg") ?>" alt="" title="" />
+    </a>
+    <a class="col-xs-3 col-sm-2 col-sm-offset-1 thumbnail" href="<?php print url("/sites/default/files/factory-and-process/stamping.jpg") ?>">
+      <img class="" src="<?php print url("/sites/default/files/factory-and-process/stamping.jpg") ?>" alt="" title="" />
+    </a>
+    <a class="col-xs-3 col-sm-2 col-sm-offset-1 thumbnail" href="<?php print url("/sites/default/files/factory-and-process/stamping.jpg") ?>">
+      <img class="" src="<?php print url("/sites/default/files/factory-and-process/stamping.jpg") ?>" alt="" title="" />
+    </a>
+    <a class="col-xs-3 col-sm-2 col-sm-offset-1 thumbnail" href="<?php print url("/sites/default/files/factory-and-process/LR.jpg") ?>">
+      <img class="" src="<?php print url("/sites/default/files/factory-and-process/LR.jpg") ?>" alt="" title="" />
+    </a>
+    <a class="col-xs-3 col-sm-2 col-sm-offset-1 thumbnail" href="<?php print url("/sites/default/files/factory-and-process/stamping.jpg") ?>">
+      <img class="" src="<?php print url("/sites/default/files/factory-and-process/stamping.jpg") ?>" alt="" title="" />
+    </a>
+    <a class="col-xs-3 col-sm-2 col-sm-offset-1 thumbnail" href="<?php print url("/sites/default/files/factory-and-process/LR.jpg") ?>">
+      <img class="" src="<?php print url("/sites/default/files/factory-and-process/LR.jpg") ?>" alt="" title="" />
+    </a>
+</div>
+<script>
+    $('.gallery-container').magnificPopup({
+      delegate: 'a', // child items selector, by clicking on it popup will open
+      type: 'image',
+      gallery:{enabled:true}
+    });
+</script>
