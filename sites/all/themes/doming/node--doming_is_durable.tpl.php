@@ -81,125 +81,104 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
     <div class="col-xs-12 text-center"><h2>Doming is durable</h2></div>
     <div class="col-xs-12 border margin-bottom-20">
-        <div class="col-sm-3 thumbnail margin-top-20 text-center">
+        <div class="col-sm-3 col-md-2 margin-top-xs-20 margin-left-sm-20 thumbnail margin-top-20 text-center">
             <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
         </div>
         <div class="col-sm-9">
-            <div class="col-xs-12 text-center"><h3>Waterproof</h3></div>
+            <div class="col-xs-12 text-center"><h3>Waterproof & temperature + UV resistant</h3></div>
             <div class="col-xs-12">
                 <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis risus. Suspendisse sit amet lectus facilisis.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis risus. Suspendisse sit amet lectus facilisis.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis risus. Suspendisse sit amet lectus facilisis.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis risus. Suspendisse sit amet lectus facilisis.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis risus. Suspendisse sit amet lectus facilisis.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis risus. Suspendisse sit amet lectus facilisis.
                 </p>
             </div>
             <div class="col-xs-12 margin-bottom-10"><h4>Which makes it suitable for following industries:</h4></div>
-            <div class="col-xs-12">
-                <div class="col-xs-5 col-md-offset-1 col-sm-2 col-lg-1 border-none padding-0">
-                    <div class="thumbnail margin-bottom-10">
-                        <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
-                    </div>
-                    <p class="text-center">Title</p>
+        </div>
+        <div class="col-xs-12 padding-0">
+            <div class="col-xs-5 col-sm-2 border-none padding-0 margin-right-sm-20 margin-left-sm-20">
+                <div class="thumbnail margin-bottom-10">
+                    <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
                 </div>
-                <div class="col-xs-5 col-xs-offset-1 col-sm-offset-1 col-sm-2 col-lg-1 border-none padding-0">
-                    <div class="thumbnail margin-bottom-10">
-                        <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
-                    </div>
-                    <p class="text-center">Title</p>
+                <p class="text-center">Title</p>
+            </div>
+            <div class="col-xs-5 col-xs-offset-1 col-sm-offset-0 col-sm-2 border-none padding-0 margin-right-sm-20">
+                <div class="thumbnail margin-bottom-10">
+                    <img src="<?php print url("/sites/default/files/products-and-services/2ODD-DOUBLE-SIDE-DOMING2.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
                 </div>
-                <div class="col-xs-5 col-sm-offset-1 col-sm-2 col-lg-1 border-none padding-0">
-                    <div class="thumbnail margin-bottom-10">
-                        <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
-                    </div>
-                    <p class="text-center">Title</p>
+                <p class="text-center">Title</p>
+            </div>
+            <div class="col-xs-5 col-sm-2 border-none padding-0 margin-right-sm-20">
+                <div class="thumbnail margin-bottom-10">
+                    <img src="<?php print url("/sites/default/files/products-and-services/PABH2ODD-COCA-COLA-ZERO.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
                 </div>
-                <div class="col-xs-5 col-xs-offset-1 col-sm-offset-1 col-sm-2 col-lg-1 border-none padding-0">
-                    <div class="thumbnail margin-bottom-10">
-                        <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
-                    </div>
-                    <p class="text-center">Title</p>
+                <p class="text-center">Title</p>
+            </div>
+            <div class="col-xs-5 col-xs-offset-1 col-sm-offset-0 col-sm-2 border-none padding-0 margin-right-sm-20">
+                <div class="thumbnail margin-bottom-10">
+                    <img src="<?php print url("/sites/default/files/products-and-services/PSPHNEW-IMAGE.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
                 </div>
+                <p class="text-center">Title</p>
+            </div>
+            <div class="col-xs-5 col-sm-2 border-none padding-0 margin-right-sm-20">
+                <div class="thumbnail margin-bottom-10">
+                    <img src="<?php print url("/sites/default/files/products-and-services/QAT3ODD.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
+                </div>
+                <p class="text-center">Title</p>
             </div>
         </div>
     </div>
     <div class="col-xs-12 border margin-bottom-20">
-        <div class="col-sm-3 thumbnail margin-top-20 text-center">
+        <div class="col-sm-3 col-md-2 margin-top-xs-20 margin-left-sm-20 thumbnail margin-top-20 text-center">
             <img src="<?php print url("/sites/default/files/products-and-services/TMHODD1.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
         </div>
         <div class="col-sm-9">
-            <div class="col-xs-12 text-center"><h3>Temperature and UV resistant</h3></div>
+            <div class="col-xs-12 text-center"><h3>Non-porous and smooth surface</h3></div>
             <div class="col-xs-12">
                 <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis risus. Suspendisse sit amet lectus facilisis.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis risus. Suspendisse sit amet lectus facilisis.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis risus. Suspendisse sit amet lectus facilisis.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis risus. Suspendisse sit amet lectus facilisis.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis risus. Suspendisse sit amet lectus facilisis.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis risus. Suspendisse sit amet lectus facilisis.
                 </p>
             </div>
             <div class="col-xs-12 margin-bottom-10"><h4>Which makes it suitable for following industries:</h4></div>
-            <div class="col-xs-12">
-                <div class="col-xs-5 col-md-offset-1 col-sm-2 col-lg-1 border-none padding-0">
-                    <div class="thumbnail margin-bottom-10">
-                        <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
-                    </div>
-                    <p class="text-center">Title</p>
-                </div>
-                <div class="col-xs-5 col-xs-offset-1 col-sm-offset-1 col-sm-2 col-lg-1 border-none padding-0">
-                    <div class="thumbnail margin-bottom-10">
-                        <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
-                    </div>
-                    <p class="text-center">Title</p>
-                </div>
-                <div class="col-xs-5 col-sm-offset-1 col-sm-2 col-lg-1 border-none padding-0">
-                    <div class="thumbnail margin-bottom-10">
-                        <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
-                    </div>
-                    <p class="text-center">Title</p>
-                </div>
-                <div class="col-xs-5 col-xs-offset-1 col-sm-offset-1 col-sm-2 col-lg-1 border-none padding-0">
-                    <div class="thumbnail margin-bottom-10">
-                        <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
-                    </div>
-                    <p class="text-center">Title</p>
-                </div>
-            </div>
         </div>
-    </div>
-    <div class="col-xs-12 border">
-        <div class="col-sm-3 thumbnail margin-top-20 text-center">
-            <img src="<?php print url("/sites/default/files/products-and-services/PSPHNEW-IMAGE.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
-        </div>
-        <div class="col-sm-9">
-            <div class="col-xs-12 text-center"><h3>Non porous and soft</h3></div>
-            <div class="col-xs-12">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis risus. Suspendisse sit amet lectus facilisis.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non felis risus. Suspendisse sit amet lectus facilisis.
-                </p>
+        <div class="col-xs-12 padding-0">
+            <div class="col-xs-5 col-sm-2 border-none padding-0 margin-right-sm-20 margin-left-sm-20">
+                <div class="thumbnail margin-bottom-10">
+                    <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
+                </div>
+                <p class="text-center">Title</p>
             </div>
-            <div class="col-xs-12 margin-bottom-10"><h4>Which makes it suitable for following industries:</h4></div>
-            <div class="col-xs-12">
-                <div class="col-xs-5 col-md-offset-1 col-sm-2 col-lg-1 border-none padding-0">
-                    <div class="thumbnail margin-bottom-10">
-                        <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
-                    </div>
-                    <p class="text-center">Title</p>
+            <div class="col-xs-5 col-xs-offset-1 col-sm-offset-0 col-sm-2 border-none padding-0 margin-right-sm-20">
+                <div class="thumbnail margin-bottom-10">
+                    <img src="<?php print url("/sites/default/files/products-and-services/2ODD-DOUBLE-SIDE-DOMING2.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
                 </div>
-                <div class="col-xs-5 col-xs-offset-1 col-sm-offset-1 col-sm-2 col-lg-1 border-none padding-0">
-                    <div class="thumbnail margin-bottom-10">
-                        <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
-                    </div>
-                    <p class="text-center">Title</p>
+                <p class="text-center">Title</p>
+            </div>
+            <div class="col-xs-5 col-sm-2 border-none padding-0 margin-right-sm-20">
+                <div class="thumbnail margin-bottom-10">
+                    <img src="<?php print url("/sites/default/files/products-and-services/PABH2ODD-COCA-COLA-ZERO.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
                 </div>
-                <div class="col-xs-5 col-sm-offset-1 col-sm-2 col-lg-1 border-none padding-0">
-                    <div class="thumbnail margin-bottom-10">
-                        <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
-                    </div>
-                    <p class="text-center">Title</p>
+                <p class="text-center">Title</p>
+            </div>
+            <div class="col-xs-5 col-xs-offset-1 col-sm-offset-0 col-sm-2 border-none padding-0 margin-right-sm-20">
+                <div class="thumbnail margin-bottom-10">
+                    <img src="<?php print url("/sites/default/files/products-and-services/PSPHNEW-IMAGE.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
                 </div>
-                <div class="col-xs-5 col-xs-offset-1 col-sm-offset-1 col-sm-2 col-lg-1 border-none padding-0">
-                    <div class="thumbnail margin-bottom-10">
-                        <img src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
-                    </div>
-                    <p class="text-center">Title</p>
+                <p class="text-center">Title</p>
+            </div>
+            <div class="col-xs-5 col-sm-2 border-none padding-0 margin-right-sm-20">
+                <div class="thumbnail margin-bottom-10">
+                    <img src="<?php print url("/sites/default/files/products-and-services/QAT3ODD.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
                 </div>
+                <p class="text-center">Title</p>
             </div>
         </div>
     </div>
