@@ -85,7 +85,7 @@
                 <img src="<?php print url("/sites/default/files/factory-and-process/stamping.jpg") ?>" alt="" title="" />
             </div>
             <div class="col-xs-12 col-sm-6">
-                <h2 class="text-center">Title 1</h2>
+                <h2>Title 1</h2>
                 <div class="text-justify">
                     <p class="line-height-sm-30 line-height-md-30 line-height-lg-40">
                         Lorem ipsum dolor sit amet, consectetur adipiscing 
@@ -107,7 +107,7 @@
         </div>
         <div class="row margin-top-20">
             <div class="col-sm-6">
-                <h2 class="text-center">Title 2</h2>
+                <h2>Title 2</h2>
                 <div class="text-justify">
                     <p class="line-height-sm-30 line-height-md-30 line-height-lg-40">
                         Lorem ipsum dolor sit amet, consectetur adipiscing 

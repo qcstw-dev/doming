@@ -1,17 +1,30 @@
-/*#d9534f*/
+/*#AC0623*/
 body {
-    background-color: #E8E8E8;
+    /*background-color: #E8E8E8;*/
     color: #555;
 }
 h3 {
     font-size: 20px !important;
 }
 h2 {
-    font-size: 25px !important;
+    font-size: 22px !important;
 }
-.h1, .h2, .h3, .h4, .h5, .h6,
-h1, h2, h3, h4, h5, h6 {
-    color: #AC0623;
+.h1, h1 {
+    color: #d9534f;
+}
+.h2, h2 {
+    background: rgba(77, 149, 152, 0.77);
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.h3, .h4, .h5, .h6,
+ h3, h4, h5, h6 {
+    color: #307F83;
+}
+#logo {
+    padding-top: 10px;
 }
 .main-title {
     color: inherit;
@@ -27,7 +40,7 @@ ol, .breadcrumb {
     background-color: #E8E8E8;
 }
 a {
-    color: #AC0623;
+    color: #d9534f;
 }
 .navbar-default {
     border-radius: 0;
@@ -39,13 +52,14 @@ a {
     margin-bottom: 20px;
 }
 #menu .navbar {
-    border-bottom: 5px solid #AC0623;
+    border-bottom: 5px solid #d9534f;
     text-transform: uppercase;
+    background: #F3F3F3;
 }
 #menu .navbar-nav>li>a:hover, 
 #menu .navbar-default .navbar-nav>.active>a, 
 #menu .navbar-default .navbar-nav>.open>a {
-    background: #AC0623;
+    background: #d9534f;
     color: #fff;
 }
 #menu ul.dropdown-menu {
@@ -60,19 +74,22 @@ a {
     background: #E8E8E8;
 }
 #header {
-    margin: 20px 0 0 0;
 }
 #banner{
-    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
     color: #000;
+    background: url(../images/background-header.jpg) -17px;
 }
 #content {
     min-height: 550px;
 }
+.input-group-addon, .form-control, .btn {
+    border-radius: 0;
+}
 .btn-primary, .btn-primary:hover, .btn-primary:active,
 .btn-primary:focus, .btn-primary:hover, .btn-primary:active:focus {
     background-image: none;
-    background-color: #AC0623;
+    background-color: #d9534f;
     color: #fff;
     border: none;
 }
@@ -223,7 +240,7 @@ a {
     padding: 0;
 }
 .node-home .block h2 {
-    margin-top: 10px;
+    margin-top: 0;
     margin-bottom: 20px;
 }
 .node-home .thumbnail {
@@ -305,6 +322,27 @@ a {
     margin-top: 15px;
     margin-bottom: 15px;
     padding-top: 15px;
-    background: #AC0623;
+    background: #d9534f;
     color: #fff;
 }
+
+
+
+
+/*.color-primary-0 { color: #D9534F }	 Main Primary color 
+.color-primary-1 { color: #FFADAB }
+.color-primary-2 { color: #FC827F }
+.color-primary-3 { color: #BE2F2B }
+.color-primary-4 { color: #961512 }
+
+.color-secondary-1-0 { color: #307F83 }	 Main Secondary color (1) 
+.color-secondary-1-1 { color: #82BEC1 }
+.color-secondary-1-2 { color: #4D9598 }
+.color-secondary-1-3 { color: #1A6F73 }
+.color-secondary-1-4 { color: #0B575B }
+
+.color-secondary-2-0 { color: #9ECA4A }	 Main Secondary color (2) 
+.color-secondary-2-1 { color: #D8F4A4 }
+.color-secondary-2-2 { color: #C3EB76 }
+.color-secondary-2-3 { color: #82B128 }
+.color-secondary-2-4 { color: #618C11 }*/

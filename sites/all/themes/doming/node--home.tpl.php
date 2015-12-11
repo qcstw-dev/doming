@@ -90,7 +90,7 @@
     </div>
     <div class="blocks">
         <div class="block block-left col-xs-12 col-md-6 border">
-            <div class="col-xs-12>"><h2 class="text-center">Doming Stickers Factory</h2></div>
+            <div class="col-xs-12>"><h2>Doming Stickers Factory</h2></div>
             <div  class="col-xs-12 col-sm-6">
                 <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing 
                     elit. Donec non felis risus. Suspendisse sit amet lectus facilisis,
@@ -103,7 +103,7 @@
             </div>
         </div>
         <div class="block block-right col-xs-12 col-md-6 border">
-            <div class="col-xs-12>"><h2 class="text-center">Doming Stickers Factory</h2></div>
+            <div class="col-xs-12>"><h2>Doming Stickers Factory</h2></div>
             <div class="col-xs-12 col-sm-6 text-center thumbnail border-none">
                 <img class="" src="<?php print url("/sites/default/files/products-and-services/2ODD-DOUBLE-SIDE-DOMING2.jpg") ?>" />
             </div>
@@ -118,7 +118,7 @@
     </div>
     <div class="blocks">
         <div class="block block-left col-xs-12 col-md-6 border">
-            <div class="col-xs-12>"><h2 class="text-center">Doming Stickers Factory</h2></div>
+            <div class="col-xs-12>"><h2>Doming Stickers Factory</h2></div>
             <div  class="col-xs-12 col-sm-6">
                 <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing 
                     elit. Donec non felis risus. Suspendisse sit amet lectus facilisis,
@@ -131,7 +131,7 @@
             </div>
         </div>
         <div class="block block-right col-xs-12 col-md-6 border">
-            <div class="col-xs-12>"><h2 class="text-center">Doming Stickers Factory</h2></div>
+            <div class="col-xs-12>"><h2>Doming Stickers Factory</h2></div>
             <div class="col-xs-12 col-sm-6 text-center thumbnail border-none">
                 <img class="" src="<?php print url("/sites/default/files/products-and-services/PABH2ODD-COCA-COLA-ZERO.jpg") ?>" />
             </div>

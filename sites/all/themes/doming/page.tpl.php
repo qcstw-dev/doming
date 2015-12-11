@@ -69,7 +69,7 @@
           </div>
     </div>
     <?php if ($page['footer']): ?>
-        <div id="footer" class="col-xs-12 border-top">
+        <div id="footer" class="col-xs-12">
             <?php print render($page['footer']); ?>
         </div>
     <?php endif; ?>

@@ -21,8 +21,8 @@
  * - $form['preview']: A renderable representing the entire submission preview.
  */
 ?>
-<div class="col-xs-12 margin-bottom-10"><h2>Contact us</h2></div>
-<div class="col-xs-12 col-sm-6"><?php
+<h2>Contact us</h2>
+<div class="col-xs-12 col-sm-offset-3 col-sm-6 margin-top-10"><?php
     // Print out the progress bar at the top of the page
     print drupal_render($form['progressbar']);
     // Print out the preview message if on the preview page.
