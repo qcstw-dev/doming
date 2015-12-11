@@ -5,10 +5,9 @@
 include_once dirname(__FILE__) . '/includes/common.inc';
 
 function doming_links__system_main_menu($variables) {
-    $output = '';
     if ($variables['links']) { ?>
         <nav class="navbar navbar-default">
-            <div class="container-fluid">
+            <div class="container-fluid padding-sm-0">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
@@ -18,10 +17,10 @@ function doming_links__system_main_menu($variables) {
                     </button>
                     <span class="navbar-brand visible-xs">Menu</span>
                 </div>
-                <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
+                <div class="navbar-collapse collapse padding-sm-0" id="bs-example-navbar-collapse-1" aria-expanded="false">
                     <ul class="nav navbar-nav"><?php
                         foreach ($variables['links'] as $link) { ?>
-                            <li <?= ($link['below'] ? 'class="dropdown"' : '') ?>>
+                        <li class="<?= ($link['below'] ? 'dropdown' : '') ?><?= ((strpos($_SERVER["REQUEST_URI"], url($link['link']['link_path'])) !== false && $link['link']['href'] != '<front>') ? ' active': '') ?>">
                                 <a <?= ($link['below'] ? 'role="button" aria-haspopup="true" aria-expanded="false"' : '') ?> href="<?= url($link['link']['link_path']) ?>" >
                                     <?= $link['link']['link_title'] ?>
                                 </a><?php
@@ -43,5 +42,4 @@ function doming_links__system_main_menu($variables) {
             </div>
         </nav><?php
     }
-    return $output;
 }

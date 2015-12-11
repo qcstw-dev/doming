@@ -42,8 +42,10 @@ a {
     border-bottom: 5px solid #AC0623;
     text-transform: uppercase;
 }
-#menu .navbar-nav>li>a:hover {
-    background-color: #AC0623;
+#menu .navbar-nav>li>a:hover, 
+#menu .navbar-default .navbar-nav>.active>a, 
+#menu .navbar-default .navbar-nav>.open>a {
+    background: #AC0623;
     color: #fff;
 }
 #menu ul.dropdown-menu {
@@ -109,9 +111,6 @@ a {
 .padding-0 {
     padding: 0;
 }
-.padding-0 {
-    padding: 0;
-}
 .margin-auto {
     margin: auto;
 }
@@ -171,6 +170,9 @@ a {
     }
     .line-height-sm-20 {
         line-height: 20px;
+    }
+    .padding-sm-0 {
+        padding: 0;
     }
 }
 @media (min-width: 992px) {
