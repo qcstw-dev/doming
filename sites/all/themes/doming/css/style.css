@@ -1,7 +1,17 @@
 /*#AC0623*/
+@font-face {
+    font-family: DfKaiSB;
+    src: url(../fonts/kaiu.ttf);
+}
+.font-dfkai {
+    font-family: DfKaiSB;
+}
 body {
     /*background-color: #E8E8E8;*/
     color: #555;
+}
+.background-light {
+    background: rgb(243, 243, 243);
 }
 h3 {
     font-size: 20px !important;
@@ -18,7 +28,6 @@ h2 {
     color: #fff;
     text-align: center;
 }
-
 .h3, .h4, .h5, .h6,
  h3, h4, h5, h6 {
     color: #307F83;
@@ -76,7 +85,7 @@ a {
 #header {
 }
 #banner{
-    padding: 0 0 20px 0;
+    padding: 0 0 10px 0;
     color: #000;
     background: url(../images/background-header.jpg) -17px;
 }
@@ -109,6 +118,9 @@ a {
 }
 .margin-left-7 {
     margin-left: 7%;
+}
+.font-size-24 {
+    font-size: 24px;
 }
 .font-size-20 {
     font-size: 20px;
@@ -241,7 +253,7 @@ a {
 }
 .node-home .block h2 {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .node-home .thumbnail {
     margin: 0;
@@ -294,7 +306,7 @@ a {
     }
     .node-products-and-services .arrow-right {
         font-size: 26px;
-        margin-top: 95px;
+        margin-top: 150px;
         padding: 0;
     }
 }
