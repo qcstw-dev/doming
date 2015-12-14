@@ -65,7 +65,9 @@ a {
     text-transform: uppercase;
     background: #F3F3F3;
 }
-#menu .navbar-nav>li>a:hover, 
+#menu .navbar-nav>li>a:hover,
+#menu .navbar-nav>li.focus,
+#menu .navbar-nav>li.focus>a,
 #menu .navbar-default .navbar-nav>.active>a, 
 #menu .navbar-default .navbar-nav>.open>a {
     background: #d9534f;
