@@ -15,22 +15,22 @@
             ac volutpat congue.
         </p>
     </div>
-    <div class="col-md-offset-1 col-md-11 text-center">
-        <div class="col-sm-4 col-md-3">
+    <div class="col-md-12 text-center">
+        <div class="col-sm-4 col-md-4">
             <div class="thumbnail margin-auto">
-                <img src="<?php print url("/sites/default/files/data-based/barcode.jpg") ?>" alt="..." title="..." />
+                <img src="<?php print url("/sites/default/files/data-based/barcode.jpg") ?>" alt="..." title="...">
             </div>
             <p class="margin-top-10">Barcode</p>
         </div>
-        <div class="col-sm-4 col-md-offset-1 col-md-3">
+        <div class="col-sm-4 col-md-4">
             <div class="thumbnail margin-auto">
-                <img src="<?php print url("/sites/default/files/data-based/qr-code.jpg") ?>" alt="..." title="..." />
+                <img src="<?php print url("/sites/default/files/data-based/qr-code.jpg") ?>" alt="..." title="...">
             </div>
             <p class="margin-top-10">QR code</p>
         </div>
-        <div class="col-sm-4 col-md-offset-1 col-md-3">
+        <div class="col-sm-4 col-md-4">
             <div class="thumbnail margin-auto">
-                <img src="<?php print url("/sites/default/files/data-based/running-number.jpg") ?>" alt="..." title="..." />
+                <img src="<?php print url("/sites/default/files/data-based/running-number.jpg") ?>" alt="..." title="...">
             </div>
             <p class="margin-top-10">Running number</p>
         </div>
