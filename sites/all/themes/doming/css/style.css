@@ -178,6 +178,9 @@ a {
     }
 }
 @media (min-width: 768px) {
+    .col-sm-20-percent {
+        width: 20%;
+    }
     .margin-top-sm-10 {
         margin-top: 10px;
     }
