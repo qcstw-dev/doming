@@ -56,11 +56,11 @@
             <?php endif; ?>
         </div>
     </div>
-    <div id="content" class="col-xs-12 padding-xs-0">
+    <div id="content" class="col-xs-12 padding-0">
         <?php if ($breadcrumb): ?>
           <ol class="breadcrumb hidden-print"><?php print $breadcrumb; ?></ol>
         <?php endif; ?>
-          <div class="col-xs-12 padding-xs-0"><?php
+          <div class="col-xs-12 padding-0"><?php
                 if ($is_front) {
                     include('node--home.tpl.php');
                 } else {

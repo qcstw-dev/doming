@@ -1,5 +1,5 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-    <div class="col-xs-12 text-center"><h2>Doming is durable</h2></div>
+    <h2 class="text-center">Doming is durable</h2>
     <div class="col-xs-12 margin-bottom-20 border">
         <div class="col-sm-3 col-md-4 margin-top-xs-20 thumbnail margin-top-20 text-center">
             <img src="<?php print url("/sites/default/files/doming-is-durable/doming-is-durable.jpg") ?>" alt="Doming is durable" title="Doming is durable" />
