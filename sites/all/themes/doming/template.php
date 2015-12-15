@@ -1,9 +1,4 @@
 <?php
-/**
- * Include common functions used through out theme.
- */
-include_once dirname(__FILE__) . '/includes/common.inc';
-
 function doming_links__system_main_menu($variables) {
     if ($variables['links']) { ?>
         <nav class="navbar navbar-default">

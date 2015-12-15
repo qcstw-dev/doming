@@ -3,7 +3,7 @@
         background-image: url(<?php print url("/sites/default/files/home/main.jpg") ?>);
     }
 </style>
-<div id="node-<?php print $node->nid; ?>" class="node-home <?php print $classes; ?> clearfix"<?php print $attributes; ?>> 
+<div id="homepage" class="node-home <?php print $classes; ?> clearfix"<?php print $attributes; ?>> 
     <div class="col-xs-12 col-sm-6 padding-0 text-center image-left" ></div>
     <div class="col-sm-6 padding-0 text-center">
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/yqAXWzF85Io?rel=0" frameborder="0" allowfullscreen></iframe>
