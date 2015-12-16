@@ -157,6 +157,9 @@ a {
 .margin-bottom-20 {
     margin-bottom: 20px;
 }
+.min-height-40 {
+    min-height: 40px;
+}
 @media (min-width: 320px) and (max-width: 768px) {
     .margin-top-xs-10 {
         margin-top: 10px;
