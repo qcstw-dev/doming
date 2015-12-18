@@ -16,25 +16,25 @@
                 <div class="thumbnail margin-bottom-10">
                     <img src="<?php print file_create_url($field_durable_block_1_image_2[0]['uri']); ?>" alt="<?php print $field_durable_block_1_image_2[0]['alt']; ?>" title="<?php $field_durable_block_1_image_2[0]['title']; ?>" />
                 </div>
-                <p class="text-center"><?php print $field_durable_block1_title_img_2[0]['value'] ?></p>
+                <p class="subtitle-pic text-center"><?php print $field_durable_block1_title_img_2[0]['value'] ?></p>
             </div>
             <div class="col-xs-5 col-sm-3">
                 <div class="thumbnail margin-bottom-10">
                     <img src="<?php print file_create_url($field_durable_block_1_image_3[0]['uri']); ?>" alt="<?php print $field_durable_block_1_image_3[0]['alt']; ?>" title="<?php $field_durable_block_1_image_3[0]['title']; ?>" />
                 </div>
-                <p class="text-center"><?php print $field_durable_block1_title_img_3[0]['value'] ?></p>
+                <p class="subtitle-pic text-center"><?php print $field_durable_block1_title_img_3[0]['value'] ?></p>
             </div>
             <div class="col-xs-5 col-sm-3">
                 <div class="thumbnail margin-bottom-10">
                     <img src="<?php print file_create_url($field_durable_block_1_image_4[0]['uri']); ?>" alt="<?php print $field_durable_block_1_image_4[0]['alt']; ?>" title="<?php $field_durable_block_1_image_4[0]['title']; ?>" />
                 </div>
-                <p class="text-center"><?php print $field_durable_block1_title_img_4[0]['value'] ?></p>
+                <p class="subtitle-pic text-center"><?php print $field_durable_block1_title_img_4[0]['value'] ?></p>
             </div>
             <div class="col-xs-5 col-sm-3">
                 <div class="thumbnail margin-bottom-10">
                     <img src="<?php print file_create_url($field_durable_block_1_image_5[0]['uri']); ?>" alt="<?php print $field_durable_block_1_image_5[0]['alt']; ?>" title="<?php $field_durable_block_1_image_5[0]['title']; ?>" />
                 </div>
-                <p class="text-center"><?php print $field_durable_block1_title_img_5[0]['value'] ?></p>
+                <p class="subtitle-pic text-center"><?php print $field_durable_block1_title_img_5[0]['value'] ?></p>
             </div>
         </div>
     </div>
@@ -54,31 +54,31 @@
                 <div class="thumbnail margin-bottom-10">
                     <img src="<?php print file_create_url($field_durable_block_2_image_2[0]['uri']); ?>" alt="<?php print $field_durable_block_2_image_2[0]['alt']; ?>" title="<?php $field_durable_block_2_image_2[0]['title']; ?>" />
                 </div>
-                <p class="text-center min-height-40"><?php print $field_durable_block2_title_img_2[0]['value'] ?></p>
+                <p class="subtitle-pic text-center"><?php print $field_durable_block2_title_img_2[0]['value'] ?></p>
             </div>
             <div class="col-xs-6 col-sm-20-percent">
                 <div class="thumbnail margin-bottom-10">
                     <img src="<?php print file_create_url($field_durable_block_2_image_3[0]['uri']); ?>" alt="<?php print $field_durable_block_2_image_3[0]['alt']; ?>" title="<?php $field_durable_block_2_image_3[0]['title']; ?>" />
                 </div>
-                <p class="text-center min-height-40"><?php print $field_durable_block2_title_img_3[0]['value'] ?></p>
+                <p class="subtitle-pic text-center"><?php print $field_durable_block2_title_img_3[0]['value'] ?></p>
             </div>
             <div class="col-xs-6 col-sm-20-percent">
                 <div class="thumbnail margin-bottom-10">
                     <img src="<?php print file_create_url($field_durable_block_2_image_4[0]['uri']); ?>" alt="<?php print $field_durable_block_2_image_4[0]['alt']; ?>" title="<?php $field_durable_block_2_image_4[0]['title']; ?>" />
                 </div>
-                <p class="text-center min-height-40"><?php print $field_durable_block2_title_img_4[0]['value'] ?></p>
+                <p class="subtitle-pic text-center"><?php print $field_durable_block2_title_img_4[0]['value'] ?></p>
             </div>
             <div class="col-xs-6 col-sm-20-percent">
                 <div class="thumbnail margin-bottom-10">
                     <img src="<?php print file_create_url($field_durable_block_2_image_5[0]['uri']); ?>" alt="<?php print $field_durable_block_2_image_5[0]['alt']; ?>" title="<?php $field_durable_block_2_image_5[0]['title']; ?>" />
                 </div>
-                <p class="text-center min-height-40"><?php print $field_durable_block2_title_img_5[0]['value'] ?></p>
+                <p class="subtitle-pic text-center"><?php print $field_durable_block2_title_img_5[0]['value'] ?></p>
             </div>
             <div class="col-xs-6 col-sm-20-percent">
                 <div class="thumbnail margin-bottom-10">
                     <img src="<?php print file_create_url($field_durable_block_2_image_6[0]['uri']); ?>" alt="<?php print $field_durable_block_2_image_6[0]['alt']; ?>" title="<?php $field_durable_block_2_image_6[0]['title']; ?>" />
                 </div>
-                <p class="text-center min-height-40"><?php print $field_durable_block2_title_img_6[0]['value'] ?></p>
+                <p class="subtitle-pic text-center"><?php print $field_durable_block2_title_img_6[0]['value'] ?></p>
             </div>
         </div>
     </div>
