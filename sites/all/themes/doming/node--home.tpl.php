@@ -19,13 +19,13 @@
                 </p>
             </div>
             <div class="col-xs-12 col-sm-6 text-center thumbnail border-none">
-                <img class="margin-bottom-10" src="<?php print url("/sites/default/files/products-and-services/PABA104NEW.jpg") ?>" />
+                <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/doming.jpg") ?>" />
             </div>
         </div>
         <div class="block block-right col-xs-12 col-md-6 border">
             <div class="col-xs-12>"><h2>Doming Stickers Factory</h2></div>
             <div class="col-xs-12 col-sm-6 text-center thumbnail border-none">
-                <img class="margin-bottom-10" src="<?php print url("/sites/default/files/products-and-services/2ODD-DOUBLE-SIDE-DOMING2.jpg") ?>" />
+                <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/machine.jpg") ?>" />
             </div>
             <div  class="col-xs-12 col-sm-6 margin-top-10-xs">
                 <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing 

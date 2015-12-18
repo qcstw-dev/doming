@@ -142,8 +142,15 @@ a {
 .padding-0 {
     padding: 0;
 }
+.padding {
+    padding-right: 15px;
+    padding-left: 15px;
+}
 .margin-auto {
     margin: auto;
+}
+.margin-top-0 {
+    margin-top: 0;
 }
 .margin-top-10 {
     margin-top: 10px;
@@ -332,6 +339,25 @@ a {
 }
 #a-block {
     color: inherit;
+}
+/****************** FACTORY AND PROCESS *******************/
+.gallery {
+    margin-top: 0;
+}
+.gallery div {
+    display: table;
+}
+.gallery a {
+    height: 250px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.gallery img {
+    max-height: 240px;
+}
+.link-gallery {
+    font-weight: bold;
+    font-size: 15px;
 }
 /****************** CONTACT US *******************/
 .node-contact-us .input-group-addon {
