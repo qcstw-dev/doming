@@ -24,10 +24,15 @@ h2 {
 }
 .h2, h2 {
     background: rgba(77, 149, 152, 0.77);
-    padding: 5px;
+    padding: 10px;
     color: #fff;
     text-align: center;
 }
+h3, .h3 {
+    background: #E8E8E8;
+    padding: 10px;
+    text-align: center;  
+} 
 .h3, .h4, .h5, .h6,
  h3, h4, h5, h6 {
     color: #307F83;
@@ -152,6 +157,9 @@ a {
 .margin-top-0 {
     margin-top: 0;
 }
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
 .margin-top-10 {
     margin-top: 10px;
 }
@@ -257,7 +265,7 @@ a {
 }
 .subtitle-pic {
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #307F83;
 }
 /****************** SLIDER ********************************/
@@ -374,10 +382,16 @@ a {
 .gallery img {
     max-height: 240px;
 }
-.link-gallery {
+.link-read-more {
     font-weight: bold;
     font-size: 15px;
+    color: #d9534f;
 }
+.link-read-more:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
 /****************** CONTACT US *******************/
 .node-contact-us .input-group-addon {
     min-width: 126px;

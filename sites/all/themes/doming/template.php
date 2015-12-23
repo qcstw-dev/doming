@@ -15,7 +15,7 @@ function doming_links__system_main_menu($variables) {
                 <div class="navbar-collapse collapse padding-sm-0" id="bs-example-navbar-collapse-1" aria-expanded="false">
                     <ul class="nav navbar-nav"><?php
                         foreach ($variables['links'] as $link) { ?>
-                        <li class="<?= ($link['below'] ? 'dropdown' : '') ?><?= ((strpos($_SERVER["REQUEST_URI"], url($link['link']['link_path'])) !== false && $link['link']['href'] != '<front>') ? ' active': '') ?>">
+                        <li class="<?= ($link['below'] ? 'dropdown' : '') ?><?= (($_SERVER["REQUEST_URI"] === url($link['link']['link_path']) && $link['link']['href'] != '<front>') ? ' active': '') ?>">
                                 <a <?= ($link['below'] ? 'role="button" aria-haspopup="true" aria-expanded="false"' : '') ?> href="<?= url($link['link']['link_path']) ?>" >
                                     <?= $link['link']['link_title'] ?>
                                 </a><?php
