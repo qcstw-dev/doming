@@ -49,15 +49,22 @@
         <a href="<?php print url("node/14") ?>" title="Products">
             <div class="block block-left col-xs-12 col-md-6 border">
                 <div class="col-xs-12>"><h2>Products</h2></div>
-                <div  class="col-xs-12 col-sm-6 margin-top-10-xs">
-                    <p class="text-block"> Lorem ipsum dolor sit amet, consectetur adipiscing 
-                        elit. Donec non felis risus. Suspendisse sit amet lectus facilisis,
-                        aliquam erat fermentum, dictum nisi. Ut euismod leo nulla, ut 
-                        convallis leo dapibus cursus.
-                    </p>
+                <div  class="col-xs-12 col-sm-7 margin-top-10-xs padding-0">
+                    <div class="text-block"> 
+                    <ul><li>Kitchen & home appliance</li>
+                        <li>Outdoor appliance and garden tool </li>
+                        <li>Sport industry & accessories </li>
+                        <li>Motor industry like, cars, boat, truck, motorbike. </li>
+                        <li>Industrial and medical appliance </li>
+                        <li>Fashion & cosmetic industry </li>
+                        <li>Packaging industry and high quality packing. </li>
+                        <li>Event, charity and conference industry </li>
+                        <li>Pet accessories, safety and lost & found concept</li>
+                    </ul>
+                    </div>
                     <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more">Read more</span></p>
                 </div>
-                <div class="col-xs-12 col-sm-6 text-center thumbnail border-none">
+                <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
                     <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/doming.jpg") ?>" />
                 </div>
             </div>
@@ -65,15 +72,18 @@
         <a href="<?php print url("node/1") ?>" title="Product feature & services">
             <div class="block block-right col-xs-12 col-md-6 border">
                 <div class="col-xs-12>"><h2>Feature & services</h2></div>
-                <div class="col-xs-12 col-sm-6 text-center thumbnail border-none">
+                <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
                     <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/doming-is-multicolor.jpg") ?>" />
                 </div>
-                <div  class="col-xs-12 col-sm-6">
-                    <p class="text-block"> Lorem ipsum dolor sit amet, consectetur adipiscing 
-                        elit. Donec non felis risus. Suspendisse sit amet lectus facilisis,
-                        aliquam erat fermentum, dictum nisi. Ut euismod leo nulla, ut 
-                        convallis leo dapibus cursus.
-                    </p>
+                <div  class="col-xs-12 col-sm-7">
+                    <div class="text-block">
+                        <ul>
+                            <li>Doming stickers are durable</li>
+                            <li>Doming tags enables full color logo </li>
+                            <li>Doming labels can be data based</li>
+                            <li>Why to purchase your domes in China?</li>
+                        </ul>
+                    </div>
                     <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more">Read more</span></p>
                 </div>
             </div>
@@ -83,15 +93,18 @@
         <a href="<?php print url("node/7") ?>" title="Factory & doming process">
             <div class="block block-left col-xs-12 col-md-6 border">
                 <div class="col-xs-12>"><h2>Factory & doming process</h2></div>
-                <div  class="col-xs-12 col-sm-6 margin-top-10-xs">
-                    <p class="text-block"> Lorem ipsum dolor sit amet, consectetur adipiscing 
-                        elit. Donec non felis risus. Suspendisse sit amet lectus facilisis,
-                        aliquam erat fermentum, dictum nisi. Ut euismod leo nulla, ut 
-                        convallis leo dapibus cursus.
-                    </p>
+                <div  class="col-xs-12 col-sm-7 margin-top-10-xs padding-0">
+                    <div class="text-block">
+                        <ul>
+                            <li>Factory picture tour</li>
+                            <li>Production set-up</li>
+                            <li>Assembling capacity</li>
+                            <li>Doming layers</li>
+                        </ul>
+                    </div>
                     <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more">Read more</span></p>
                 </div>
-                <div class="col-xs-12 col-sm-6 text-center thumbnail border-none">
+                <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
                     <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/machine.jpg") ?>" />
                 </div>
             </div>
@@ -99,15 +112,18 @@
         <a href="<?php print url("node/8") ?>" title="About us">
             <div class="block block-right col-xs-12 col-md-6 border">
                 <div class="col-xs-12>"><h2>About us</h2></div>
-                <div class="col-xs-12 col-sm-6 text-center thumbnail border-none">
+                <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
                     <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/chairwoman.jpg") ?>" />
                 </div>
-                <div  class="col-xs-12 col-sm-6">
-                    <p class="text-block"> Lorem ipsum dolor sit amet, consectetur adipiscing 
-                        elit. Donec non felis risus. Suspendisse sit amet lectus facilisis,
-                        aliquam erat fermentum, dictum nisi. Ut euismod leo nulla, ut 
-                        convallis leo dapibus cursus.
-                    </p>
+                <div  class="col-xs-12 col-sm-7">
+                    <div class="text-block">
+                        Strong with its 25+ years’ experience in the promotional 
+                        product industry, QCS started to invest in doming manufacturing 
+                        in China 5 years ago in 2010. We imported from Europe and the
+                        U.S. professional industrial equipment & material to combine
+                        international high quality grade production and low labor 
+                        manufacturing cost in China.
+                    </div>
                     <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more">Read more</span></p>
                 </div>
             </div>

@@ -10,6 +10,18 @@ body {
     /*background-color: #E8E8E8;*/
     color: #555;
 }
+ul{
+    padding-left: 15px;
+}
+.ul-arrow {
+    list-style-type: none;
+}
+.ul-arrow li:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e092";
+    float: left;
+    margin-left: -20px;
+}
 .background-light {
     background: rgb(243, 243, 243);
 }
@@ -298,6 +310,10 @@ a {
 .node-home .text-block {
     min-height: 176px;
     text-align: justify;
+    padding-left: 10px;
+}
+.node-home .text-block ul{
+    text-align: left;
 }
 .image-left {
     background-size: contain;

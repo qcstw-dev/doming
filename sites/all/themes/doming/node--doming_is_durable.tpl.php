@@ -7,7 +7,7 @@
         <div class="col-sm-12 col-md-8">
             <div class="col-xs-12 text-center"><h3><?php print $field_durable_block_1_title_1[0]['value'] ?></h3></div>
             <div class="col-xs-12">
-                <p><?php print $field_durable_block_1_text[0]['value'] ?></p>
+                <?php print $field_durable_block_1_text[0]['value'] ?>
             </div>
         </div>
         <div class="col-xs-12 padding-0">
@@ -45,7 +45,7 @@
         <div class="col-sm-12 col-md-8">
             <div class="col-xs-12 text-center"><h3><?php print $field_durable_block_2_title_1[0]['value'] ?></h3></div>
             <div class="col-xs-12">
-                <p><?php print $field_durable_block_2_text[0]['value'] ?></p>
+                <?php print $field_durable_block_2_text[0]['value'] ?>
             </div>
         </div>
         <div class="col-xs-12 padding-0">
