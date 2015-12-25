@@ -265,7 +265,7 @@ a {
 }
 .subtitle-pic {
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 10px;
     color: #307F83;
 }
 /****************** SLIDER ********************************/
@@ -295,12 +295,18 @@ a {
 .node-home .thumbnail {
     margin: 0;
 }
+.node-home .text-block {
+    min-height: 176px;
+    text-align: justify;
+}
 .image-left {
     background-size: contain;
     background-repeat: no-repeat;
-    height: 315px;
 }
 @media (max-width: 767px) {
+    .image-left {
+        height: 500px;
+    }
     .node-home .iframe-wrapper {
         margin-top: 300px;
         margin-bottom: 232px;
@@ -363,6 +369,10 @@ a {
     color: inherit;
 }
 /****************** FACTORY AND PROCESS *******************/
+.node-factory-and-process .text-block {
+    min-height: 290px;
+    text-align: justify;
+}
 .gallery {
     margin-top: 0;
 }

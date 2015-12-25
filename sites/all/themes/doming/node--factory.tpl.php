@@ -1,4 +1,4 @@
-<div class="row margin-top-20">
+<div class="col-xs-12 margin-top-20">
     <div class="col-xs-12 col-md-6 thumbnail">
         <img src="<?php print url("/sites/default/files/factory-and-process/doming-machine.jpg") ?>" alt="Doming machine" title="Doming machine" />
     </div>

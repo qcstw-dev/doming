@@ -9,7 +9,7 @@
             <div class="col-xs-12 col-md-6">
                 <h2 class="margin-top-0">Factory</h2>
                 <div class="text-justify">
-                    <p>
+                    <p class="text-block">
                         Lorem ipsum dolor sit amet, consectetur adipiscing 
                         elit. Donec non felis risus. Suspendisse sit amet lectus facilisis,
                         aliquam erat fermentum, dictum nisi. Ut euismod leo nulla, ut 
@@ -36,7 +36,7 @@
             <div class="col-md-6">
                 <h2 class="margin-top-0">Doming process</h2>
                 <div class="text-justify">
-                    <p>
+                    <p class="text-block">
                         Lorem ipsum dolor sit amet, consectetur adipiscing 
                         elit. Donec non felis risus. Suspendisse sit amet lectus facilisis,
                         aliquam erat fermentum, dictum nisi. Ut euismod leo nulla, ut 

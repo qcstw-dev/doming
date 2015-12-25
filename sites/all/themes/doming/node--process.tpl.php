@@ -1,5 +1,5 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-    <div class="row margin-top-20 margin-bottom-20">
+    <div class="col-xs-12 margin-top-20 margin-bottom-20">
         <div class="col-xs-12 col-md-6 thumbnail">
             <img src="<?php print url("/sites/default/files/factory-and-process/3d-look.jpg") ?>" alt="3D look" title="3D look" />
         </div>
