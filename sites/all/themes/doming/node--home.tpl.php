@@ -57,9 +57,7 @@
                         <li>Motor industry like, cars, boat, truck, motorbike. </li>
                         <li>Industrial and medical appliance </li>
                         <li>Fashion & cosmetic industry </li>
-                        <li>Packaging industry and high quality packing. </li>
-                        <li>Event, charity and conference industry </li>
-                        <li>Pet accessories, safety and lost & found concept</li>
+                        <li>...</li>
                     </ul>
                     </div>
                     <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more">Read more</span></p>
@@ -77,7 +75,7 @@
                 </div>
                 <div  class="col-xs-12 col-sm-7">
                     <div class="text-block">
-                        <ul>
+                        <ul style="font-size: 17px;">
                             <li>Doming stickers are durable</li>
                             <li>Doming tags enables full color logo </li>
                             <li>Doming labels can be data based</li>
@@ -95,7 +93,7 @@
                 <div class="col-xs-12>"><h2>Factory & doming process</h2></div>
                 <div  class="col-xs-12 col-sm-7 margin-top-10-xs padding-0">
                     <div class="text-block">
-                        <ul>
+                        <ul style="font-size: 17px; line-height: 44px;">
                             <li>Factory picture tour</li>
                             <li>Production set-up</li>
                             <li>Assembling capacity</li>
@@ -119,10 +117,9 @@
                     <div class="text-block">
                         Strong with its 25+ years’ experience in the promotional 
                         product industry, QCS started to invest in doming manufacturing 
-                        in China 5 years ago in 2010. We imported from Europe and the
+                        in China 5 years ago. We imported from Europe and the
                         U.S. professional industrial equipment & material to combine
-                        international high quality grade production and low labor 
-                        manufacturing cost in China.
+                        international high quality grade.
                     </div>
                     <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more">Read more</span></p>
                 </div>

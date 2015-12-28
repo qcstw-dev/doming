@@ -1,34 +1,39 @@
-<div class="col-xs-12 margin-top-20">
-    <div class="col-xs-12 col-md-6 thumbnail">
-        <img src="<?php print url("/sites/default/files/factory-and-process/doming-machine.jpg") ?>" alt="Doming machine" title="Doming machine" />
-    </div>
-    <div class="col-xs-12 col-md-6">
+<div class="col-xs-12 margin-top-20 padding-0">
+    <div class="col-xs-12 padding-0">
         <h2 class="margin-top-0">Factory</h2>
+        <div class="col-xs-12 col-md-6 thumbnail margin-right-md-20 margin-bottom-0">
+            <img src="<?php print url("/sites/default/files/factory-and-process/assembling-and-packing-workers.jpg") ?>" alt="Assembling and packing workers" title="Assembling and packing workers" />
+        </div>
         <div class="text-justify">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit. Donec non felis risus. Suspendisse sit amet lectus facilisis,
-                aliquam erat fermentum, dictum nisi. Ut euismod leo nulla, ut 
-                convallis leo dapibus cursus. Proin consectetur magna 
-                ac volutpat congue. Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit. Donec non felis risus. Suspendisse sit amet lectus facilisis,
-                aliquam erat fermentum, dictum nisi. Ut euismod leo nulla, ut 
-                convallis leo dapibus cursus. Proin consectetur magna 
-                ac volutpat congue.Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit. Donec non felis risus. Suspendisse sit amet lectus facilisis,
-                aliquam erat fermentum, dictum nisi. Ut euismod leo nulla, ut 
-                convallis leo dapibus cursus. Proin consectetur magna 
-                ac volutpat congue. Lorem ipsum dolor sit amet, consectetur adipiscing 
-                elit. Donec non felis risus. Suspendisse sit amet lectus facilisis,
-                aliquam erat fermentum, dictum nisi. Ut euismod leo nulla, ut 
-                convallis leo dapibus cursus. Proin consectetur magna 
-                ac volutpat congue. 
-            </p>
+            <p>Opened in 2014, QCS Doming Sticker Factory is the second factory of <a href="https://www.qcsasia.com/?utm_campaign=DOMING-STICKERS&utm_source=FACTORY&utm_medium=QCSASIA_LINK" title="qcsasia.com">QCS Asia co., Ltd</a> in China. </p>
+
+            <p>Situated in the Jindu Industrial Park in Gaoyao city, 80 KM North West of Guangzhou (Dongguan Province, China), in a modern industrial park close to transport infrastructures and in the heart of the hardware and plastic injection hub of Zhaoqing city, famous for promotional and gift products. </p>
+
+            <p>We opened this factory to develop our doming production line and dedicated it to be the first and only international quality standard doming production facility in China. 
+            For this purpose <strong>we built a 300 SQM environment controlled area to include the doming production line, the polyurethane curing area and the storage room for stock and warehouse for raw material.</strong><br /> 
+            Dust free, with humidity and temperature control we have the means to produce European quality doming at the fraction of the cost with China lower labor cost.</p>
+
+            <p>For our doming production line, we imported the best professional equipment:</p>
+
+            <ul>
+                <li>2x Roland digital printer & plotter. </li>
+                <li>2x fully automated computerized XY polyurethane dispensing machine. </li>
+            </ul>
+
+            <p>We use only first quality grade imported raw material both for the doming resin and the vinyl sticker base. </p>
+
+            <p><strong>Strong with our 25 years long experience in the promotional product industry, we have a full team of trained staff and workers to handle heavy logistic and custom requirement of made to order gift products & license items. We are also experienced in demanding handling of running number & UIDs (unique ID) products which require intensive QC’s procedure and control.</strong></p>
+
+            <p>We have a full doming production capacity of over 1 million pcs per month, including assembled products for a whole lot of different industries & market.</p>
+
+            <p>Beside doming sticker itself, we also produce many zamac (zinc alloy) injection and plastic injection products for the promotional product, gift and license industry </p>
+
+            <p>Longtime member of professional association like PPAI, Promota, IPPAG, SEDEX, QCS Doming Factory is under certification and perform factory audit every month.</p>
         </div>
     </div>
 </div>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-    <div class="col-xs-12">
+    <div class="col-xs-12 padding-0">
         <h3>OFFICE</h3>
         <div class="gallery gallery-container-4">
             <div class="col-sm-3 padding">

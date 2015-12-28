@@ -9,9 +9,10 @@
 body {
     /*background-color: #E8E8E8;*/
     color: #555;
+    font-size: 16px;
 }
 ul{
-    padding-left: 15px;
+    padding-left: 18px;
 }
 .ul-arrow {
     list-style-type: none;
@@ -93,6 +94,7 @@ a {
 #menu ul.dropdown-menu {
     margin-top: -1px;
     padding: 0;
+    min-width: 276px;
 }
 #menu ul.dropdown-menu li a{
     height: 35px;
@@ -109,7 +111,7 @@ a {
     background: url(../images/background-header.jpg) -17px;
 }
 #content {
-    min-height: 550px;
+    min-height: 500px;
 }
 .input-group-addon, .form-control, .btn {
     border-radius: 0;
@@ -158,6 +160,12 @@ a {
 }
 .padding-0 {
     padding: 0;
+}
+.padding-left-0 {
+    padding-left: 0;
+}
+.padding-right-0 {
+    padding-right: 0;
 }
 .padding {
     padding-right: 15px;
@@ -355,7 +363,7 @@ a {
         margin-left: 5%;
     }
 }
-/****************** PRODUCTS AND SERVICES *******************/
+/****************** FEATURES AND SERVICES *******************/
 @media (min-width: 992px) {
     .node-products-and-services .col-md-3 {
         width: 31%;
@@ -383,6 +391,15 @@ a {
 }
 #a-block {
     color: inherit;
+}
+/****************** PRODUCTS *******************/
+@media (min-width: 992px) {
+    .node-products-page .col-md-4 {
+        width: 31%;
+    }
+    .node-products-page .col-md-1 {
+        width: 3%;
+    }
 }
 /****************** FACTORY AND PROCESS *******************/
 .node-factory-and-process .text-block {

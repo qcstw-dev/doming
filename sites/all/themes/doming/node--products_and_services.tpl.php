@@ -26,7 +26,7 @@
         </a>
     </div>
     <div class="clearfix"></div>
-    <h2><?php print $field_main_title_2[0]['value'] ?></h2>
+    <h2 class="margin-top-0"><?php print $field_main_title_2[0]['value'] ?></h2>
     <a id="a-block" href="<?php print url("node/".$field_block_4_5_6_link[0]['url']) ?>" title="<?php print $field_block_4_5_6_link[0]['title'] ?>">
         <div class="col-xs-12">
             <div class="col-xs-12 col-md-3 thumbnail border">

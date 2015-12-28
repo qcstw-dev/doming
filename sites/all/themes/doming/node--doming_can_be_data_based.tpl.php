@@ -4,37 +4,37 @@
     </div>
     <div class="col-xs-12 text-justify">
         <p>Unlike other logo processes such as Silk screen printing, offset 
-            printing, & stamping, Doming doesn’t require molds. The logo typing 
+            printing, & stamping, Doming doesn’t require molds. <strong>The logo typing 
             process is digital so that the design source can be databased and 
-            personalized piece by piece. </p>
+            personalized piece by piece.</strong></p>
         <p>We can then print and dome running numbers (sequential & not 
             sequential), QR code, & Bar code series up to 500.000pcs/set.</p>
-        <p>Series completion is a crucial point when it comes to running data 
-            printing.  We have 10 years’ experience in this domain and we 
+        <p><strong>Series completion is a crucial point when it comes to running data 
+                printing.</strong>  We have 10 years’ experience in this domain and we 
             understand the ins and outs of it. Moreover, labor cost in China 
             remains low compared to western countries so that we have the staff 
             available to check piece by piece if the set has been completed entirely.</p>
-        <p>We regularly produce items for the PET industry, Lost and Found, 
-            Safety Drop and the likes of the Travel Security Administration 
-            (TSA), wherever a single and different custom unique ID code is 
+        <p><strong>We regularly produce items for the pet industry, Lost and Found, 
+            Safety Drop and Travel Security Administration 
+            (TSA)</strong>, wherever a single and different custom unique ID code is 
             necessary on each and every single item</p>
     </div>
     <div class="col-md-12 text-center padding-0">
         <div class="col-sm-4 col-md-4">
             <div class="thumbnail margin-auto">
-                <img src="<?php print url("/sites/default/files/data-based/barcode.jpg") ?>" alt="..." title="...">
+                <img src="<?php print url("/sites/default/files/data-based/barcode.jpg") ?>" alt="Barcode" title="Barcode">
             </div>
             <p class="subtitle-pic margin-top-10">Barcode</p>
         </div>
         <div class="col-sm-4 col-md-4">
             <div class="thumbnail margin-auto">
-                <img src="<?php print url("/sites/default/files/data-based/qr-code.jpg") ?>" alt="..." title="...">
+                <img src="<?php print url("/sites/default/files/data-based/qr-code.jpg") ?>" alt="QR code" title="QR code">
             </div>
             <p class="subtitle-pic margin-top-10">QR code</p>
         </div>
         <div class="col-sm-4 col-md-4">
             <div class="thumbnail margin-auto">
-                <img src="<?php print url("/sites/default/files/data-based/running-number.jpg") ?>" alt="..." title="...">
+                <img src="<?php print url("/sites/default/files/data-based/running-number.jpg") ?>" alt="Running number" title="Running number">
             </div>
             <p class="subtitle-pic margin-top-10">Running number</p>
         </div>

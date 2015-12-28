@@ -26,7 +26,7 @@
         </div>
     </div>
     <div class="col-xs-12 text-center">
-        <h2><?php print $field_import_main_title_1[0]['value'] ?></h2>
+        <h2><?php print $field_import_main_title_3[0]['value'] ?></h2>
     </div>
     <div class="col-xs-12">
         <div class="col-sm-4 col-md-3">
