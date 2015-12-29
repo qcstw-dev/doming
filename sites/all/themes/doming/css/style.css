@@ -279,6 +279,7 @@ a {
 }*/
 #main-content {
     background-color: #fff;
+    margin-bottom: 40px;
 }
 .node-process .subtitle-pic, .node-factory .subtitle-pic {
     display: table-row;
@@ -401,6 +402,9 @@ a {
         width: 3%;
     }
 }
+.node-products-page .block-product {
+    min-height: 575px;
+}
 /****************** FACTORY AND PROCESS *******************/
 .node-factory-and-process .text-block {
     min-height: 290px;
@@ -433,6 +437,23 @@ a {
 .link-read-more:hover {
     color: inherit;
     text-decoration: underline;
+}
+.btn-show-hide-text-area .glyphicon {
+    font-size: 14px;
+}
+.btn-show-hide-text-area {
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    background: #D9534F;
+    color: #fff;
+    font-size: 18px;
+}
+.btn-show-hide-text-area:hover {
+    background: rgba(217, 83, 79, 0.88);
+}
+.hidden-text-area {
+    display: none;
 }
 
 /****************** CONTACT US *******************/

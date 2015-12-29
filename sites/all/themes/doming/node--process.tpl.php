@@ -2,7 +2,7 @@
     <div class="col-xs-12 margin-top-20 margin-bottom-20 padding-0">
             <h2 class="margin-top-0">Doming process</h2>
         <div class="col-xs-12 padding-0">
-            <div class="col-xs-12 col-md-6 thumbnail margin-right-md-20 margin-bottom-0">
+            <div class="col-xs-12 col-md-6 thumbnail margin-right-md-20 margin-bottom-20">
                 <img src="<?php print url("/sites/default/files/factory-and-process/3d-look.jpg") ?>" alt="3D look" title="3D look" />
             </div>
             <div class="text-justify">
@@ -15,29 +15,33 @@
 
                 <p>The only challenge with doming, is that good quality cannot be improvised or made in the cheap, cutting corners and handled lightly.<br />
                 Doming requires investment, logistic & serious dedication, average is just not working, and there is no such things as “okay” doming.</p>
-                
-                <li><strong>Professional Equipment & setup:</strong></li>
+            </div>
+            <div class="col-xs-12 padding-0">
+                <div class="hidden-text-area">    
+                    <li><strong>Professional Equipment & setup:</strong></li>
 
-                <p>It requires a dedicated & professional setup with a multitude of expensive industrial equipment.<br />
-                Printer, dispensing machine, degassing machine with complex & high maintenance cost.
+                    <p>It requires a dedicated & professional setup with a multitude of expensive industrial equipment.<br />
+                    Printer, dispensing machine, degassing machine with complex & high maintenance cost.
 
-                <li><strong>Top quality raw material:</strong></li>
+                    <li><strong>Top quality raw material:</strong></li>
 
-                <p>With this state of the art doming setup you need to use first quality grade raw material that we can only find in Europe and North America. Those material have a short shelve life and must be stored in a dry and temperate environment controlled warehouse. </p>
+                    <p>With this state of the art doming setup you need to use first quality grade raw material that we can only find in Europe and North America. Those material have a short shelve life and must be stored in a dry and temperate environment controlled warehouse. </p>
 
-                <li><strong>Environment Controlled Facility:</strong></li>
+                    <li><strong>Environment Controlled Facility:</strong></li>
 
-                <p>The doming production line, as well as the whole doming facility (curing, assembly, packing, storage…etc.) needs to be handled under strict humidity level and temperature, in a top notch controlled environment. </p>
+                    <p>The doming production line, as well as the whole doming facility (curing, assembly, packing, storage…etc.) needs to be handled under strict humidity level and temperature, in a top notch controlled environment. </p>
 
-                <li><strong>Large & steady volume of production:</strong></li>
+                    <li><strong>Large & steady volume of production:</strong></li>
 
-                <p>Doming production is very energy hungry, uses raw material with short shelve life and needs to be kept at optimum condition at all time. <br />
-                A regular and stable production flow is strategic if you don’t want to waste all your other effort or operate at a loss to keep a stable quality level. </p>
+                    <p>Doming production is very energy hungry, uses raw material with short shelve life and needs to be kept at optimum condition at all time. <br />
+                    A regular and stable production flow is strategic if you don’t want to waste all your other effort or operate at a loss to keep a stable quality level. </p>
 
-                <li><strong>Team of trained professional:</strong></li>
+                    <li><strong>Team of trained professional:</strong></li>
 
-                <p>Doming production requires dedication and discipline to follow complex SOPs and protocols. <br />
-                Any miss will just ruin all your effort and render your whole investment completely useless. </p>
+                    <p>Doming production requires dedication and discipline to follow complex SOPs and protocols. <br />
+                    Any miss will just ruin all your effort and render your whole investment completely useless. </p>
+                </div>
+                <div class="btn-show-hide-text-area"><span class="glyphicon glyphicon-menu-down"></span> More <span class="glyphicon glyphicon-menu-down"></span></div>
             </div>
         </div>
     </div>
