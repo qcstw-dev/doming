@@ -43,6 +43,7 @@
         <div class="col-md-6 padding-0 text-center">
             <iframe width="100%" height="360" src="https://www.youtube-nocookie.com/embed/rJy6Vui5Inw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
+        <div class="clearfix"></div>
     </div>
     <div class="col-xs-12 padding-0 blocks">
         <hr class="separation" />

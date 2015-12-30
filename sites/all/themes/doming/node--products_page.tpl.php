@@ -145,7 +145,7 @@
     <div class="col-xs-12 padding-0">
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/medical-environment.jpg") ?>" alt="Medical environement" title="Medical environement" />
+                <img class="" src="<?php print url("/sites/default/files/products/medical-environment.jpg") ?>" alt="Medical & Pharmaceutical Industry" title="Medical & Pharmaceutical Industry" />
             </div>
             <h3 class="text-center">Medical & Pharmaceutical Industry</h3>
             <div class="col-xs-12">
@@ -154,6 +154,9 @@
         </div>
         <div class="col-md-1 hidden-xs"></div>
         <div class="col-md-4 thumbnail border block-product">
+            <div class="thumbnail border-none">
+                <img class="" src="<?php print url("/sites/default/files/products/toys-license-gift-and-souvenir.jpg") ?>" alt="Toys, License, Gift and Souvenir" title="Toys, License, Gift and Souvenir" />
+            </div>
             <h3 class="text-center margin-top-0">Toys, License, Gift and Souvenir</h3>
             <div class="col-xs-12">
                 <p>Safe and certified to western standard and toys standard like EN71, doming is perfect as a branded tag for toys because your label will not deteriorate and release any kind of harmful chemical.</p>
@@ -162,6 +165,9 @@
         </div>
         <div class="col-md-1 hidden-xs"></div>
         <div class="col-md-4 thumbnail border block-product">
+            <div class="thumbnail border-none">
+                <img class="" src="<?php print url("/sites/default/files/products/fashion-cosmetic-packaging-industry.jpg") ?>" alt="Fashion, Cosmetic & Packaging Industry" title="Fashion, Cosmetic & Packaging Industry" />
+            </div>
             <h3 class="text-center margin-top-0">Fashion, Cosmetic & Packaging Industry</h3>
             <div class="col-xs-12">
                 <p>Doming can be used as a high quality tag and label on cosmetic flask & container, perfume bottle and all type of high end packaging for the fashion industry. </p>
@@ -171,13 +177,14 @@
     </div>
     <div class="col-xs-12 padding-0">
         <div class="col-md-4 thumbnail border block-product">
-            <h3 class="text-center margin-top-0">POS, Beverage & Bar Industry </h3>
+            <div class="thumbnail border-none">
+                <img class="" src="<?php print url("/sites/default/files/products/pos-beverage-bar-industry.jpg") ?>" alt="POS, Beverage & Bar Industry" title="POS, Beverage & Bar Industry" />
+            </div>
+            <h3 class="text-center margin-top-0">POS, Beverage & Bar Industry</h3>
             <div class="col-xs-12">
                 <p>Doming tag makes for famous label for beer tap, beer dispenser and giraffe.</p>
                 <p>Doming sticker also bring many possibilities for POS in term of decoration and function such as anti-slid and antiskid pad for serving tray & coaster.</p>
             </div>
         </div>
     </div>
-    <!--<img class="" src="<?php print url("/sites/default/files/products/industrial-appliance.jpg") ?>" alt="Industrial appliance" title="Industrial appliance"/>-->
-    <!--<img class="" src="<?php print url("/sites/default/files/products/signeage-doorsign.jpg") ?>" alt="Signeage & Doorsign" title="Signeage & Doorsign"/>-->
 </div>

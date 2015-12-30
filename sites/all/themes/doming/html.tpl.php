@@ -50,7 +50,9 @@ if (in_array($_SESSION['country'], ['CN', 'KR', 'KP', 'TR', 'IN'])) {
   <!-- End Google Analytics -->
   <?php print $styles; ?>
   <?php print $scripts; ?>
+  <meta property="og:image" content="http://doming-stickers.com/sites/default/files/home/doming.jpg" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="sitemap" href="/sitemap.xml" />
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?> <?= (!user_is_logged_in() ? 'oncontextmenu="return false"' : '') ?>>
   <div id="skip-link">

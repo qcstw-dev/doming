@@ -1,5 +1,5 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-    <div class="col-xs-12 margin-top-20 margin-bottom-20 padding-0">
+    <div class="col-xs-12 margin-top-20 padding-0">
             <h2 class="margin-top-0">Doming process</h2>
         <div class="col-xs-12 padding-0">
             <div class="col-xs-12 col-md-6 thumbnail margin-right-md-20 margin-bottom-20">
@@ -60,6 +60,12 @@
                 </a>
                 <p class="subtitle-pic text-center">Printer in action</p>
             </div>
+            <div class="col-sm-3 padding">
+                <a class="thumbnail popup-youtube" title="Printing process" href="https://www.youtube.com/watch?v=xZUTsXCS1-M">
+                    <img class="" src="<?php print url("/sites/default/files/factory-and-process/printing-video.jpg") ?>" alt="Printing process" title="Printing process" />
+                </a>
+                <p class="subtitle-pic text-center">Printing process</p>
+            </div>
         </div>
     </div>
     <div class="col-xs-12">
@@ -88,6 +94,12 @@
                     <img class="" src="<?php print url("/sites/default/files/factory-and-process/2-4-domed-printed-sheet-drying.jpg") ?>" alt="Domed printed sheet drying" title="Domed printed sheet drying" />
                 </a>
                 <p class="subtitle-pic text-center">Domed printed sheet drying</p>
+            </div>
+            <div class="col-sm-3 padding">
+                <a class="thumbnail popup-youtube" title="Printing process" href="https://www.youtube.com/watch?v=N1QnEk-pPqc">
+                    <img class="" src="<?php print url("/sites/default/files/factory-and-process/doming-video.jpg") ?>" alt="Doming process" title="Doming process" />
+                </a>
+                <p class="subtitle-pic text-center">Doming process</p>
             </div>
         </div>
     </div>
@@ -142,17 +154,12 @@
       type: 'image',
       gallery:{enabled:true}
     });
-    
-      $(document).ready(function() {
-        $('.popup-youtube').magnificPopup({
-          disableOn: 700,
-          type: 'iframe',
-          mainClass: 'mfp-fade',
-          removalDelay: 160,
-          preloader: false,
-
-          fixedContentPos: false
-        });
-      });
-    
+    $('.popup-youtube').magnificPopup({
+      disableOn: 700,
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+      fixedContentPos: false
+    });
 </script>

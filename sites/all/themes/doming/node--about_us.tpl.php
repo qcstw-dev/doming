@@ -9,7 +9,7 @@
 
             <p>To face China’s labor cost increase & shortage and to answer increasingly small MOQ & rush delivery request in the promotional product industry, we started to invest in doming logo process set-up in 2010. </p>
 
-            <p>Strong with our focus on service and quality, we decided not to improvise but to build a start of the art doming facility. <strong>For that purpose, we imported our doming setup as we all as our raw material from UK & Italy and built a 300 m2 environment controlled production room and storage for curing and warehousing.</strong></p>
+            <p>Strong with our focus on service and quality, we decided not to improvise but to build a state of the art doming facility. <strong>For that purpose, we imported our doming setup as well as our raw material from UK & Italy and built a 300 m2 environment controlled production room and storage for curing and warehousing.</strong></p>
 
             <p>Combining international high quality standard, low labor cost in China and 25+ years’ experience in logistic, QCS is proud to claim to be the most competitive doming sticker and label producer & exporter in China. </p>
 

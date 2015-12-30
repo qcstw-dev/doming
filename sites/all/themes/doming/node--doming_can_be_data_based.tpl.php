@@ -19,7 +19,7 @@
             (TSA)</strong>, wherever a single and different custom unique ID code is 
             necessary on each and every single item</p>
     </div>
-    <div class="col-md-12 text-center padding-0">
+    <div class="col-xs-12 text-center padding-0">
         <div class="col-sm-4 col-md-4">
             <div class="thumbnail margin-auto">
                 <img src="<?php print url("/sites/default/files/data-based/barcode.jpg") ?>" alt="Barcode" title="Barcode">
