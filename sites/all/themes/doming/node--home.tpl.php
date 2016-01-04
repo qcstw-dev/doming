@@ -1,6 +1,6 @@
 <div id="homepage" class="node-home <?php print $classes; ?> clearfix"<?php print $attributes; ?>> 
     <div class="col-xs-12 padding-0">
-        <div class="col-xs-12 col-md-6 image-left" >
+        <div class="col-md-6 visible-md visible-lg">
             <div id="carousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">

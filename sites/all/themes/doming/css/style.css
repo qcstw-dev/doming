@@ -123,6 +123,15 @@ a {
     color: #fff;
     border: none;
 }
+.min-width-10-percent {
+    min-width: 10%;
+}
+.min-width-15-percent {
+    min-width: 15%;
+}
+.min-width-20-percent {
+    min-width: 20%;
+}
 .border {
     border: 1px solid #ddd;
     border-radius: 0;
@@ -324,14 +333,7 @@ a {
 .node-home .text-block ul{
     text-align: left;
 }
-.image-left {
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 @media (max-width: 767px) {
-    .image-left {
-        height: 500px;
-    }
     .node-home .iframe-wrapper {
         margin-top: 300px;
         margin-bottom: 232px;
@@ -458,7 +460,7 @@ a {
 
 /****************** CONTACT US *******************/
 .node-contact-us .input-group-addon {
-    min-width: 126px;
+    min-width: 139px;
 }
 /****************** FOOTER *******************/
 #footer {
@@ -468,10 +470,48 @@ a {
     background: #d9534f;
     color: #fff;
 }
+.footer-logo {
+    text-align:center;
+    float:left;
+}
+.footer-logo img {
+    height:86px;
+}
+@media (max-width: 767px) {
+    .footer-logo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
 
-
-
-
+.form-control-danger {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MTIgNzkyIj48cGF0aCBmaWxsPSIjZDk1MzRmIiBkPSJNNDQ3IDU0NC40Yy0xNC40IDE0LjQtMzcuNiAxNC40LTUyIDBsLTg5LTkyLjctODkgOTIuN2MtMTQuNSAxNC40LTM3LjcgMTQuNC01MiAwLTE0LjQtMTQuNC0xNC40LTM3LjYgMC01Mmw5Mi40LTk2LjMtOTIuNC05Ni4zYy0xNC40LTE0LjQtMTQuNC0zNy42IDAtNTJzMzcuNi0xNC4zIDUyIDBsODkgOTIuOCA4OS4yLTkyLjdjMTQuNC0xNC40IDM3LjYtMTQuNCA1MiAwIDE0LjMgMTQuNCAxNC4zIDM3LjYgMCA1MkwzNTQuNiAzOTZsOTIuNCA5Ni40YzE0LjQgMTQuNCAxNC40IDM3LjYgMCA1MnoiLz48L3N2Zz4=);
+    padding-right: 2.25rem;
+    background-repeat: no-repeat;
+    background-position: center right .5625rem;
+    -webkit-background-size: 1.4625rem 1.4625rem;
+    background-size: 2.4625rem 3.4625rem;
+    border: 1px solid #D9534F;
+}
+.popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+.error-message,
+.error-message-email {
+    border: 2px solid #D9534F;
+    display: none;
+    padding: 5px;
+    text-align: center;
+    color: #D9534F;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
 /*.color-primary-0 { color: #D9534F }	 Main Primary color 
 .color-primary-1 { color: #FFADAB }
 .color-primary-2 { color: #FC827F }

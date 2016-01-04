@@ -53,27 +53,27 @@
         </div>
     <?php endif; ?>
     <div class="margin-bottom-20">
-        <div style="min-width:15%;text-align:center;float:left;" class="footer-logo">
-            <img src="https://www.qcsasia.com/wp-content/uploads/2014/11/caefi.png" style="height:86px;">
+        <div class="footer-logo min-width-15-percent">
+            <img src="https://www.qcsasia.com/wp-content/uploads/2014/11/caefi.png">
         </div>
 
-        <div style="min-width:15%;text-align:center;float:left;" class="footer-logo">
-            <img src="https://www.qcsasia.com/wp-content/uploads/2014/11/eppa.png" style="height:86px;">
+        <div class="footer-logo min-width-15-percent">
+            <img src="https://www.qcsasia.com/wp-content/uploads/2014/11/eppa.png">
         </div>
 
-        <div style="min-width:10%;text-align:center;float:left;" class="footer-logo">
-            <img src="https://www.qcsasia.com/wp-content/uploads/2013/11/promota300.jpg" style="height:86px;">
+        <div class="footer-logo min-width-10-percent">
+            <img src="https://www.qcsasia.com/wp-content/uploads/2013/11/promota300.jpg">
         </div>
 
-        <div style="min-width:15%;text-align:center;float:left;" class="footer-logo">
-            <img src="https://www.qcsasia.com/wp-content/uploads/2014/05/sedex_trans.jpg" style="height:86px;">
+        <div class="footer-logo min-width-15-percent">
+            <img src="https://www.qcsasia.com/wp-content/uploads/2014/05/sedex_trans.jpg">
         </div>
-        <div style="min-width:20%;text-align:center;float:left;" class="footer-logo">
-            <img src="https://www.qcsasia.com/wp-content/uploads/2014/05/PPAI-logo-QCS.jpg" style="height:86px;">
+        <div class="footer-logo min-width-20-percent">
+            <img src="https://www.qcsasia.com/wp-content/uploads/2014/05/PPAI-logo-QCS.jpg">
         </div>
 
-        <div style="min-width:15%;text-align:center;float:left;" class="footer-logo">
-            <img src="https://www.qcsasia.com/wp-content/uploads/2014/11/ippag.png" style="height:86px;">
+        <div class="footer-logo min-width-15-percent">
+            <img src="https://www.qcsasia.com/wp-content/uploads/2014/11/ippag.png">
         </div>
     </div>
 </div>
