@@ -1,36 +1,38 @@
 <?php
-if (!isset($_SESSION['country']) || !$_SESSION['country']) {
-    $ip = '';
-    if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) && $_SERVER['HTTP_X_FORWARDED_FOR']) {
-        $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
-    } else {
-        $ip = $_SERVER['REMOTE_ADDR'];
-    }
-    
-//    test china
-//    $url = "http://ip2c.org/113.100.99.221";
-    $url = "http://ip2c.org/" . $ip;
+if ($_SERVER["HTTP_HOST"] != 'localhost') {
+    if (!isset($_SESSION['country']) || !$_SESSION['country']) {
+        $ip = '';
+        if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) && $_SERVER['HTTP_X_FORWARDED_FOR']) {
+            $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+        } else {
+            $ip = $_SERVER['REMOTE_ADDR'];
+        }
 
-    set_time_limit(10);
+    //    test china
+    //    $url = "http://ip2c.org/113.100.99.221";
+        $url = "http://ip2c.org/" . $ip;
 
-    $data = file_get_contents($url);
-    $reply = explode(';',$data);
+        set_time_limit(10);
 
-    if (isset($reply[1]) && $reply[1]) {
-        $_SESSION['country'] = $reply[1];
-    } else {
-        $_SESSION['country'] = '';
+        $data = file_get_contents($url);
+        $reply = explode(';',$data);
+
+        if (isset($reply[1]) && $reply[1]) {
+            $_SESSION['country'] = $reply[1];
+        } else {
+            $_SESSION['country'] = '';
+        }
+        if (in_array($_SESSION['country'], ['CN', 'KR', 'KP', 'TR', 'IN'])) {
+            $sqlQuery = "INSERT INTO ip_blocked (ip, country, date) VALUES ('".$ip."', '".$_SESSION['country']."', CURRENT_TIME)";
+        } else {
+            $sqlQuery = "INSERT INTO ip_unblocked (ip, country, date) VALUES ('".$ip."', '".$_SESSION['country']."', CURRENT_TIME)";
+        }
+        db_query($sqlQuery);
     }
     if (in_array($_SESSION['country'], ['CN', 'KR', 'KP', 'TR', 'IN'])) {
-        $sqlQuery = "INSERT INTO ip_blocked (ip, country, date) VALUES ('".$ip."', '".$_SESSION['country']."', CURRENT_TIME)";
-    } else {
-        $sqlQuery = "INSERT INTO ip_unblocked (ip, country, date) VALUES ('".$ip."', '".$_SESSION['country']."', CURRENT_TIME)";
-    }
-    db_query($sqlQuery);
-}
-if (in_array($_SESSION['country'], ['CN', 'KR', 'KP', 'TR', 'IN'])) {
-    echo 'This website is not available in your country';
-    exit;
+        echo 'This website is not available in your country';
+        exit;
+    } 
 } ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
   "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
