@@ -2,7 +2,7 @@
     <div class="col-xs-12 padding-0">
         <h2 class="margin-top-0">Factory</h2>
         <div class="col-xs-12 col-md-6 thumbnail margin-right-md-20 margin-bottom-20">
-            <img src="<?php print url("/sites/default/files/factory-and-process/assembling-and-packing-workers.jpg") ?>" alt="Assembling and packing workers" title="Assembling and packing workers" />
+            <img src="<?php print url("/sites/default/files/factory-and-process/assembling-and-packing-workers.jpg") ?>" alt="Assembling and packing doming workers" title="Assembling and packing doming workers" />
         </div>
         <div class="text-justify">
             <p>Opened in 2014, QCS Doming Sticker Factory is the second factory of <a href="https://www.qcsasia.com/?utm_campaign=DOMING-STICKERS&utm_source=FACTORY&utm_medium=QCSASIA_LINK" title="qcsasia.com">QCS Asia co., Ltd</a> in China. </p>
@@ -76,10 +76,10 @@
                 <p class="subtitle-pic text-center">Warning assembly shop</p>
             </div>
             <div class="col-sm-3 padding">
-                <a class="thumbnail" title="Assembling and packing workers" href="<?php print url("/sites/default/files/factory-and-process/5-2-assembling-and-packing-workers.jpg") ?>">
-                    <img class="" src="<?php print url("/sites/default/files/factory-and-process/5-2-assembling-and-packing-workers.jpg") ?>" alt="Assembling and packing workers" title="Assembling and packing workers" />
+                <a class="thumbnail" title="Assembling and packing doming workers" href="<?php print url("/sites/default/files/factory-and-process/5-2-assembling-and-packing-workers.jpg") ?>">
+                    <img class="" src="<?php print url("/sites/default/files/factory-and-process/5-2-assembling-and-packing-workers.jpg") ?>" alt="Assembling and packing doming workers" title="Assembling and packing doming workers" />
                 </a>
-                <p class="subtitle-pic text-center">Assembling and packing workers</p>
+                <p class="subtitle-pic text-center">Assembling and packing doming workers</p>
             </div>
             <div class="col-sm-3 padding">
                 <a class="thumbnail" title="Quality inspection" href="<?php print url("/sites/default/files/factory-and-process/5-3-quality-inspection.jpg") ?>">

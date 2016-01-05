@@ -27,28 +27,28 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/ADA-REKLAM-DOME.jpg") ?>" alt="Ada recklam dome" title="Ada recklam dome">
+                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/ADA-REKLAM-DOME.jpg") ?>" alt="Domed badges Ada recklam" title="Domed badges Ada recklam">
                 </div>
                 <div class="item">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/BENENUTS-DOME.jpg") ?>" alt="Benenuts dome" title="Benenuts dome">
+                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/BENENUTS-DOME.jpg") ?>" alt="Domed decals Benenuts" title="Domed decals Benenuts">
                 </div>
                 <div class="item">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/BOTTLE-OPENER-DOME.jpg") ?>" alt="Bottle opener dome" title="Bottle opener dome">
+                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/BOTTLE-OPENER-DOME.jpg") ?>" alt="Domed labels Bottle opener" title="Domed labels Bottle opener">
                 </div>
                 <div class="item">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/BRAND-WEEK-DOME.jpg") ?>" alt="Brand week dome" title="Brand week dome">
+                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/BRAND-WEEK-DOME.jpg") ?>" alt="Resin stickers Brand week" title="Resin stickers Brand week">
                 </div>
                 <div class="item">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/BRASS-PRO-SHOPS-DOME.jpg") ?>" alt="Brass Pro shops dome" title="Brass Pro shops dome">
+                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/BRASS-PRO-SHOPS-DOME.jpg") ?>" alt="Epoxy stickers Brass Pro shops" title="Epoxy stickers Brass Pro shops">
                 </div>
                 <div class="item">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/EVOCONTA-DOME.jpg") ?>" alt="Evoconta dome" title="Evoconta dome">
+                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/EVOCONTA-DOME.jpg") ?>" alt="Domed stickers Evoconta" title="Domed stickers Evoconta">
                 </div>
                 <div class="item">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/NUVIPA-DOME.jpg") ?>" alt="Nuvipa dome" title="Nuvipa dome">
+                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/NUVIPA-DOME.jpg") ?>" alt="Dome labels Nuvipa" title="Dome labels Nuvipa">
                 </div>
                 <div class="item">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/SAMANES-DOME.jpg") ?>" alt="Samanes dome" title="Samanes dome">
+                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/SAMANES-DOME.jpg") ?>" alt="Doming stickers Samanes" title="Doming stickers Samanes">
                 </div>
             </div>
 

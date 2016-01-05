@@ -3,7 +3,7 @@
         <div class="row margin-top-20">
             <div class="col-xs-12 col-md-6 thumbnail">
                 <a href="<?php print url("node/12") ?>" title="Visit the gallery">
-                    <img src="<?php print url("/sites/default/files/factory-and-process/assembling-and-packing-workers.jpg") ?>" alt="Assembling and packing workers" title="Assembling and packing workers" />
+                    <img src="<?php print url("/sites/default/files/factory-and-process/assembling-and-packing-workers.jpg") ?>" alt="Assembling and packing doming workers" title="Assembling and packing doming workers" />
                 </a>
             </div>
             <div class="col-xs-12 col-md-6">
@@ -38,7 +38,7 @@
             </div>
             <div class="col-xs-12 col-md-6 thumbnail">
                 <a href="<?php print url("node/13") ?>" title="Visit the gallery">
-                    <img src="<?php print url("/sites/default/files/factory-and-process/3d-look.jpg") ?>" alt="3D look" title="3D look" />
+                    <img src="<?php print url("/sites/default/files/factory-and-process/3d-look.jpg") ?>" alt="3D doming" title="3D doming" />
                 </a>
             </div>
         </div>

@@ -60,6 +60,8 @@
                 </a>
                 <p class="subtitle-pic text-center">Printer in action</p>
             </div>
+        </div>
+        <div class="gallery">
             <div class="col-sm-3 padding">
                 <a class="thumbnail popup-youtube" title="Printing process" href="https://www.youtube.com/watch?v=xZUTsXCS1-M">
                     <img class="" src="<?php print url("/sites/default/files/factory-and-process/printing-video.jpg") ?>" alt="Printing process" title="Printing process" />
@@ -95,6 +97,8 @@
                 </a>
                 <p class="subtitle-pic text-center">Domed printed sheet drying</p>
             </div>
+        </div>
+        <div class="gallery">
             <div class="col-sm-3 padding">
                 <a class="thumbnail popup-youtube" title="Printing process" href="https://www.youtube.com/watch?v=N1QnEk-pPqc">
                     <img class="" src="<?php print url("/sites/default/files/factory-and-process/doming-video.jpg") ?>" alt="Doming process" title="Doming process" />

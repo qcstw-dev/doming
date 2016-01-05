@@ -22,19 +22,19 @@
     <div class="col-xs-12 text-center padding-0">
         <div class="col-sm-4 col-md-4">
             <div class="thumbnail margin-auto">
-                <img src="<?php print url("/sites/default/files/data-based/barcode.jpg") ?>" alt="Barcode" title="Barcode">
+                <img src="<?php print url("/sites/default/files/data-based/barcode.jpg") ?>" alt="Doming label barcode" title="Doming label barcode">
             </div>
             <p class="subtitle-pic margin-top-10">Barcode</p>
         </div>
         <div class="col-sm-4 col-md-4">
             <div class="thumbnail margin-auto">
-                <img src="<?php print url("/sites/default/files/data-based/qr-code.jpg") ?>" alt="QR code" title="QR code">
+                <img src="<?php print url("/sites/default/files/data-based/qr-code.jpg") ?>" alt="Dome labels QR code" title="Dome labels QR code">
             </div>
             <p class="subtitle-pic margin-top-10">QR code</p>
         </div>
         <div class="col-sm-4 col-md-4">
             <div class="thumbnail margin-auto">
-                <img src="<?php print url("/sites/default/files/data-based/running-number.jpg") ?>" alt="Running number" title="Running number">
+                <img src="<?php print url("/sites/default/files/data-based/running-number.jpg") ?>" alt="3D doming running number" title="3D doming running number">
             </div>
             <p class="subtitle-pic margin-top-10">Running number</p>
         </div>

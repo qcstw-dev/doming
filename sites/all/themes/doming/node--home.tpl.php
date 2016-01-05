@@ -14,19 +14,19 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                   <div class="item active">
-                    <img src="<?php print url("/sites/default/files/home/slideshow/sport-industry-and-accessory.jpg") ?>" alt="Sport industry and accessory" title="Sport industry and accessory">
+                    <img src="<?php print url("/sites/default/files/home/slideshow/sport-industry-and-accessory.jpg") ?>" alt="Doming label for sport industry and accessory" title="Doming label for sport industry and accessory">
                   </div>
                   <div class="item">
-                    <img src="<?php print url("/sites/default/files/home/slideshow/qr-code-uid-running-number-concept.jpg") ?>" alt="QR code, UID, running number concept" title="QR code, UID, running number concept">
+                    <img src="<?php print url("/sites/default/files/home/slideshow/qr-code-uid-running-number-concept.jpg") ?>" alt="Doming stickers for QR code, UID, running number concept" title="Doming stickers for QR code, UID, running number concept">
                   </div>
                   <div class="item">
                     <img src="<?php print url("/sites/default/files/home/slideshow/transparent-dome.jpg") ?>" alt="Transparent dome" title="Transparent dome">
                   </div>
                   <div class="item">
-                    <img src="<?php print url("/sites/default/files/home/slideshow/medical-appliance.jpg") ?>" alt="Medical appliance" title="Medical appliance">
+                    <img src="<?php print url("/sites/default/files/home/slideshow/medical-appliance.jpg") ?>" alt="Domed badges for medical appliance" title="Domed badges for medical appliance">
                   </div>
                   <div class="item">
-                    <img src="<?php print url("/sites/default/files/home/slideshow/technology-device.jpg") ?>" alt="Technology device" title="Technology device">
+                    <img src="<?php print url("/sites/default/files/home/slideshow/technology-device.jpg") ?>" alt="Resin stickers for technology device" title="Resin stickers for technology device">
                   </div>
                 </div>
                 <!-- Controls -->
@@ -47,32 +47,32 @@
     </div>
     <div class="col-xs-12 padding-0 blocks">
         <hr class="separation" />
-        <a href="<?php print url("node/14") ?>" title="Products">
+        <a href="<?php print url("node/14") ?>" title="Domed stickers products">
             <div class="block block-left col-xs-12 col-md-6 border">
                 <div class="col-xs-12>"><h2>Products</h2></div>
                 <div  class="col-xs-12 col-sm-7 margin-top-10-xs padding-0">
                     <div class="text-block"> 
                     <ul><li>Kitchen & home appliance</li>
-                        <li>Outdoor appliance and garden tool </li>
-                        <li>Sport industry & accessories </li>
-                        <li>Motor industry like, cars, boat, truck, motorbike. </li>
-                        <li>Industrial and medical appliance </li>
-                        <li>Fashion & cosmetic industry </li>
+                        <li>Outdoor appliance and garden tool</li>
+                        <li>Sport industry & accessories</li>
+                        <li>Motor industry like, cars, boat, truck, motorbike.</li>
+                        <li>Industrial and medical appliance</li>
+                        <li>Fashion & cosmetic industry</li>
                         <li>...</li>
                     </ul>
                     </div>
                     <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more">Read more</span></p>
                 </div>
                 <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
-                    <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/doming.jpg") ?>" />
+                    <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/doming.jpg") ?>" alt="Board of printed stickers before doming" title="Board of printed stickers before doming" />
                 </div>
             </div>
         </a>
-        <a href="<?php print url("node/1") ?>" title="Product feature & services">
+        <a href="<?php print url("node/1") ?>" title="Dome features & services">
             <div class="block block-right col-xs-12 col-md-6 border">
                 <div class="col-xs-12>"><h2>Feature & services</h2></div>
                 <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
-                    <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/doming-is-multicolor.jpg") ?>" />
+                    <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/doming-is-multicolor.jpg") ?>" alt="Doming tags enables full color logo" title="Doming tags enables full color logo"/>
                 </div>
                 <div  class="col-xs-12 col-sm-7">
                     <div class="text-block">
@@ -104,7 +104,7 @@
                     <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more">Read more</span></p>
                 </div>
                 <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
-                    <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/machine.jpg") ?>" />
+                    <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/machine.jpg") ?>" alt="Doming factory process" title="Doming factory process" />
                 </div>
             </div>
         </a>
@@ -112,7 +112,7 @@
             <div class="block block-right col-xs-12 col-md-6 border">
                 <div class="col-xs-12>"><h2>About us</h2></div>
                 <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
-                    <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/chairwoman.jpg") ?>" />
+                    <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/chairwoman.jpg") ?>" alt="QCS, the most competitive doming sticker and label producer & exporter in China" title="QCS, the most competitive doming sticker and label producer & exporter in China"/>
                 </div>
                 <div  class="col-xs-12 col-sm-7">
                     <div class="text-block">
