@@ -3,7 +3,7 @@
     <div class="col-xs-12 padding-0">
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/technology-device.jpg") ?>" alt="Technology-device" title="Technology-device"/>
+                <img class="" src="<?php print url("/sites/default/files/products/technology-device.jpg") ?>" alt="Domed stickers for technology device" title="Domed stickers for technology device"/>
             </div>
             <h3 class="text-center">Computer, Electronical and Technological Industry</h3>
             <div class="padding">
@@ -14,7 +14,7 @@
         <div class="col-md-1 hidden-xs"></div>
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/event-charity.jpg") ?>" alt="Event charity" title="Event charity" />
+                <img class="" src="<?php print url("/sites/default/files/products/event-charity.jpg") ?>" alt="Dome labels for event charity" title="Dome labels for event charity" />
             </div>
             <h3 class="text-center">Charity, Conference & Event Industry</h3>
             <div class="padding">
@@ -26,7 +26,7 @@
         <div class="col-md-1 hidden-xs"></div>
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/nameplate-and-badge.jpg") ?>" alt="Nameplate & Badge" title="Nameplate & Badge"/>
+                <img class="" src="<?php print url("/sites/default/files/products/nameplate-and-badge.jpg") ?>" alt="Doming label for nameplate & Badge" title="Doming label for nameplate & Badge"/>
             </div>
             <h3 class="text-center">Nameplate & Badge</h3>
             <div class="padding">
@@ -39,7 +39,7 @@
     <div class="col-xs-12 padding-0">
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/pet-accessories-safety-lost-and-found-concept.jpg") ?>" alt="Pet, travel, Safety, Lost & Found Concept Industry" title="Pet, travel, Safety, Lost & Found Concept Industry" />
+                <img class="" src="<?php print url("/sites/default/files/products/pet-accessories-safety-lost-and-found-concept.jpg") ?>" alt="Doming stickers for pet, travel, Safety, Lost & Found Concept Industry" title="Doming stickers for pet, travel, Safety, Lost & Found Concept Industry" />
             </div>
             <h3 class="text-center">Pet, travel, Safety, Lost & Found Concept Industry</h3>
             <div class="padding">
@@ -62,7 +62,7 @@
         <div class="col-md-1 hidden-xs"></div>
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/kitchen-and-home-appliance.jpg") ?>" alt="Kitchen & home appliance" title="Kitchen & home appliance"/>
+                <img class="" src="<?php print url("/sites/default/files/products/kitchen-and-home-appliance.jpg") ?>" alt="Epoxy stickers for kitchen & home appliance" title="Epoxy stickers for kitchen & home appliance"/>
             </div>
             <h3 class="text-center">Kitchen & home appliance</h3>
             <div class="padding">
@@ -75,7 +75,7 @@
     <div class="col-xs-12 padding-0">
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/qr-code-uid-running-number-concept.jpg") ?>" alt="UID, QR code, Barcode & Identification Industry" title="UID, QR code, Barcode & Identification Industry"/>
+                <img class="" src="<?php print url("/sites/default/files/products/qr-code-uid-running-number-concept.jpg") ?>" alt="Resin stickers for UID, QR code, Barcode & Identification Industry" title="Resin stickers for UID, QR code, Barcode & Identification Industry"/>
             </div>
             <h3 class="text-center">UID, QR code, Barcode & Identification Industry</h3>
             <div class="padding">
@@ -89,7 +89,7 @@
         <div class="col-md-1 hidden-xs"></div>
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/signeage-doorsign.jpg") ?>" alt="Signeage & Doorsign" title="Signeage & Doorsign"/>
+                <img class="" src="<?php print url("/sites/default/files/products/signeage-doorsign.jpg") ?>" alt="Domed badges for Signeage & Doorsign" title="Domed badges for Signeage & Doorsign"/>
             </div>
             <h3 class="text-center">Promotional Product & Give Away Industry</h3>
             <div class="padding">
@@ -99,7 +99,7 @@
         <div class="col-md-1 hidden-xs"></div>
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/outdoor-appliance-and-garden-tool.jpg") ?>" alt="Kitchen & home appliance" title="Kitchen & home appliance"/>
+                <img class="" src="<?php print url("/sites/default/files/products/outdoor-appliance-and-garden-tool.jpg") ?>" alt="Domed decals for Kitchen & home appliance" title="Domed decals for Kitchen & home appliance"/>
             </div>
             <h3 class="text-center">Outdoor appliance & Garden tool</h3>
             <div class="padding">
@@ -111,7 +111,7 @@
     <div class="col-xs-12 padding-0">
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/motor-industry.jpg") ?>" alt="Motor & vehicle Industry  " title="Motor & vehicle Industry  "/>
+                <img class="" src="<?php print url("/sites/default/files/products/motor-industry.jpg") ?>" alt="Epoxy dome for motor & vehicle Industry  " title="Epoxy dome for motor & vehicle Industry  "/>
             </div>
             <h3 class="text-center">Motor & vehicle Industry</h3>
             <div class="padding">
@@ -122,7 +122,7 @@
         <div class="col-md-1 hidden-xs"></div>
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/medical-appliance.jpg") ?>" alt="Medical & Pharmaceutical Industry " title="Medical & Pharmaceutical Industry "/>
+                <img class="" src="<?php print url("/sites/default/files/products/medical-appliance.jpg") ?>" alt="3D doming for medical & Pharmaceutical Industry " title="3D doming for medical & Pharmaceutical Industry "/>
             </div>
             <h3 class="text-center">Medical & Pharmaceutical Industry</h3>
             <div class="padding">
@@ -132,7 +132,7 @@
         <div class="col-md-1 hidden-xs"></div>
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/sport-industry-and-accessory.jpg") ?>" alt="Sport & Accessories Industry " title="Sport & Accessories Industry "/>
+                <img class="" src="<?php print url("/sites/default/files/products/sport-industry-and-accessory.jpg") ?>" alt="Doming label for sport & Accessories Industry " title="Doming label for sport & Accessories Industry "/>
             </div>
             <h3 class="text-center">Sport & Accessories Industry</h3>
             <div class="padding">
@@ -145,7 +145,7 @@
     <div class="col-xs-12 padding-0">
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/medical-environment.jpg") ?>" alt="Medical & Pharmaceutical Industry" title="Medical & Pharmaceutical Industry" />
+                <img class="" src="<?php print url("/sites/default/files/products/medical-environment.jpg") ?>" alt="Doming stickers for medical & Pharmaceutical Industry" title="Doming stickers for medical & Pharmaceutical Industry" />
             </div>
             <h3 class="text-center">Medical & Pharmaceutical Industry</h3>
             <div class="padding">
@@ -155,7 +155,7 @@
         <div class="col-md-1 hidden-xs"></div>
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/toys-license-gift-and-souvenir.jpg") ?>" alt="Toys, License, Gift and Souvenir" title="Toys, License, Gift and Souvenir" />
+                <img class="" src="<?php print url("/sites/default/files/products/toys-license-gift-and-souvenir.jpg") ?>" alt="Dome labels toys, License, Gift and Souvenir" title="Dome labels toys, License, Gift and Souvenir" />
             </div>
             <h3 class="text-center margin-top-0">Toys, License, Gift and Souvenir</h3>
             <div class="padding">
@@ -166,7 +166,7 @@
         <div class="col-md-1 hidden-xs"></div>
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/fashion-cosmetic-packaging-industry.jpg") ?>" alt="Fashion, Cosmetic & Packaging Industry" title="Fashion, Cosmetic & Packaging Industry" />
+                <img class="" src="<?php print url("/sites/default/files/products/fashion-cosmetic-packaging-industry.jpg") ?>" alt="Dome tag fashion, Cosmetic & Packaging Industry" title="Dome tag fashion, Cosmetic & Packaging Industry" />
             </div>
             <h3 class="text-center margin-top-0">Fashion, Cosmetic & Packaging Industry</h3>
             <div class="padding">
@@ -178,7 +178,7 @@
     <div class="col-xs-12 padding-0">
         <div class="col-md-4 thumbnail border block-product">
             <div class="thumbnail border-none">
-                <img class="" src="<?php print url("/sites/default/files/products/pos-beverage-bar-industry.jpg") ?>" alt="POS, Beverage & Bar Industry" title="POS, Beverage & Bar Industry" />
+                <img class="" src="<?php print url("/sites/default/files/products/pos-beverage-bar-industry.jpg") ?>" alt="Resin doming POS, Beverage & Bar Industry" title="Resin doming POS, Beverage & Bar Industry" />
             </div>
             <h3 class="text-center margin-top-0">POS, Beverage & Bar Industry</h3>
             <div class="padding">
