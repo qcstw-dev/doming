@@ -1,5 +1,4 @@
 <?php
-if ($_SERVER["HTTP_HOST"] != 'localhost') {
     if (!isset($_SESSION['country']) || !$_SESSION['country']) {
         $ip = '';
         if (isset($_SERVER['HTTP_X_FORWARDED_FOR']) && $_SERVER['HTTP_X_FORWARDED_FOR']) {
@@ -7,33 +6,48 @@ if ($_SERVER["HTTP_HOST"] != 'localhost') {
         } else {
             $ip = $_SERVER['REMOTE_ADDR'];
         }
-
-    //    test china
-    //    $url = "http://ip2c.org/113.100.99.221";
-        $url = "http://ip2c.org/" . $ip;
-
-        set_time_limit(10);
-
-        $data = file_get_contents($url);
-        $reply = explode(';',$data);
-
-        if (isset($reply[1]) && $reply[1]) {
-            $_SESSION['country'] = $reply[1];
-        } else {
-            $_SESSION['country'] = '';
+        if ($_SERVER["HTTP_HOST"] == 'localhost') {
+            $ip = "61.220.251.250";
+            // test china
+//            $ip = "113.100.99.221";
         }
-        if (in_array($_SESSION['country'], ['CN', 'KR', 'KP', 'TR', 'IN'])) {
-            $sqlQuery = "INSERT INTO ip_blocked (ip, country, date) VALUES ('".$ip."', '".$_SESSION['country']."', CURRENT_TIME)";
+//        $sqlQuerySelect = "SELECT ip FROM ip_blocked WHERE ip = '".$ip."'";
+        $retrievedIp = db_select('ip_blocked')
+                    ->fields('ip_blocked')
+                    ->condition('ip', $ip,'=')
+                    ->range(0,1)
+                    ->execute()
+                    ->fetchAssoc();
+        if (!$retrievedIp) {
+//            test china
+//            $url = "http://ip2c.org/113.100.99.221";
+            $url = "http://ip2c.org/" . $ip;
+
+            set_time_limit(10);
+
+            $data = file_get_contents($url);
+            $reply = explode(';',$data);
+
+            if (isset($reply[1]) && $reply[1]) {
+                $_SESSION['country'] = $reply[1];
+            } else {
+                $_SESSION['country'] = '';
+            }
+            if (in_array($_SESSION['country'], ['CN', 'KR', 'KP', 'TR', 'IN'])) {
+                $sqlQuery = "INSERT INTO ip_blocked (ip, country, date) VALUES ('".$ip."', '".$_SESSION['country']."', CURRENT_TIME)";
+            } else {
+                $sqlQuery = "INSERT INTO ip_unblocked (ip, country, date) VALUES ('".$ip."', '".$_SESSION['country']."', CURRENT_TIME)";
+            }
+            db_query($sqlQuery);
+            
         } else {
-            $sqlQuery = "INSERT INTO ip_unblocked (ip, country, date) VALUES ('".$ip."', '".$_SESSION['country']."', CURRENT_TIME)";
+            $_SESSION['country'] = $retrievedIp['country'];
         }
-        db_query($sqlQuery);
     }
     if (in_array($_SESSION['country'], ['CN', 'KR', 'KP', 'TR', 'IN'])) {
         echo 'This website is not available in your country';
         exit;
-    } 
-} ?>
+    } ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
   "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language; ?>" version="XHTML+RDFa 1.0" dir="<?php print $language->dir; ?>"<?php print $rdf_namespaces; ?>>
