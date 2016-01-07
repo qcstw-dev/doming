@@ -280,9 +280,9 @@ function webform_submission_send_mail($node, $submission, $emails = NULL) {
       $email['from'] = $default_from_address;
       if (webform_variable_get('webform_email_address_format') == 'long') {
         $email_parts = webform_parse_email_address($email['headers']['Reply-To']);
-        $from_name = t('!name via !site_name',
-                        array('!name' => strlen($email_parts['name']) ? $email_parts['name'] : $email_parts['address'],
-                              '!site_name' => $default_from_name));
+//        $from_name = t('!name via !site_name',
+        $from_name = t('!name',
+                        array('!name' => strlen($email_parts['name']) ? $email_parts['name'] : $email_parts['address']));
         $from_name = implode(' ', array_map('mime_header_encode', explode(' ', $from_name)));
         $email['from'] = '"' . $from_name . '" <' . $email['from'] . '>';
       }
