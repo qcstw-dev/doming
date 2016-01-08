@@ -1,7 +1,7 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
     <div class="col-xs-12 col-md-5">
         <div class="col-xs-12 text-center padding-0">
-            <h2>Doming enables full color print</h2>
+            <h2>Doming label enables full color print</h2>
         </div>
         <div class="text-justify">
             <p>Doming is the most cost efficient logo process to make CMYK full color process label in small quantity and fast delivery time. </p>

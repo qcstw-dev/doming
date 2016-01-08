@@ -9,7 +9,7 @@
 
             <p>Situated in the Jindu Industrial Park in Gaoyao city, 80 KM North West of Guangzhou (Dongguan Province, China), in a modern industrial park close to transport infrastructures and in the heart of the hardware and plastic injection hub of Zhaoqing city, famous for promotional and gift products. </p>
 
-            <p>We opened this factory to develop our doming production line and dedicated it to be the first and only international quality standard doming production facility in China. 
+            <p>We opened this factory to develop our domed labels production line and dedicated it to be the first and only international quality standard doming production facility in China. 
             For this purpose <strong>we built a 300 SQM environment controlled area to include the doming production line, the polyurethane curing area and the storage room for stock and warehouse for raw material.</strong><br /> 
             Dust free, with humidity and temperature control we have the means to produce European quality doming at the fraction of the cost with China lower labor cost.</p>
             <div class="col-xs-12 padding-0">
@@ -21,13 +21,13 @@
                         <li>2x fully automated computerized XY polyurethane dispensing machine. </li>
                     </ul>
 
-                    <p>We use only first quality grade imported raw material both for the doming resin and the vinyl sticker base. </p>
+                    <p>We use only first quality grade imported raw material both for the resin doming and the vinyl sticker base. </p>
 
                     <p><strong>Strong with our 25 years long experience in the promotional product industry, we have a full team of trained staff and workers to handle heavy logistic and custom requirement of made to order gift products & license items. We are also experienced in demanding handling of running number & UIDs (unique ID) products which require intensive QC’s procedure and control.</strong></p>
 
                     <p>We have a full doming production capacity of over 1 million pcs per month, including assembled products for a whole lot of different industries & market.</p>
 
-                    <p>Beside doming sticker itself, we also produce many zamac (zinc alloy) injection and plastic injection products for the promotional product, gift and license industry </p>
+                    <p>Beside doming label itself, we also produce many zamac (zinc alloy) injection and plastic injection products for the promotional product, gift and license industry </p>
 
                     <p>Longtime member of professional association like PPAI, Promota, IPPAG, SEDEX, QCS Doming Factory is under certification and perform factory audit every month.</p>
                 </div>

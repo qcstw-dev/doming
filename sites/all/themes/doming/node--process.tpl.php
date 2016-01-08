@@ -6,15 +6,15 @@
                 <img src="<?php print url("/sites/default/files/factory-and-process/3d-look.jpg") ?>" alt="3D look" title="3D look" />
             </div>
             <div class="text-justify">
-                <p>A doming sticker enables you to easily personalize & decorate anything, with any design and protect it forever. <br />
+                <p>A domed decals enables you to easily personalize & decorate anything, with any design and protect it forever. <br />
                 Using high definition full color (CMYK) printing any design can be made at his best. <br />
                 The polyurethane dome will magnify your logo and protect your brand for many years. </p>
 
-                <p>Doming has a great deal of advantages which make it very unique and the best way to label any product, packaging, appliance or furniture should it be indoor or outdoor. <br />
+                <p>Dome tag has a great deal of advantages which make it very unique and the best way to label any product, packaging, appliance or furniture should it be indoor or outdoor. <br />
                     <strong>Its unit cost is competitive to all other logo process, setup charge are very cheap, minimum order quantity (MOQ) very low and delivery can be very fast.</strong></p>
 
-                <p>The only challenge with doming, is that good quality cannot be improvised or made in the cheap, cutting corners and handled lightly.<br />
-                Doming requires investment, logistic & serious dedication, average is just not working, and there is no such things as “okay” doming.</p>
+                <p>The only challenge with doming factory, is that good quality cannot be improvised or made in the cheap, cutting corners and handled lightly.<br />
+                Doming requires investment, logistic & serious dedication, average is just not working, and there is no such things as “okay” doming stickers.</p>
             </div>
             <div class="col-xs-12 padding-0">
                 <div class="hidden-text-area">    
@@ -29,16 +29,16 @@
 
                     <li><strong>Environment Controlled Facility:</strong></li>
 
-                    <p>The doming production line, as well as the whole doming facility (curing, assembly, packing, storage…etc.) needs to be handled under strict humidity level and temperature, in a top notch controlled environment. </p>
+                    <p>The domed labels production line, as well as the whole doming facility (curing, assembly, packing, storage…etc.) needs to be handled under strict humidity level and temperature, in a top notch controlled environment. </p>
 
                     <li><strong>Large & steady volume of production:</strong></li>
 
-                    <p>Doming production is very energy hungry, uses raw material with short shelve life and needs to be kept at optimum condition at all time. <br />
+                    <p>Domed badge production is very energy hungry, uses raw material with short shelve life and needs to be kept at optimum condition at all time. <br />
                     A regular and stable production flow is strategic if you don’t want to waste all your other effort or operate at a loss to keep a stable quality level. </p>
 
                     <li><strong>Team of trained professional:</strong></li>
 
-                    <p>Doming production requires dedication and discipline to follow complex SOPs and protocols. <br />
+                    <p>Resin doming production requires dedication and discipline to follow complex SOPs and protocols. <br />
                     Any miss will just ruin all your effort and render your whole investment completely useless. </p>
                 </div>
                 <div class="btn-show-hide-text-area"><span class="glyphicon glyphicon-menu-down"></span> More <span class="glyphicon glyphicon-menu-down"></span></div>

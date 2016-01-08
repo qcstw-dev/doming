@@ -9,11 +9,11 @@
 
             <p>To face China’s labor cost increase & shortage and to answer increasingly small MOQ & rush delivery request in the promotional product industry, we started to invest in doming logo process set-up in 2010. </p>
 
-            <p>Strong with our focus on service and quality, we decided not to improvise but to build a state of the art doming facility. <strong>For that purpose, we imported our doming setup as well as our raw material from UK & Italy and built a 300 m2 environment controlled production room and storage for curing and warehousing.</strong></p>
+            <p>Strong with our focus on service and quality, we decided not to improvise but to build a state of the art doming facility. <strong>For that purpose, we imported our domed badges as well as our raw material from UK & Italy and built a 300 m2 environment controlled production room and storage for curing and warehousing.</strong></p>
 
-            <p>Combining international high quality standard, low labor cost in China and 25+ years’ experience in logistic, QCS is proud to claim to be the most competitive doming sticker and label producer & exporter in China. </p>
+            <p>Combining international high quality standard, low labor cost in China and 25+ years’ experience in logistic, QCS is proud to claim to be the most competitive doming label and label producer & exporter in China. </p>
 
-            <p>Our worldwide network of long term customers and partners is providing us a steady average volume, that contributes to guarantee optimum quality doming production all year round. </p>
+            <p>Our worldwide network of long term customers and partners is providing us a steady average volume, that contributes to guarantee optimum quality 3D doming production all year round. </p>
 
             <p>Located in Zhaoqing City, 80 KM North West of Guangzhou, (Guangdong, China), you are welcome to visit our factory any time at your convenience.The canton fair, where we exhibit twice a year since 2004, is a great opportunity. </p>
 
