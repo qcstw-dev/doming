@@ -20,19 +20,6 @@
         </div>
     </div>
     <div class="col-xs-12 col-md-6 padding-left-0">
-        <h3>China Factory:</h3>
-        <p>
-            QCS Gift Factory <span class="font-dfkai font-size-20">高要市廣星禮品有限公司</span><br />
-            D2 DISTRICT, JINDU, GAOYAO CITY, GUANGDONG, CHINA<br />
-            <span class="font-dfkai font-size-20">中國廣東省肇慶高要市金渡鎮D2小區</span> ZIP: 526108<br />
-            <br />
-            TEL :(86.758) 8512115 FAX : (86.758) 8512145
-        </p>
-        <div class="col-xs-12 margin-top-20 padding-0">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7230.54675302562!2d121.549209!3d25.024795!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa312edd7919%3A0x77aac31886f14be4!2sLane+228%2C+Section+3%2C+Heping+E+Rd%2C+Da%E2%80%99an+District%2C+Taipei+City%2C+Ta%C3%AFwan+106!5e0!3m2!1sfr!2stw!4v1448511609490" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-    </div>
-    <div class="col-xs-12 col-md-6 padding-right-0">
         <h3>Taiwan head office :</h3>
         <p>
             QCS ASIA CO. ,LTD <span class="font-dfkai font-size-20">台灣妍品有限公司</span><br />
@@ -40,6 +27,19 @@
             <span class="font-dfkai font-size-20">台北市和平東路3段63號5樓之8 (嘉樂大樓)</span><br />
             <br />
             TEL : (886-2) 27385787 FAX : (886-2)27385816
+        </p>
+        <div class="col-xs-12 margin-top-20 padding-0">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d903.8183351866223!2d121.54866132923432!3d25.024796214206898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442aa321d20e10d%3A0xf43ccf1621215ddf!2sNo.+63%2C+Section+3%2C+Heping+E+Rd%2C+Da%E2%80%99an+District%2C+Taipei+City%2C+106!5e0!3m2!1sen!2stw!4v1452219366587" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="col-xs-12 col-md-6 padding-right-0">
+        <h3>China Factory:</h3>
+        <p>
+            QCS Gift Factory <span class="font-dfkai font-size-20">高要市廣星禮品有限公司</span><br />
+            D2 DISTRICT, JINDU, GAOYAO CITY, GUANGDONG, CHINA<br />
+            <span class="font-dfkai font-size-20">中國廣東省肇慶高要市金渡鎮D2小區</span> ZIP: 526108<br />
+            <br />
+            TEL :(86.758) 8512115 FAX : (86.758) 8512145
         </p>
         <div class="col-xs-12 margin-top-20 padding-0">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.455377450762!2d112.52200431537644!3d23.043760921317396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDAyJzM3LjUiTiAxMTLCsDMxJzI3LjEiRQ!5e0!3m2!1sfr!2stw!4v1448518944612" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
