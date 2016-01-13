@@ -126,8 +126,29 @@
                 </div>
             </div>
         </a>
-        
-    </div>
+    </div><?php
+    $response_xml_data = file_get_contents("https://www.qcsasia.com/rss-posts/");
+    $posts = simplexml_load_string($response_xml_data) or die("Error: Cannot create object");
+    if ($posts) { ?>
+        <div class="col-xs-12 padding-0">
+            <h3>QCS Asia News</h3>
+        </div>
+        <div class="col-xs-12 padding-0 blocks qcs-news-block"><?php
+            $i = 0;
+            foreach ($posts as $post) { ?>
+                <a href="<?= $post->url ?>" title="<?= $post->title ?>" >
+                    <div class="col-sm-3">
+                        <div class="col-xs-12 thumbnail">
+                            <img src="<?= $post->thumbnail_url ?>" alt="<?= $post->title ?>" title="<?= $post->title ?>" />
+                        </div>
+                        <div class="subtitle-pic"><?= $post->title ?></div>
+                    </div>
+                </a><?php
+                $i++;
+                if ($i == 4) { break; }
+            } ?>
+        </div><?php
+    } ?>
 </div>
 <script>
     $('.carousel').carousel();

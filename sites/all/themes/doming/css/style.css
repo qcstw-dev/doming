@@ -297,6 +297,9 @@ a {
     font-weight: bold;
     margin-top: 10px;
     color: #307F83;
+    float: left;
+    width: 100%;
+    text-align: center;
 }
 /****************** SLIDER ********************************/
 .carousel-control.right, .carousel-control.left {
@@ -333,6 +336,10 @@ a {
 .node-home .text-block ul{
     text-align: left;
 }
+.node-home .qcs-news-block img {
+    max-height: 140px;
+}
+
 @media (max-width: 767px) {
     .node-home .iframe-wrapper {
         margin-top: 300px;
