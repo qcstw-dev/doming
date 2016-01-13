@@ -14,19 +14,19 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                   <div class="item active">
-                    <img src="<?php print url("/sites/default/files/home/slideshow/sport-industry-and-accessory.jpg") ?>" alt="Doming label for sport industry and accessory" title="Doming label for sport industry and accessory">
+                    <img src="<?php print file_create_url($field_home_slide_1[0]['uri']); ?>" alt="<?php print $field_home_slide_1[0]['alt']; ?>" title="<?php print $field_home_slide_1[0]['title']; ?>">
                   </div>
                   <div class="item">
-                    <img src="<?php print url("/sites/default/files/home/slideshow/qr-code-uid-running-number-concept.jpg") ?>" alt="Doming stickers for QR code, UID, running number concept" title="Doming stickers for QR code, UID, running number concept">
+                    <img src="<?php print file_create_url($field_home_slide_2[0]['uri']); ?>" alt="<?php print $field_home_slide_2[0]['alt']; ?>" title="<?php print $field_home_slide_2[0]['title']; ?>">
                   </div>
                   <div class="item">
-                    <img src="<?php print url("/sites/default/files/home/slideshow/transparent-dome.jpg") ?>" alt="Transparent dome" title="Transparent dome">
+                    <img src="<?php print file_create_url($field_home_slide_3[0]['uri']); ?>" alt="<?php print $field_home_slide_3[0]['alt']; ?>" title="<?php print $field_home_slide_3[0]['title']; ?>">
                   </div>
                   <div class="item">
-                    <img src="<?php print url("/sites/default/files/home/slideshow/medical-appliance.jpg") ?>" alt="Domed badges for medical appliance" title="Domed badges for medical appliance">
+                    <img src="<?php print file_create_url($field_home_slide_4[0]['uri']); ?>" alt="<?php print $field_home_slide_4[0]['alt']; ?>" title="<?php print $field_home_slide_4[0]['title']; ?>">
                   </div>
                   <div class="item">
-                    <img src="<?php print url("/sites/default/files/home/slideshow/technology-device.jpg") ?>" alt="Resin stickers for technology device" title="Resin stickers for technology device">
+                    <img src="<?php print file_create_url($field_home_slide_5[0]['uri']); ?>" alt="<?php print $field_home_slide_5[0]['alt']; ?>" title="<?php print $field_home_slide_5[0]['title']; ?>">
                   </div>
                 </div>
                 <!-- Controls -->
@@ -41,88 +41,67 @@
             </div>
         </div>
         <div class="col-md-6 padding-0 text-center">
-            <iframe width="100%" height="360" src="https://www.youtube-nocookie.com/embed/rJy6Vui5Inw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <?php print $field_youtube_video[0]['value']; ?>
         </div>
         <div class="clearfix"></div>
     </div>
     <div class="col-xs-12 padding-0 blocks">
         <hr class="separation" />
-        <a href="<?php print url("node/14") ?>" title="Domed stickers products">
+        <a href="<?php print url("node/".$field_home_block_1_link[0]['url']) ?>" title="<?php print $field_home_block_1_link[0]['title'] ?>">
             <div class="block block-left col-xs-12 col-md-6 border">
-                <div class="col-xs-12>"><h2>Products</h2></div>
+                <div class="col-xs-12>"><h2><?php print $field_home_block_1_title[0]['value']; ?></h2></div>
                 <div  class="col-xs-12 col-sm-7 margin-top-10-xs padding-0">
                     <div class="text-block"> 
-                    <ul><li>Kitchen & home appliance</li>
-                        <li>Outdoor appliance and garden tool</li>
-                        <li>Sport industry & accessories</li>
-                        <li>Motor industry like, cars, boat, truck, motorbike.</li>
-                        <li>Industrial and medical appliance</li>
-                        <li>Fashion & cosmetic industry</li>
-                        <li>...</li>
-                    </ul>
+                        <?php print $field_home_block_1_text[0]['value']; ?>
                     </div>
-                    <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more">Read more</span></p>
+                    <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more"><?php print $field_home_label_link_blocks[0]['value'] ?></span></p>
                 </div>
                 <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
-                    <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/doming.jpg") ?>" alt="Board of printed stickers before doming" title="Board of printed stickers before doming" />
+                    <img class="margin-bottom-10" src="<?php print file_create_url($field_home_block_1_image[0]['uri']); ?>" alt="<?php print $field_home_block_1_image[0]['alt']; ?>" title="<?php print $field_home_block_1_image[0]['title']; ?>" />
                 </div>
             </div>
         </a>
-        <a href="<?php print url("node/1") ?>" title="Dome features & services">
+        <a href="<?php print url("node/".$field_home_block_2_link[0]['url']) ?>" title="<?php print $field_home_block_2_link[0]['title'] ?>">
             <div class="block block-right col-xs-12 col-md-6 border">
-                <div class="col-xs-12>"><h2>Feature & services</h2></div>
+                <div class="col-xs-12>"><h2><?php print $field_home_block_2_title[0]['value']; ?></h2></div>
                 <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
-                    <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/doming-is-multicolor.jpg") ?>" alt="Doming tags enables full color logo" title="Doming tags enables full color logo"/>
+                    <img class="margin-bottom-10" src="<?php print file_create_url($field_home_block_2_image[0]['uri']); ?>" alt="<?php print $field_home_block_2_image[0]['alt']; ?>" title="<?php print $field_home_block_2_image[0]['title']; ?>"/>
                 </div>
                 <div  class="col-xs-12 col-sm-7">
                     <div class="text-block">
-                        <ul style="font-size: 17px;">
-                            <li>Doming stickers are durable</li>
-                            <li>Doming tags enables full color logo </li>
-                            <li>Doming labels can be data based</li>
-                            <li>Why to purchase your domes in China?</li>
-                        </ul>
+                        <?php print $field_home_block_2_text[0]['value']; ?>
                     </div>
-                    <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more">Read more</span></p>
+                    <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more"><?php print $field_home_label_link_blocks[0]['value'] ?></span></p>
                 </div>
             </div>
         </a>
     </div>
     <div class="col-xs-12 padding-0 blocks">
-        <a href="<?php print url("node/7") ?>" title="Factory & doming process">
+        <a href="<?php print url("node/".$field_home_block_3_link[0]['url']) ?>" title="<?php print $field_home_block_3_link[0]['title'] ?>">
             <div class="block block-left col-xs-12 col-md-6 border">
-                <div class="col-xs-12>"><h2>Factory & doming process</h2></div>
+                <div class="col-xs-12>"><h2><?php print $field_home_block_3_title[0]['value']; ?></h2></div>
                 <div  class="col-xs-12 col-sm-7 margin-top-10-xs padding-0">
                     <div class="text-block">
-                        <ul style="font-size: 17px; line-height: 44px;">
-                            <li>Factory picture tour</li>
-                            <li>Production set-up</li>
-                            <li>Assembling capacity</li>
-                            <li>Doming layers</li>
-                        </ul>
+                        <?php print $field_home_block_3_text[0]['value']; ?>
                     </div>
-                    <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more">Read more</span></p>
+                    <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more"><?php print $field_home_label_link_blocks[0]['value'] ?></span></p>
                 </div>
                 <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
-                    <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/machine.jpg") ?>" alt="Doming factory process" title="Doming factory process" />
+                    <img class="margin-bottom-10" src="<?php print file_create_url($field_home_block_3_image[0]['uri']); ?>" alt="<?php print $field_home_block_3_image[0]['alt']; ?>" title="<?php print $field_home_block_3_image[0]['title']; ?>" />
                 </div>
             </div>
         </a>
-        <a href="<?php print url("node/8") ?>" title="About us">
+        <a href="<?php print url("node/".$field_home_block_4_link[0]['url']) ?>" title="<?php print $field_home_block_4_link[0]['title'] ?>">
             <div class="block block-right col-xs-12 col-md-6 border">
-                <div class="col-xs-12>"><h2>About us</h2></div>
+                <div class="col-xs-12>"><h2><?php print $field_home_block_4_title[0]['value']; ?></h2></div>
                 <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
-                    <img class="margin-bottom-10" src="<?php print url("/sites/default/files/home/chairwoman.jpg") ?>" alt="QCS, the most competitive doming sticker and label producer & exporter in China" title="QCS, the most competitive doming sticker and label producer & exporter in China"/>
+                    <img class="margin-bottom-10" src="<?php print file_create_url($field_home_block_4_image[0]['uri']); ?>" alt="<?php print $field_home_block_4_image[0]['alt']; ?>" title="<?php print $field_home_block_4_image[0]['title']; ?>"/>
                 </div>
                 <div  class="col-xs-12 col-sm-7">
                     <div class="text-block">
-                        Strong with its 25+ years’ experience in the promotional 
-                        product industry, QCS started to invest in doming manufacturing 
-                        in China 5 years ago. We imported from Europe and the
-                        U.S. professional industrial equipment & material to combine
-                        international high quality grade.
+                        <?php print $field_home_block_4_text[0]['value']; ?>
                     </div>
-                    <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more">Read more</span></p>
+                    <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more"><?php print $field_home_label_link_blocks[0]['value'] ?></span></p>
                 </div>
             </div>
         </a>
@@ -131,7 +110,7 @@
     $posts = simplexml_load_string($response_xml_data) or die("Error: Cannot create object");
     if ($posts) { ?>
         <div class="col-xs-12 padding-0">
-            <h3>QCS Asia News</h3>
+            <h3><?php print $field_home_tile_qcs_asia_posts[0]['value'] ?></h3>
         </div>
         <div class="col-xs-12 padding-0 blocks qcs-news-block"><?php
             $i = 0;
