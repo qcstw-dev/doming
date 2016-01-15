@@ -5,24 +5,19 @@
     <div class="col-xs-12 text-justify"><?php
         print $field_databased_text[0]['value'] ?>
     </div>
-    <div class="col-xs-12 text-center padding-0">
-        <div class="col-sm-4 col-md-4">
-            <div class="thumbnail margin-auto">
-                <img src="<?php print url("/sites/default/files/data-based/barcode.jpg") ?>" alt="Doming label barcode" title="Doming label barcode">
-            </div>
-            <p class="subtitle-pic margin-top-10">Barcode</p>
-        </div>
-        <div class="col-sm-4 col-md-4">
-            <div class="thumbnail margin-auto">
-                <img src="<?php print url("/sites/default/files/data-based/qr-code.jpg") ?>" alt="Dome labels QR code" title="Dome labels QR code">
-            </div>
-            <p class="subtitle-pic margin-top-10">QR code</p>
-        </div>
-        <div class="col-sm-4 col-md-4">
-            <div class="thumbnail margin-auto">
-                <img src="<?php print url("/sites/default/files/data-based/running-number.jpg") ?>" alt="3D doming running number" title="3D doming running number">
-            </div>
-            <p class="subtitle-pic margin-top-10">Running number</p>
-        </div>
+    <div class="col-xs-12  padding-0"><?php
+            $list_captioned_pictures_ids = [];
+            foreach ($field_captioned_picture as $item_id) {
+                $list_captioned_pictures_ids[] = $item_id['value']; 
+            }
+            $captioned_pictures = entity_load('field_collection_item', $list_captioned_pictures_ids);
+            foreach ($captioned_pictures as $captioned_picture) { ?>
+                <div class="col-sm-4 col-md-4">
+                    <div class="thumbnail margin-auto">
+                        <img src="<?php print file_create_url($captioned_picture->field_image['und'][0]['uri']) ?>" alt="<?php print $captioned_picture->field_image['und'][0]['alt'] ?>" title="<?php print $captioned_picture->field_image['und'][0]['title'] ?>">
+                    </div>
+                    <p class="subtitle-pic margin-top-10"><?php print $captioned_picture->field_caption['und'][0]['value'] ?></p>
+                </div><?php                
+            } ?>
     </div>
 </div>
