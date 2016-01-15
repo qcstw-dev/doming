@@ -1,33 +1,24 @@
 <div id="homepage" class="node-home <?php print $classes; ?> clearfix"<?php print $attributes; ?>> 
     <div class="col-xs-12 padding-0">
-        <div class="col-md-6 visible-md visible-lg">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="col-md-6 visible-md visible-lg padding-left-0">
+            <div id="carousel" class="carousel slide" data-ride="carousel"><?php
+                $numItems = count($field_home_slideshow); ?>
                 <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel" data-slide-to="1"></li>
-                  <li data-target="#carousel" data-slide-to="2"></li>
-                  <li data-target="#carousel" data-slide-to="3"></li>
-                  <li data-target="#carousel" data-slide-to="4"></li>
+                <ol class="carousel-indicators"><?php
+                     for ($j = 0; $j < $numItems; $j++) { ?>
+                        <li data-target="#carousel" data-slide-to="<?= $j ?>" <?= ($j == 0 ? 'class="active"' : '') ?>></li><?php
+                     } ?>
                 </ol>
 
                 <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                  <div class="item active">
-                    <img src="<?php print file_create_url($field_home_slide_1[0]['uri']); ?>" alt="<?php print $field_home_slide_1[0]['alt']; ?>" title="<?php print $field_home_slide_1[0]['title']; ?>">
-                  </div>
-                  <div class="item">
-                    <img src="<?php print file_create_url($field_home_slide_2[0]['uri']); ?>" alt="<?php print $field_home_slide_2[0]['alt']; ?>" title="<?php print $field_home_slide_2[0]['title']; ?>">
-                  </div>
-                  <div class="item">
-                    <img src="<?php print file_create_url($field_home_slide_3[0]['uri']); ?>" alt="<?php print $field_home_slide_3[0]['alt']; ?>" title="<?php print $field_home_slide_3[0]['title']; ?>">
-                  </div>
-                  <div class="item">
-                    <img src="<?php print file_create_url($field_home_slide_4[0]['uri']); ?>" alt="<?php print $field_home_slide_4[0]['alt']; ?>" title="<?php print $field_home_slide_4[0]['title']; ?>">
-                  </div>
-                  <div class="item">
-                    <img src="<?php print file_create_url($field_home_slide_5[0]['uri']); ?>" alt="<?php print $field_home_slide_5[0]['alt']; ?>" title="<?php print $field_home_slide_5[0]['title']; ?>">
-                  </div>
+                <div class="carousel-inner" role="listbox"><?php
+                    $i = 0; 
+                    foreach ($field_home_slideshow as $slide) { ?>
+                        <div class="item <?=($i == 0 ? 'active' : '') ?>">
+                            <img src="<?php print file_create_url($slide['uri']); ?>" alt="<?php print $slide['alt']; ?>" title="<?php print $slide['title']; ?>">
+                        </div><?php
+                        $i++;
+                    } ?>
                 </div>
                 <!-- Controls -->
                 <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
@@ -46,66 +37,32 @@
         <div class="clearfix"></div>
     </div>
     <div class="col-xs-12 padding-0 blocks">
-        <hr class="separation" />
-        <a href="<?php print url("node/".$field_home_block_1_link[0]['url']) ?>" title="<?php print $field_home_block_1_link[0]['title'] ?>">
-            <div class="block block-left col-xs-12 col-md-6 border">
-                <div class="col-xs-12>"><h2><?php print $field_home_block_1_title[0]['value']; ?></h2></div>
-                <div  class="col-xs-12 col-sm-7 margin-top-10-xs padding-0">
-                    <div class="text-block"> 
-                        <?php print $field_home_block_1_text[0]['value']; ?>
+        <hr class="separation" /><?php
+        $list_item_ids = [];
+        foreach ($field_blocks as $item_id) {
+            $list_item_ids[] = $item_id['value']; 
+        }
+        $blocks = entity_load('field_collection_item', $list_item_ids);
+        $i = 0;
+        foreach ($blocks as $block) { ?>
+            <a href="<?php print url("node/".$block->field_block_link['und'][0]['url']) ?>" title="<?php print $block->field_block_link['und'][0]['title'] ?>">
+                <div class="block block-<?= ($i % 2 == 0 ? 'left' : 'right') ?> col-xs-12 col-md-6 border">
+                    <div class="col-xs-12>"><h2><?php print $block->field_block_title['und'][0]['value']; ?></h2></div>
+                    <div  class="col-xs-12 col-sm-7 margin-top-10-xs padding-0">
+                        <div class="text-block"> 
+                            <?php print $block->field_block_text['und'][0]['value']; ?>
+                        </div>
+                        <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more"><?php print $field_home_label_link_blocks[0]['value'] ?></span></p>
                     </div>
-                    <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more"><?php print $field_home_label_link_blocks[0]['value'] ?></span></p>
-                </div>
-                <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
-                    <img class="margin-bottom-10" src="<?php print file_create_url($field_home_block_1_image[0]['uri']); ?>" alt="<?php print $field_home_block_1_image[0]['alt']; ?>" title="<?php print $field_home_block_1_image[0]['title']; ?>" />
-                </div>
-            </div>
-        </a>
-        <a href="<?php print url("node/".$field_home_block_2_link[0]['url']) ?>" title="<?php print $field_home_block_2_link[0]['title'] ?>">
-            <div class="block block-right col-xs-12 col-md-6 border">
-                <div class="col-xs-12>"><h2><?php print $field_home_block_2_title[0]['value']; ?></h2></div>
-                <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
-                    <img class="margin-bottom-10" src="<?php print file_create_url($field_home_block_2_image[0]['uri']); ?>" alt="<?php print $field_home_block_2_image[0]['alt']; ?>" title="<?php print $field_home_block_2_image[0]['title']; ?>"/>
-                </div>
-                <div  class="col-xs-12 col-sm-7">
-                    <div class="text-block">
-                        <?php print $field_home_block_2_text[0]['value']; ?>
+                    <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
+                        <img class="margin-bottom-10" src="<?php print file_create_url($block->field_block_image['und'][0]['uri']); ?>" alt="<?php print $block->field_block_image['und'][0]['alt']; ?>" title="<?php print $block->field_block_image['und'][0]['title']; ?>" />
                     </div>
-                    <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more"><?php print $field_home_label_link_blocks[0]['value'] ?></span></p>
                 </div>
-            </div>
-        </a>
+            </a><?php
+            $i++;
+        } ?>
     </div>
-    <div class="col-xs-12 padding-0 blocks">
-        <a href="<?php print url("node/".$field_home_block_3_link[0]['url']) ?>" title="<?php print $field_home_block_3_link[0]['title'] ?>">
-            <div class="block block-left col-xs-12 col-md-6 border">
-                <div class="col-xs-12>"><h2><?php print $field_home_block_3_title[0]['value']; ?></h2></div>
-                <div  class="col-xs-12 col-sm-7 margin-top-10-xs padding-0">
-                    <div class="text-block">
-                        <?php print $field_home_block_3_text[0]['value']; ?>
-                    </div>
-                    <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more"><?php print $field_home_label_link_blocks[0]['value'] ?></span></p>
-                </div>
-                <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
-                    <img class="margin-bottom-10" src="<?php print file_create_url($field_home_block_3_image[0]['uri']); ?>" alt="<?php print $field_home_block_3_image[0]['alt']; ?>" title="<?php print $field_home_block_3_image[0]['title']; ?>" />
-                </div>
-            </div>
-        </a>
-        <a href="<?php print url("node/".$field_home_block_4_link[0]['url']) ?>" title="<?php print $field_home_block_4_link[0]['title'] ?>">
-            <div class="block block-right col-xs-12 col-md-6 border">
-                <div class="col-xs-12>"><h2><?php print $field_home_block_4_title[0]['value']; ?></h2></div>
-                <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
-                    <img class="margin-bottom-10" src="<?php print file_create_url($field_home_block_4_image[0]['uri']); ?>" alt="<?php print $field_home_block_4_image[0]['alt']; ?>" title="<?php print $field_home_block_4_image[0]['title']; ?>"/>
-                </div>
-                <div  class="col-xs-12 col-sm-7">
-                    <div class="text-block">
-                        <?php print $field_home_block_4_text[0]['value']; ?>
-                    </div>
-                    <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more"><?php print $field_home_label_link_blocks[0]['value'] ?></span></p>
-                </div>
-            </div>
-        </a>
-    </div><?php
+        <?php
     $response_xml_data = file_get_contents("https://www.qcsasia.com/rss-posts/");
     $posts = simplexml_load_string($response_xml_data) or die("Error: Cannot create object");
     if ($posts) { ?>

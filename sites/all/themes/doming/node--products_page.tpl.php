@@ -1,5 +1,5 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-    <h2 class="margin-bottom-20">Products</h2>
+    <h2 class="margin-bottom-20"><?php print $title; ?></h2>
     <div class="col-xs-12 padding-0"><?php
         if ($field_products) {
             $numItems = count($arr);

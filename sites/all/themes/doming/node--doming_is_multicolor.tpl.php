@@ -1,16 +1,13 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-    <div class="col-xs-12 col-md-5">
+    <div class="col-xs-12 col-md-5 padding-left-0">
         <div class="col-xs-12 text-center padding-0">
-            <h2>Doming label enables full color print</h2>
+            <h2><?php print $title ?></h2>
         </div>
         <div class="text-justify">
-            <p>Doming is the most cost efficient logo process to make CMYK full color process label in small quantity and fast delivery time. </p>
-            <p><strong>The definition of the design, the deepness of the colors, and the quality of the printing will just be as good as the design you provide to us.</strong> Your design is directly digital printed on the layer. </p>
-            <p>Digital printing at QCS Asia is made with large industrial inkjet printer commonly used in Europe and North America especially in the doming industry.</p>
-            <p>Doming is similar in term of “full color printing process” to offset printing, using only CMYK color and spot colors, but brings great solutions to the problems brought by an offset printing production (high set up charge, big quantities only, & low durability)</p>
+            <?php print $field_multicolor_text[0]['value']; ?>
         </div>
     </div>
-    <div class="col-xs-12 col-md-7 margin-top-20">
+    <div class="col-xs-12 col-md-7 margin-top-20 padding-0">
         <div id="carousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
