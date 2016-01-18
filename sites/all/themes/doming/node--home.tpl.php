@@ -45,17 +45,17 @@
         $blocks = entity_load('field_collection_item', $list_item_ids);
         $i = 0;
         foreach ($blocks as $block) { ?>
-            <a href="<?php print url("node/".$block->field_block_link['und'][0]['url']) ?>" title="<?php print $block->field_block_link['und'][0]['title'] ?>">
+            <a href="<?php print url($block->field_block_link['und'][0]['url']) ?>" title="<?php print $block->field_block_link['und'][0]['title'] ?>">
                 <div class="block block-<?= ($i % 2 == 0 ? 'left' : 'right') ?> col-xs-12 col-md-6 border">
                     <div class="col-xs-12>"><h2><?php print $block->field_block_title['und'][0]['value']; ?></h2></div>
+                    <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
+                        <img class="margin-bottom-10" src="<?php print file_create_url($block->field_block_image['und'][0]['uri']); ?>" alt="<?php print $block->field_block_image['und'][0]['alt']; ?>" title="<?php print $block->field_block_image['und'][0]['title']; ?>" />
+                    </div>
                     <div  class="col-xs-12 col-sm-7 margin-top-10-xs padding-0">
                         <div class="text-block"> 
                             <?php print $block->field_block_text['und'][0]['value']; ?>
                         </div>
-                        <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more"><?php print $field_home_label_link_blocks[0]['value'] ?></span></p>
-                    </div>
-                    <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
-                        <img class="margin-bottom-10" src="<?php print file_create_url($block->field_block_image['und'][0]['uri']); ?>" alt="<?php print $block->field_block_image['und'][0]['alt']; ?>" title="<?php print $block->field_block_image['und'][0]['title']; ?>" />
+                        <p class="pull-right"><span class="glyphicon glyphicon-plus-sign"></span> <span class="link-read-more"><?php print $field_label_link_blocks[0]['value'] ?></span></p>
                     </div>
                 </div>
             </a><?php

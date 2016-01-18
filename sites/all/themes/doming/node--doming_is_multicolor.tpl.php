@@ -8,45 +8,24 @@
         </div>
     </div>
     <div class="col-xs-12 col-md-7 margin-top-20 padding-0">
-        <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div id="carousel" class="carousel slide" data-ride="carousel"><?php
+            $numItems = count($field_multicolor_slideshow); ?>
             <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel" data-slide-to="1"></li>
-              <li data-target="#carousel" data-slide-to="2"></li>
-              <li data-target="#carousel" data-slide-to="3"></li>
-              <li data-target="#carousel" data-slide-to="4"></li>
-              <li data-target="#carousel" data-slide-to="5"></li>
-              <li data-target="#carousel" data-slide-to="6"></li>
-              <li data-target="#carousel" data-slide-to="7"></li>
+            <ol class="carousel-indicators"><?php
+                for ($j = 0; $j < $numItems; $j++) { ?>
+                    <li data-target="#carousel" data-slide-to="<?= $j ?>" <?= ($j == 0 ? 'class="active"' : '') ?>></li><?php
+                } ?>
             </ol>
 
             <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/ADA-REKLAM-DOME.jpg") ?>" alt="Domed badges Ada recklam" title="Domed badges Ada recklam">
-                </div>
-                <div class="item">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/BENENUTS-DOME.jpg") ?>" alt="Domed decals Benenuts" title="Domed decals Benenuts">
-                </div>
-                <div class="item">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/BOTTLE-OPENER-DOME.jpg") ?>" alt="Domed labels Bottle opener" title="Domed labels Bottle opener">
-                </div>
-                <div class="item">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/BRAND-WEEK-DOME.jpg") ?>" alt="Resin stickers Brand week" title="Resin stickers Brand week">
-                </div>
-                <div class="item">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/BRASS-PRO-SHOPS-DOME.jpg") ?>" alt="Epoxy stickers Brass Pro shops" title="Epoxy stickers Brass Pro shops">
-                </div>
-                <div class="item">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/EVOCONTA-DOME.jpg") ?>" alt="Domed stickers Evoconta" title="Domed stickers Evoconta">
-                </div>
-                <div class="item">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/NUVIPA-DOME.jpg") ?>" alt="Dome labels Nuvipa" title="Dome labels Nuvipa">
-                </div>
-                <div class="item">
-                  <img src="<?php print url("/sites/default/files/doming-is-multicolor/SAMANES-DOME.jpg") ?>" alt="Doming stickers Samanes" title="Doming stickers Samanes">
-                </div>
+            <div class="carousel-inner" role="listbox"><?php
+                $i = 0; 
+                foreach ($field_multicolor_slideshow as $slide) { ?>
+                    <div class="item <?=($i == 0 ? 'active' : '') ?>">
+                        <img src="<?php print file_create_url($slide['uri']); ?>" alt="<?php print $slide['alt']; ?>" title="<?php print $slide['title']; ?>">
+                    </div><?php
+                    $i++;
+                } ?>
             </div>
 
             <!-- Controls -->
