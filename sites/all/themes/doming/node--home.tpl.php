@@ -51,7 +51,7 @@
                     <div class="col-xs-12 col-sm-5 text-center thumbnail border-none">
                         <img class="margin-bottom-10" src="<?php print file_create_url($block->field_block_image['und'][0]['uri']); ?>" alt="<?php print $block->field_block_image['und'][0]['alt']; ?>" title="<?php print $block->field_block_image['und'][0]['title']; ?>" />
                     </div>
-                    <div  class="col-xs-12 col-sm-7 margin-top-10-xs padding-0">
+                    <div  class="col-xs-12 col-sm-7 margin-top-10-xs">
                         <div class="text-block"> 
                             <?php print $block->field_block_text['und'][0]['value']; ?>
                         </div>

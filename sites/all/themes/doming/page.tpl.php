@@ -53,7 +53,7 @@
         </div>
     <?php endif; ?>
     <div class="margin-bottom-20">
-        <div class="footer-logo min-width-15-percent">
+        <div class="footer-logo min-width-15-percent" style="margin-left: 80px;">
             <img src="https://www.qcsasia.com/wp-content/uploads/2014/11/caefi.png">
         </div>
 
@@ -70,10 +70,6 @@
         </div>
         <div class="footer-logo min-width-20-percent">
             <img src="https://www.qcsasia.com/wp-content/uploads/2014/05/PPAI-logo-QCS.jpg">
-        </div>
-
-        <div class="footer-logo min-width-15-percent">
-            <img src="https://www.qcsasia.com/wp-content/uploads/2014/11/ippag.png">
         </div>
     </div>
 </div>
