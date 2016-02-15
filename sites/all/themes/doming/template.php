@@ -45,6 +45,13 @@ function doming_preprocess_node(&$variables) {
     //Add the JavaScript file.
     drupal_add_js(path_to_theme().'/js/jquery-ui.min.js', ['scope' => 'footer']);
     drupal_add_js(path_to_theme().'/js/layout_maker/component.js', ['scope' => 'footer', 'weight' => 1000]);
+    drupal_add_js(path_to_theme().'/js/layout_maker/custom.js', ['scope' => 'footer']);
+    drupal_add_js(path_to_theme().'/js/fileupload/jquery.iframe-transport.js', ['scope' => 'footer']);
+    drupal_add_js(path_to_theme().'/js/fileupload/jquery.ui.widget.js', ['scope' => 'footer']);
+    drupal_add_js(path_to_theme().'/js/fileupload/jquery.fileupload.js', ['scope' => 'footer']);
+    drupal_add_js(path_to_theme().'/js/fileupload/jquery.fileupload-process.js', ['scope' => 'footer']);
+    drupal_add_js(path_to_theme().'/js/fileupload/jquery.fileupload-image.js', ['scope' => 'footer']);
+    drupal_add_js(path_to_theme().'/js/fileupload/jquery.fileupload-validate.js', ['scope' => 'footer']);
 
     //Add the CSS file.
     drupal_add_css(path_to_theme().'/css/layout_maker/component.css');
@@ -52,6 +59,7 @@ function doming_preprocess_node(&$variables) {
     drupal_add_css(path_to_theme().'/css/layout_maker/doming.css');
     drupal_add_css(path_to_theme().'/css/layout_maker/normalize.css');
     drupal_add_css(path_to_theme().'/css/jquery-ui.min.css');
+    drupal_add_css(path_to_theme().'/css/jquery.fileupload.css');
     }
   
     drupal_add_js(path_to_theme().'/js/custom.js', ['scope' => 'footer']);

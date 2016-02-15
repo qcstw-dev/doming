@@ -1,5 +1,6 @@
 .component {
     color: #8BABBF;
+    text-align: center;
 }
 .white-image {
     display: none;
@@ -7,6 +8,9 @@
 #slider-vertical {
     float: right;
     height: 100%;
+}
+#slider-vertical, #slider-vertical span {
+    cursor: pointer;
 }
 .icon-rotate {
     margin-left: -6px;
