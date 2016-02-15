@@ -38,3 +38,21 @@ function doming_links__system_main_menu($variables) {
         </nav><?php
     }
 }
+
+function doming_preprocess_node(&$variables) {
+    $node = $variables['node'];
+    if ($node->type == 'layout_maker') {
+    //Add the JavaScript file.
+    drupal_add_js(path_to_theme().'/js/jquery-ui.min.js', ['scope' => 'footer']);
+    drupal_add_js(path_to_theme().'/js/layout_maker/component.js', ['scope' => 'footer', 'weight' => 1000]);
+
+    //Add the CSS file.
+    drupal_add_css(path_to_theme().'/css/layout_maker/component.css');
+    drupal_add_css(path_to_theme().'/css/layout_maker/demo.css');
+    drupal_add_css(path_to_theme().'/css/layout_maker/doming.css');
+    drupal_add_css(path_to_theme().'/css/layout_maker/normalize.css');
+    drupal_add_css(path_to_theme().'/css/jquery-ui.min.css');
+    }
+  
+    drupal_add_js(path_to_theme().'/js/custom.js', ['scope' => 'footer']);
+}

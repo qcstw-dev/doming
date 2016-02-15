@@ -1,0 +1,25 @@
+.component {
+    color: #8BABBF;
+}
+.white-image {
+    display: none;
+}
+#slider-vertical {
+    float: right;
+    height: 100%;
+}
+.icon-rotate {
+    margin-left: -6px;
+    position: absolute;
+    margin-top: -30px;
+}
+
+.change-color-product-block {
+    position: absolute;
+    bottom: 60px;
+    height: 50px;
+}
+.change-color-product {
+    height: 100%;
+    cursor: pointer;
+}   
