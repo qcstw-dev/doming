@@ -44,14 +44,17 @@ function doming_preprocess_node(&$variables) {
     if ($node->type == 'layout_maker') {
     //Add the JavaScript file.
     drupal_add_js(path_to_theme().'/js/jquery-ui.min.js', ['scope' => 'footer']);
-    drupal_add_js(path_to_theme().'/js/layout_maker/component.js', ['scope' => 'footer', 'weight' => 1000]);
+    drupal_add_js(path_to_theme().'/js/layout_maker/component.js', ['scope' => 'footer']);
     drupal_add_js(path_to_theme().'/js/layout_maker/custom.js', ['scope' => 'footer']);
+    drupal_add_js(path_to_theme().'/js/fileupload/load-image.all.min.js', ['scope' => 'footer']);
+    drupal_add_js(path_to_theme().'/js/fileupload/canvas-to-blob.min.js', ['scope' => 'footer']);
     drupal_add_js(path_to_theme().'/js/fileupload/jquery.iframe-transport.js', ['scope' => 'footer']);
     drupal_add_js(path_to_theme().'/js/fileupload/jquery.ui.widget.js', ['scope' => 'footer']);
     drupal_add_js(path_to_theme().'/js/fileupload/jquery.fileupload.js', ['scope' => 'footer']);
     drupal_add_js(path_to_theme().'/js/fileupload/jquery.fileupload-process.js', ['scope' => 'footer']);
     drupal_add_js(path_to_theme().'/js/fileupload/jquery.fileupload-image.js', ['scope' => 'footer']);
     drupal_add_js(path_to_theme().'/js/fileupload/jquery.fileupload-validate.js', ['scope' => 'footer']);
+    drupal_add_js(path_to_theme().'/js/fileupload/custom.js', ['scope' => 'footer']);
 
     //Add the CSS file.
     drupal_add_css(path_to_theme().'/css/layout_maker/component.css');

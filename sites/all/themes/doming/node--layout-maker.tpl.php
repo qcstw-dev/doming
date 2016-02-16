@@ -3,7 +3,7 @@
         <span class="btn btn-primary fileinput-button">
             <i class="glyphicon glyphicon-plus"></i>
             <span>Add files...</span>
-            <input id="fileupload" type="file" name="files[]" multiple>
+            <input id="fileupload" type="file" name="files[]" >
         </span>
         <div id="files" class="files"></div>
     </div>
@@ -12,12 +12,12 @@
             <div class="overlay">
                 <div class="overlay-inner">
                     <img class="white-image" src="<?php print path_to_theme().'/images/layout_maker/white.png' ?>" alt="product">
-                    <img class="overlay-img" src="<?php print path_to_theme().'/images/layout_maker/product.png' ?>" alt="product">
+                    <img class="overlay-img" src="<?php // print path_to_theme().'/images/layout_maker/product.png' ?>" alt="product">
                 </div>
             </div>
             <!-- This image must be on the same domain as the demo or it will not work on a local file system -->
             <!-- http://en.wikipedia.org/wiki/Cross-origin_resource_sharing -->
-            <img id="image" class="resize-image" src="<?php print path_to_theme().'/images/layout_maker/image.png' ?>" alt="image for resizing">
+            <img id="image" class="resize-image" src="<?php print path_to_theme().'/images/layout_maker/drag-and-drop.jpg' ?>" alt="image for resizing">
 
             <div id="slider-vertical">
                 <img class="icon-rotate" src="<?php print path_to_theme().'/images/layout_maker/reload.svg' ?>" alt="rotate">

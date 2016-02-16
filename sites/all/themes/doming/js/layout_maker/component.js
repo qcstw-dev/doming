@@ -2,7 +2,10 @@ if (window.location.protocol == 'file:') {
     alert('To test this demo properly please use a local server such as XAMPP or WAMP. See README.md for more details.');
 }
 
+var initialized = false;
+
 var resizeableImage = function (image_target) {
+    
     // Some variable and settings
     var $container,
             orig_src = new Image(),
@@ -20,27 +23,30 @@ var resizeableImage = function (image_target) {
             rotate_value = 0;
     
     init = function () {
-
         // When resizing, we will always use this copy of the original as the base
         orig_src.src = image_target.src;
-
-        // Wrap the image with the container and add resize handles
-        $(image_target).wrap('<div id="resize-container" class="resize-container"></div>')
-                .before('<span class="resize-handle resize-handle-nw"></span>')
-                .before('<span class="resize-handle resize-handle-ne"></span>')
-                .after('<span class="resize-handle resize-handle-se"></span>')
-                .after('<span class="resize-handle resize-handle-sw"></span>');
-
-        // Assign the container to a variable
-        $container = $(image_target).parent('.resize-container');
         
+        if (!initialized) {
+            // Wrap the image with the container and add resize handles
+            $(image_target).wrap('<div id="resize-container" class="resize-container"></div>')
+                    .before('<span class="resize-handle resize-handle-nw"></span>')
+                    .before('<span class="resize-handle resize-handle-ne"></span>')
+                    .after('<span class="resize-handle resize-handle-se"></span>')
+                    .after('<span class="resize-handle resize-handle-sw"></span>');
+            
+            $('.js-crop').on('click', crop);
+        }
+        
+        // Assign the container to a variable
         $container_overlay = $(image_overlay);
         $container_white_image = $(white_image);
+        $container = $(image_target).parent('.resize-container');
         
         // Add events
         $container.on('mousedown touchstart', '.resize-handle', startResize);
         $container.on('mousedown touchstart', 'img', startMoving);
-        $('.js-crop').on('click', crop);
+        
+        initialized = true;
     };
 
     startResize = function (e) {
@@ -245,5 +251,5 @@ var resizeableImage = function (image_target) {
     init();
 };
 
-// Kick everything off with the target image
-resizeableImage($('.resize-image'));
+//// Kick everything off with the target image
+//resizeableImage($('.resize-image'));
