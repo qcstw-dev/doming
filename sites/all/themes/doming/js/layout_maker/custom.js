@@ -11,7 +11,16 @@ $(function() {
         }
     });
 
-    $(".change-color-product").on("click", function () {
-       $(".overlay-img").attr("src", $(this).data('src')); 
+    $('.change-product').on('click', function () {
+        $('.change-color-product-block').show();
+        $('.preview-color').hide();
+        $('.'+$(this).data('product-ref')).show();
+        
+        $('.white-image').attr('src', $('.'+$(this).data('product-ref')).find('.custom-white-image').attr('src'));
+        $('.overlay-img').attr('src', $('.'+$(this).data('product-ref')).find('img').attr('src')); 
+    });
+
+    $('.change-color-product').on('click', function () {
+       $('.overlay-img').attr('src', $(this).attr('src')); 
     });
 });

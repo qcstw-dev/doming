@@ -28,7 +28,7 @@
                         <div class="thumbnail margin-bottom-10">
                             <img src="<?php print file_create_url($captioned_picture->field_image['und'][0]['uri']); ?>" alt="<?php print $captioned_picture->field_image['und'][0]['alt']; ?>" title="<?php $captioned_picture->field_image['und'][0]['title']; ?>" />
                         </div>
-                        <p class="subtitle-pic text-center"><?php print $captioned_picture->field_caption['und'][0]['value']?></p>
+                        <p class="subtitle-pic"><?php print $captioned_picture->field_caption['und'][0]['value']?></p>
                     </div><?php
                 } 
             } ?>
@@ -62,7 +62,7 @@
                         <div class="thumbnail margin-bottom-10">
                             <img src="<?php print file_create_url($captioned_picture->field_image['und'][0]['uri']); ?>" alt="<?php print $captioned_picture->field_image['und'][0]['alt']; ?>" title="<?php $captioned_picture->field_image['und'][0]['title']; ?>" />
                         </div>
-                        <p class="subtitle-pic text-center"><?php print $captioned_picture->field_caption['und'][0]['value']?></p>
+                        <p class="subtitle-pic"><?php print $captioned_picture->field_caption['und'][0]['value']?></p>
                     </div><?php
                 } 
             } ?>

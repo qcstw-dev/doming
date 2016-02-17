@@ -14,4 +14,19 @@ $(function() {
         $(this).find('.dropdown-menu').stop(true, true).hide();
         $(this).removeClass('focus');
     });
+    $(document).ready(function() {
+        $('.gallery-container').magnificPopup({
+          delegate: 'a', // child items selector, by clicking on it popup will open
+          type: 'image',
+          gallery:{enabled:true}
+        });
+        $('.popup-youtube').magnificPopup({
+          disableOn: 700,
+          type: 'iframe',
+          mainClass: 'mfp-fade',
+          removalDelay: 160,
+          preloader: false,
+          fixedContentPos: false
+        });
+      });
   });

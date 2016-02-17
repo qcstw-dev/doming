@@ -35,17 +35,10 @@
                             <a class="thumbnail" title="<?php print $captioned_picture->field_image['und'][0]['title'] ?>" href="<?php print file_create_url($captioned_picture->field_image['und'][0]['uri']); ?>">
                                 <img class="" src="<?php print file_create_url($captioned_picture->field_image['und'][0]['uri']); ?>" alt="<?php print $captioned_picture->field_image['und'][0]['alt'] ?>" title="<?php print $captioned_picture->field_image['und'][0]['title'] ?>" />
                             </a>
-                            <p class="subtitle-pic text-center"><?php print $captioned_picture->field_caption['und'][0]['value']?></p>
+                            <p class="subtitle-pic"><?php print $captioned_picture->field_caption['und'][0]['value']?></p>
                         </div><?php
                     } ?>
                 </div>
             </div><?php
         } ?>
 </div>
-<script>
-    $('.gallery-container').magnificPopup({
-      delegate: 'a', // child items selector, by clicking on it popup will open
-      type: 'image',
-      gallery:{enabled:true}
-    });
-</script>

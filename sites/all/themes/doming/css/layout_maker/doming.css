@@ -20,6 +20,14 @@
 
 .change-color-product-block {
     position: absolute;
+    bottom: 15px;
+    left: 15px;
+    display: none;
+}
+.preview-color {
+    display: none;
+}
+.change-color-product-block img {
     bottom: 60px;
     height: 50px;
 }

@@ -180,7 +180,11 @@ a {
     padding-right: 15px;
     padding-left: 15px;
 }
+.cursor-pointer {
+    cursor: pointer;
+}
 .margin-auto {
+    float: none;
     margin: auto;
 }
 .margin-top-0 {
