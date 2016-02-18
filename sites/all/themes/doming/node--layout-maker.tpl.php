@@ -1,7 +1,10 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-    
-    <div class="col-xs-12 padding-0 margin-top-20">
-        <div class="hidden-text-area">
+    <div class="col-xs-12 margin-top-20 padding-0" style="position: absolute;
+            z-index: 150;
+            background: white;">
+        <div class="hidden-text-area" style="border-width: 1px 1px 0px;
+            border-style: solid;
+            border-color: rgb(221, 221, 221);">
             <div class="change-product col-md-2 margin-bottom-0 thumbnail border-none cursor-pointer" data-product-ref="lyb">
                 <img class="col-xs-10 margin-auto border" src="<?php print path_to_theme().'/images/layout_maker/products/lyb/1.png' ?>" alt="LYB"/>
                 <p class="subtitle-pic">Lanyard’s button & badge #LYB206</p>
@@ -14,17 +17,14 @@
         </div>
         <div class="btn-show-hide-text-area"><span class="glyphicon glyphicon-menu-down"></span> Shapes available in layout maker <span class="glyphicon glyphicon-menu-down"></span></div>
     </div>
-    
-    <div class="col-xs-12 margin-top-20">
-        <span class="btn btn-primary fileinput-button">
-            <i class="glyphicon glyphicon-plus"></i>
-            <span>Add files...</span>
-            <input id="fileupload" type="file" name="files[]" >
-        </span>
-        <div id="files" class="files"></div>
-    </div>
-    <div class="col-xs-12 margin-top-20">
+    <div class="col-xs-12 margin-top-70">
         <div class="component">
+            <span class="btn btn-primary fileinput-button">
+                <i class="glyphicon glyphicon-plus"></i>
+                <span>Add your logo...</span>
+                <input id="fileupload" type="file" name="files[]" >
+            </span>
+            <div id="files" class="files"></div>
             <div class="overlay">
                 <div class="overlay-inner">
                     <img class="white-image" src="" alt="">
@@ -36,8 +36,8 @@
                 <img class="icon-rotate" src="<?php print path_to_theme().'/images/layout_maker/reload.svg' ?>" alt="rotate">
             </div>
 
-            <div class="change-color-product-block">
-                <p>Change product's color:</p>
+            <div class="change-color-product-block text-left">
+                <p>Colors available:</p>
                 <div class="preview-color lyb">
                     <img class="change-color-product" src="<?php print path_to_theme().'/images/layout_maker/products/lyb/1.png' ?>" alt="preview product green" />
                     <img class="change-color-product" src="<?php print path_to_theme().'/images/layout_maker/products/lyb/2.png' ?>" alt="preview product red" />

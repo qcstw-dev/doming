@@ -2,7 +2,12 @@
     color: #8BABBF;
     text-align: center;
 }
-.white-image {
+.component .fileinput-button {
+    top: 20px;
+    left: 40px;
+    position: absolute;
+}
+.white-image, .custom-white-image {
     display: none;
 }
 #slider-vertical {
