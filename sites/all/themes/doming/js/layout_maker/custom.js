@@ -27,4 +27,16 @@ $(function() {
     $('.change-color-product').on('click', function () {
        $('.overlay-img').attr('src', $(this).attr('src')); 
     });
+    
+    var drop = document.getElementById("component");
+    drop.addEventListener("dragover", dashing_component, false);
+    drop.addEventListener("dragleave", undashing_component,false);
+    drop.addEventListener("drop", undashing_component,false);
+
+    function dashing_component() {
+      drop.style.border = '3px dashed #D9534F';
+    };
+    function undashing_component() {
+      drop.style.border = '3px solid #E8E8E8';
+    };
 });

@@ -3,15 +3,11 @@ $(function () {
         dataType: 'json',
         autoUpload: false,
         acceptFileTypes: /(\.|\/)(gif|jpe?g|png)$/i,
-        maxFileSize: 10000000000000000,
-        // Enable image resizing, except for Android and Opera,
-        // which actually support image resizing, but fail to
-        // send Blob objects via XHR requests:
-        disableImageResize: /Android(?!.*Chrome)|Opera/
-                .test(window.navigator.userAgent),
         previewMaxWidth: 800,
-        previewMaxHeight: 900,
-        previewCrop: false
+        previewMaxHeight: 400,
+        previewThumbnail: false,
+        previewCrop: false,
+        imageCrop: false
     }).on('fileuploadadd', function (e, data) {
 
         data.context = $('#files');

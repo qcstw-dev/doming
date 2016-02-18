@@ -18,7 +18,7 @@
         <div class="btn-show-hide-text-area"><span class="glyphicon glyphicon-menu-down"></span> Shapes available in layout maker <span class="glyphicon glyphicon-menu-down"></span></div>
     </div>
     <div class="col-xs-12 margin-top-70">
-        <div class="component">
+        <div id="component" class="component">
             <span class="btn btn-primary fileinput-button">
                 <i class="glyphicon glyphicon-plus"></i>
                 <span>Add your logo...</span>
@@ -50,7 +50,7 @@
             </div>
 
             <div class="clear"></div>
-            <button class="btn btn-primary btn-crop js-crop">Export image<img class="icon-crop" src="<?php print path_to_theme().'/images/layout_maker/crop.svg' ?>"  alt="crop"></button>
+            <button class="btn btn-primary btn-crop js-crop">Preview & export <img class="icon-crop" src="<?php print path_to_theme().'/images/layout_maker/crop.svg' ?>"  alt="crop"></button>
         </div>
     </div>
 </div>

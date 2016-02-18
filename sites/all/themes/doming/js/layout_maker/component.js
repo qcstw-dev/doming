@@ -244,7 +244,27 @@ var resizeableImage = function (image_target) {
         crop_canvas.getContext('2d').drawImage(image_target, left, top, width, height, 0, 0, width, height);
         crop_canvas.getContext('2d').drawImage(white_image, left_white_image, top_white_image, width, height, 0, 0, width, height);
         crop_canvas.getContext('2d').drawImage(image_overlay, left_overlay, top_overlay, width, height, 0, 0, width, height);
-        window.open(crop_canvas.toDataURL("image/png"));
+        
+        $.magnificPopup.open({
+            items: [{
+                src: $('<div class="white-popup">'+
+                        '<div><img src="'+crop_canvas.toDataURL("image/png")+'" /></div>'+
+                        '<div class="margin-top-10 text-right"><span class="export-image btn btn-primary" data-src-image="'+crop_canvas.toDataURL("image/png")+'">Export <span class="glyphicon glyphicon-download-alt"></span></span></div>'+
+                     '</div>'),
+                type:'inline'
+                    
+            }]
+        });
+        
+        $('.export-image').on('click', function () {
+           var a = $("<a>")
+                .attr("href", $(this).data('src-image'))
+                .attr("download", "doming-stickers-preview-layout.png")
+                .appendTo("body");
+            a[0].click();
+            a.remove();
+        });
+//        window.open(crop_canvas.toDataURL("image/png"));
         $(".white-image").hide();
     }
 

@@ -9,9 +9,12 @@
     display: block
 }
 
-.resize-container:hover img,
+/*.resize-container:hover img,
 .resize-container:active img {
     outline: 2px dashed rgba(222,60,80,.9);
+}*/
+.resize-container img {
+    outline: 2px dashed #D9534F;
 }
 
 .resize-handle-ne,
@@ -141,7 +144,7 @@
 .btn-crop {
 	position: absolute;
 	vertical-align: bottom;
-	right: 5px;
+	right: 30px;
 	bottom: 5px;
 }
 
