@@ -38,6 +38,21 @@ function doming_links__system_main_menu($variables) {
         </nav><?php
     }
 }
+function doming_breadcrumb($variables) {
+  $breadcrumb = $variables['breadcrumb'];
+  if (!empty($breadcrumb)) {
+    $title = drupal_get_title();
+    if (!empty($title)) {
+      $breadcrumb[]=$title;
+    }
+    // Provide a navigational heading to give context for breadcrumb links to
+    // screen-reader users. Make the heading invisible with .element-invisible.
+    $output = '<h2 class="element-invisible">' . t('You are here') . '</h2>';
+
+    $output = implode(' » ', $breadcrumb);
+    return $output;
+  }
+}
 
 function doming_preprocess_node(&$variables) {
     $node = $variables['node'];

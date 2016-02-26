@@ -1809,7 +1809,8 @@ function theme_links($variables) {
     foreach ($links as $key => $link) {
       $class = array($key);
 
-      // Add first, last and active classes to the list of links to help out themers.
+      // Add first, last and active classes to the list of links to help out
+      // themers.
       if ($i == 1) {
         $class[] = 'first';
       }
@@ -1827,7 +1828,8 @@ function theme_links($variables) {
         $output .= l($link['title'], $link['href'], $link);
       }
       elseif (!empty($link['title'])) {
-        // Some links are actually not links, but we wrap these in <span> for adding title and class attributes.
+        // Some links are actually not links, but we wrap these in <span> for
+        // adding title and class attributes.
         if (empty($link['html'])) {
           $link['title'] = check_plain($link['title']);
         }
@@ -1894,17 +1896,13 @@ function theme_image($variables) {
  */
 function theme_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
-  
+
   if (!empty($breadcrumb)) {
-    $title = drupal_get_title();
-    if (!empty($title)) {
-      $breadcrumb[]=$title;
-    }
     // Provide a navigational heading to give context for breadcrumb links to
     // screen-reader users. Make the heading invisible with .element-invisible.
     $output = '<h2 class="element-invisible">' . t('You are here') . '</h2>';
 
-    $output = implode(' » ', $breadcrumb);
+    $output .= '<div class="breadcrumb">' . implode(' » ', $breadcrumb) . '</div>';
     return $output;
   }
 }
