@@ -44,7 +44,9 @@
         }
         $blocks = entity_load('field_collection_item', $list_item_ids);
         $i = 0;
-        foreach ($blocks as $block) { ?>
+        $j = 1;
+        foreach ($blocks as $block) { 
+        if ($j % 2 == 0) { ?> <div class="row"> <?php } ?>
             <a href="<?php print url($block->field_block_link['und'][0]['url']) ?>" title="<?php print $block->field_block_link['und'][0]['title'] ?>">
                 <div class="block block-<?= ($i % 2 == 0 ? 'left' : 'right') ?> col-xs-12 col-md-6 border">
                     <div class="col-xs-12>"><h2><?php print $block->field_block_title['und'][0]['value']; ?></h2></div>
@@ -59,7 +61,9 @@
                     </div>
                 </div>
             </a><?php
+        if ($j % 2 == 0) { ?></div><?php }
             $i++;
+            $j++;
         } ?>
     </div>
         <?php
