@@ -54,7 +54,7 @@
         </div>
 <?php endif; ?>
     <div class="margin-bottom-20">
-        <div class="footer-logo min-width-15-percent" style="margin-left: 80px;">
+        <div class="footer-logo footer-logo-first min-width-15-percent">
             <img src="<?= base_path() . path_to_theme() . "/images/footer/caefi.png" ?>">
         </div>
 

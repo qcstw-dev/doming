@@ -24,7 +24,7 @@
 <h2>Contact us</h2>
 <div class="error-message">Please inform fields marked in red</div>
 <div class="error-message-email">Please enter a valid email address</div>
-<div class="col-xs-12 col-sm-offset-3 col-sm-6 margin-top-10"><?php
+<div class="col-xs-12 col-md-offset-3 col-md-6 margin-top-10"><?php
     // Print out the progress bar at the top of the page
     print drupal_render($form['progressbar']);
     // Print out the preview message if on the preview page.

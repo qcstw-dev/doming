@@ -10,6 +10,7 @@
             $ip = "61.220.251.250";
             // test china
 //            $ip = "113.100.99.221";
+//            $ip = "119.125.229.236";
         }
 //        $sqlQuerySelect = "SELECT ip FROM ip_blocked WHERE ip = '".$ip."'";
         $retrievedIp = db_select('ip_blocked')
@@ -72,6 +73,7 @@
   <?php print $scripts; ?>
   <meta property="og:image" content="http://doming-stickers.com/sites/default/files/home/doming.jpg" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="fFhbgxm3P5s57G39zbyFiJlqgNokvMBqMF8-q7NLrmU" />
   <link rel="sitemap" href="/sitemap.xml" />
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?> <?= (!user_is_logged_in() ? 'oncontextmenu="return false"' : '') ?>>
