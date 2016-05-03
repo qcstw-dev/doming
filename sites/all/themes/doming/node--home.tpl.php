@@ -15,7 +15,7 @@
                     $i = 0; 
                     foreach ($field_home_slideshow as $slide) { ?>
                         <div class="item <?=($i == 0 ? 'active' : '') ?>">
-                            <img src="<?php print file_create_url($slide['uri']); ?>" alt="<?php print $slide['alt']; ?>" title="<?php print $slide['title']; ?>">
+                            <img src="<?php print file_create_url($slide['uri']); ?>" alt="<?php print $slide['alt']; ?>" title="<?php print $slide['title']; ?>" />
                         </div><?php
                         $i++;
                     } ?>

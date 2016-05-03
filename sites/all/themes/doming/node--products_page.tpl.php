@@ -8,7 +8,7 @@
                 $product = $field_product['taxonomy_term']; ?>
                 <div class="col-md-4 thumbnail border block-product">
                     <div class="thumbnail border-none">
-                        <img class="" src="<?php print file_create_url($product->field_product_image['und'][0]['uri']) ?>" alt="<?php $product->field_product_image['und'][0]['alt'] ?>" title="<?php $product->field_product_image['und'][0]['title'] ?>"/>
+                        <img class="" src="<?php print file_create_url($product->field_product_image['und'][0]['uri']) ?>" alt="<?= $product->field_product_image['und'][0]['alt'] ?>" title="<?= $product->field_product_image['und'][0]['title'] ?>"/>
                     </div>
                     <h3 class="text-center"><?php print $product->name ?></h3>
                     <div class="padding">

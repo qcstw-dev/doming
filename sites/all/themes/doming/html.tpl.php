@@ -76,7 +76,7 @@
   <meta name="google-site-verification" content="fFhbgxm3P5s57G39zbyFiJlqgNokvMBqMF8-q7NLrmU" />
   <link rel="sitemap" href="/sitemap.xml" />
 </head>
-<body class="<?php print $classes; ?>" <?php print $attributes;?> <?= (!user_is_logged_in() ? 'oncontextmenu="return false"' : '') ?>>
+<body class="<?php print $classes; ?>" <?php print $attributes;?> <?= (!user_is_logged_in() && $_SERVER['HTTP_HOST'] != 'localhost' ? 'oncontextmenu="return false"' : '') ?>>
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
   </div>

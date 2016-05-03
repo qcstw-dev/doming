@@ -55,22 +55,22 @@
 <?php endif; ?>
     <div class="margin-bottom-20">
         <div class="footer-logo footer-logo-first min-width-15-percent">
-            <img src="<?= base_path() . path_to_theme() . "/images/footer/caefi.png" ?>">
+            <img src="<?= base_path() . path_to_theme() . "/images/footer/caefi.png" ?>" />
         </div>
 
         <div class="footer-logo min-width-15-percent">
-            <img src="<?= base_path() . path_to_theme() . "/images/footer/eppa.png" ?>">
+            <img src="<?= base_path() . path_to_theme() . "/images/footer/eppa.png" ?>" />
         </div>
 
         <div class="footer-logo min-width-10-percent">
-            <img src="<?= base_path() . path_to_theme() . "/images/footer/promota300.jpg" ?>">
+            <img src="<?= base_path() . path_to_theme() . "/images/footer/promota300.jpg" ?>" />
         </div>
 
         <div class="footer-logo min-width-15-percent">
-            <img src="<?= base_path() . path_to_theme() . "/images/footer/sedex_trans.jpg" ?>">
+            <img src="<?= base_path() . path_to_theme() . "/images/footer/sedex_trans.jpg" ?>" />
         </div>
         <div class="footer-logo min-width-20-percent">
-            <img src="<?= base_path() . path_to_theme() . "/images/footer/PPAI-logo-QCS.jpg" ?>">
+            <img src="<?= base_path() . path_to_theme() . "/images/footer/PPAI-logo-QCS.jpg" ?>" />
         </div>
     </div>
 </div>

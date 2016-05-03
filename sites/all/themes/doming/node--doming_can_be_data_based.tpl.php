@@ -14,7 +14,7 @@
             foreach ($captioned_pictures as $captioned_picture) { ?>
                 <div class="col-sm-4 col-md-4">
                     <div class="thumbnail margin-auto">
-                        <img src="<?php print file_create_url($captioned_picture->field_image['und'][0]['uri']) ?>" alt="<?php print $captioned_picture->field_image['und'][0]['alt'] ?>" title="<?php print $captioned_picture->field_image['und'][0]['title'] ?>">
+                        <img src="<?php print file_create_url($captioned_picture->field_image['und'][0]['uri']) ?>" alt="<?php print $captioned_picture->field_image['und'][0]['alt'] ?>" title="<?php print $captioned_picture->field_image['und'][0]['title'] ?>" />
                     </div>
                     <p class="subtitle-pic margin-top-10"><?php print $captioned_picture->field_caption['und'][0]['value'] ?></p>
                 </div><?php                

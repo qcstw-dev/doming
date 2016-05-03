@@ -12,7 +12,7 @@ function doming_links__system_main_menu($variables) {
                     </button>
                     <span class="navbar-brand visible-xs">Menu</span>
                 </div>
-                <div class="navbar-collapse collapse padding-sm-0" id="bs-example-navbar-collapse-1" aria-expanded="false">
+                <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false">
                     <ul class="nav navbar-nav"><?php
                         foreach ($variables['links'] as $link) { ?>
                         <li class="<?= ($link['below'] ? 'dropdown' : '') ?><?= (($_SERVER["REQUEST_URI"] === url($link['link']['link_path']) && $link['link']['href'] != '<front>') ? ' active': '') ?>">
