@@ -13,6 +13,10 @@
                 <img class="col-xs-10 margin-auto border" src="<?php print path_to_theme().'/images/layout_maker/products/zmr/1.png' ?>" alt="ZMR"/>
                 <p class="subtitle-pic">Zamac multi-ring keychain #ZMR205</p>
             </div>
+            <div class="change-product col-md-2 margin-bottom-0 thumbnail border-none cursor-pointer" data-product-ref="zop8">
+                <img class="col-xs-10 margin-auto border" src="<?php print path_to_theme().'/images/layout_maker/products/zop8/1.png' ?>" alt="ZMR"/>
+                <p class="subtitle-pic">#ZOP8</p>
+            </div>
             <div class="clearfix"></div>
         </div>
         <div class="btn-show-hide-text-area"><span class="glyphicon glyphicon-menu-down"></span> Shapes available in layout maker <span class="glyphicon glyphicon-menu-down"></span></div>
@@ -46,6 +50,9 @@
                 <div class="preview-color zmr">
                     <img class="change-color-product" src="<?php print path_to_theme().'/images/layout_maker/products/zmr/1.png' ?>" alt="preview product" />
                     <img class="custom-white-image" src="<?php print path_to_theme().'/images/layout_maker/products/zmr/white.png' ?>" alt="">
+                </div>
+                <div class="preview-color zop8">
+                    <img class="change-color-product" src="<?php print path_to_theme().'/images/layout_maker/products/zop8/1.png' ?>" alt="preview product" />
                 </div>
             </div>
 

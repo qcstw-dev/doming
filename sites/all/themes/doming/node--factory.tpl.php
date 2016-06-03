@@ -35,7 +35,7 @@
                             <a class="thumbnail" title="<?php print $captioned_picture->field_image['und'][0]['title'] ?>" href="<?php print file_create_url($captioned_picture->field_image['und'][0]['uri']); ?>">
                                 <img class="" src="<?php print file_create_url($captioned_picture->field_image['und'][0]['uri']); ?>" alt="<?php print $captioned_picture->field_image['und'][0]['alt'] ?>" title="<?php print $captioned_picture->field_image['und'][0]['title'] ?>" />
                             </a>
-                            <p class="subtitle-pic"><?php print $captioned_picture->field_caption['und'][0]['value']?></p>
+                            <div class="subtitle-pic"><?php print $captioned_picture->field_caption['und'][0]['value']?></div>
                         </div><?php
                     } ?>
                 </div>

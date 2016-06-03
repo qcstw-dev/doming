@@ -35,9 +35,9 @@
                 $_SESSION['country'] = '';
             }
             if (in_array($_SESSION['country'], ['CN', 'KR', 'KP', 'TR', 'IN'])) {
-                $sqlQuery = "INSERT INTO ip_blocked (ip, country, date) VALUES ('".$ip."', '".$_SESSION['country']."', CURRENT_TIME)";
+                $sqlQuery = "INSERT IGNORE INTO ip_blocked (ip, country) VALUES ('".$ip."', '".$_SESSION['country']."')";
             } else {
-                $sqlQuery = "INSERT INTO ip_unblocked (ip, country, date) VALUES ('".$ip."', '".$_SESSION['country']."', CURRENT_TIME)";
+                $sqlQuery = "INSERT IGNORE INTO ip_unblocked (ip, country) VALUES ('".$ip."', '".$_SESSION['country']."')";
             }
             db_query($sqlQuery);
             

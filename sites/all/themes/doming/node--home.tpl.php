@@ -68,7 +68,7 @@
     </div>
         <?php
     $response_xml_data = file_get_contents("https://www.qcsasia.com/rss-posts/");
-    $posts = simplexml_load_string($response_xml_data) or die("Error: Cannot create object");
+    $posts = simplexml_load_string($response_xml_data);
     if ($posts) { ?>
         <div class="col-xs-12 padding-0">
             <h3><?php print $field_home_tile_qcs_asia_posts[0]['value'] ?></h3>

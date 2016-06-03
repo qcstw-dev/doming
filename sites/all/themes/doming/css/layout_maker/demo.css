@@ -35,10 +35,10 @@ a:hover, a:focus {
 
 .component {
     position: relative;
-    background: url(../../images/layout_maker/gridme.png) repeat center center;
-    /*background: #FFF;*/
+    /*background: url(../../images/layout_maker/gridme.png) repeat center center;
+    background: #FFF;*/
     padding: 4em;
-    height: 500px;
+    height: 700px;
     border: 3px solid #E8E8E8;
     max-width: 100%;
     overflow: hidden;

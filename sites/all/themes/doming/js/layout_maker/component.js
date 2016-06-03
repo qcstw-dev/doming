@@ -29,6 +29,10 @@ var resizeableImage = function (image_target) {
         if (!initialized) {
             // Wrap the image with the container and add resize handles
             $(image_target).wrap('<div id="resize-container" class="resize-container"></div>')
+                    .before('<span class="border-dashed-top"></span>')
+                    .before('<span class="border-dashed-right"></span>')
+                    .before('<span class="border-dashed-left"></span>')
+                    .before('<span class="border-dashed-bottom"></span>')
                     .before('<span class="resize-handle resize-handle-nw"></span>')
                     .before('<span class="resize-handle resize-handle-ne"></span>')
                     .after('<span class="resize-handle resize-handle-se"></span>')
@@ -247,7 +251,7 @@ var resizeableImage = function (image_target) {
         
         $.magnificPopup.open({
             items: [{
-                src: $('<div class="white-popup">'+
+                src: $('<div class="popup">'+
                         '<div><img src="'+crop_canvas.toDataURL("image/png")+'" /></div>'+
                         '<div class="margin-top-10 text-right"><span class="export-image btn btn-primary" data-src-image="'+crop_canvas.toDataURL("image/png")+'">Export <span class="glyphicon glyphicon-download-alt"></span></span></div>'+
                      '</div>'),
