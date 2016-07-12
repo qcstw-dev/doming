@@ -67,7 +67,7 @@
         } ?>
     </div>
         <?php
-    $response_xml_data = file_get_contents("https://www.qcsasia.com/rss-posts/");
+    $response_xml_data = file_get_contents("https://www.qcsasia.com/rss_news");
     $posts = simplexml_load_string($response_xml_data);
     if ($posts) { ?>
         <div class="col-xs-12 padding-0">
