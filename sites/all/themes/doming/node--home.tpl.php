@@ -69,13 +69,14 @@
         <?php
     $response_xml_data = file_get_contents("https://www.qcsasia.com/rss_news");
     $posts = simplexml_load_string($response_xml_data);
-    if ($posts) { ?>
+    if ($posts) {?>
         <div class="col-xs-12 padding-0">
             <h3><?php print $field_home_tile_qcs_asia_posts[0]['value'] ?></h3>
         </div>
         <div class="col-xs-12 padding-0 blocks qcs-news-block"><?php
             $i = 0;
-            foreach ($posts as $post) { ?>
+            foreach ($posts as $post) { 
+                $post->title = urldecode($post->title); ?>
                 <a href="<?= $post->url ?>" title="<?= $post->title ?>" >
                     <div class="col-sm-3">
                         <div class="col-xs-12 thumbnail">
