@@ -15,17 +15,33 @@ $(function() {
     });
 
     $('.change-product').on('click', function () {
+        //reset image exemple import
+        if ($('.resize-image').data('is-first-image')) {
+            $('.resize-image').attr('src', '');
+            $('.resize-image').data('is-first-image', 0);
+        }
         $('.btn-show-hide-text-area').trigger('click');
-        $('.change-color-product-block').show();
-        $('.preview-color').hide();
-        $('.'+$(this).data('product-ref')).show();
-        
-        $('.white-image').attr('src', $('.'+$(this).data('product-ref')).find('.custom-white-image').attr('src'));
-        $('.overlay-img').attr('src', $('.'+$(this).data('product-ref')).find('img').attr('src')); 
+        $('.product-title').hide();
+        $('.product-title-'+$(this).data('product-id')).show();
+        $('.change-color-product-block').hide();
+        $('.change-color-product-block.'+$(this).data('product-id')).show();
+        $('.overlay-img').attr('src', $(this).data('image-large'));
+        $('.overlay').data('ref', $(this).data('ref'));
+        $('.overlay').data('item-size', $(this).data('item-size'));
+        $('.overlay').data('logo-size', $(this).data('logo-size'));
+        $('.overlay').data('product-id', $(this).data('product-id'));
     });
 
     $('.change-color-product').on('click', function () {
-       $('.overlay-img').attr('src', $(this).attr('src')); 
+        if ($('.resize-image').data('is-first-image')) {
+            $('.resize-image').attr('src', '');
+            $('.resize-image').data('is-first-image', 0);
+        }
+        $('.overlay-img').attr('src', $(this).data('image-large')); 
+        $('.overlay').data('item-size', $(this).data('item-size'));
+        $('.overlay').data('logo-size', $(this).data('logo-size'));
+        $('.overlay').data('product-id', $(this).data('product-id'));
+        $('.overlay').data('ref', $(this).data('ref'));
     });
     
     var drop = document.getElementById("component");
@@ -34,9 +50,15 @@ $(function() {
     drop.addEventListener("drop", undashing_component,false);
 
     function dashing_component() {
-      drop.style.border = '3px dashed #D9534F';
+      drop.style.border = '3px dashed #38B15D';
     };
     function undashing_component() {
-      drop.style.border = '3px solid #E8E8E8';
+      drop.style.border = '3px solid #e9e9e9';
     };
+});
+
+$('.block-color-product').hover(function (){
+    $(this).find('.block-layout-maker-info').stop(true, true).slideDown();
+}, function () {
+    $(this).find('.block-layout-maker-info').stop(true, true).slideUp();
 });

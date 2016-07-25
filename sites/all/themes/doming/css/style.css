@@ -7,9 +7,7 @@
     font-family: DfKaiSB;
 }
 body {
-    /*background-color: #E8E8E8;*/
     color: #555;
-    font-size: 16px;
 }
 ul{
     padding-left: 18px;
@@ -68,6 +66,24 @@ ol, .breadcrumb {
 }
 a {
     color: #d9534f;
+}
+.background-dark-grey {
+    background: #e4e4e4;
+}
+.background-white {
+    background: #fff;
+}
+.position-absolute {
+    position: absolute;
+}
+.z-index-150 {
+    z-index: 150;
+}
+.thumbnail-hover:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.19);
+}
+.thumbnail-hover {
+    cursor: pointer;
 }
 .navbar-default {
     border-radius: 0;

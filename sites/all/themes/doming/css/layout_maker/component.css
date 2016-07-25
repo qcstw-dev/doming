@@ -174,13 +174,34 @@
 }
 
 .btn-crop {
-	position: absolute;
-	vertical-align: bottom;
-	right: 30px;
-	bottom: 5px;
+    position: absolute;
+    vertical-align: bottom;
+    right: 30px;
+    bottom: 5px;
+}
+.btn-crop-all {
+    right: 200px;
 }
 
 .btn-crop img {
 	vertical-align: middle;
 	margin-left: 8px;
+}
+.export-image {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.block-layout-maker-info {
+    display: none;
+    position: absolute;
+    background: #fff;
+    top: 80px;
+    border: 1px solid #ddd;
+    border-top: 0;
+    width: 74%;
+    font-size: 11px;
+    padding: 6px;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0 rgba(0, 0, 0, 0.1);
 }

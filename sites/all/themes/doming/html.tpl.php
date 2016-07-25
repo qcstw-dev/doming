@@ -79,6 +79,7 @@ if (in_array($_SESSION['country'], ['CN', 'KR', 'KP', 'TR', 'IN'])) {
   <meta property="og:image" content="http://doming-stickers.com/sites/default/files/home/doming.jpg" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="fFhbgxm3P5s57G39zbyFiJlqgNokvMBqMF8-q7NLrmU" />
+  <meta name="msvalidate.01" content="8756BB9222C8487BADF4ECD837762676" />
   <link rel="sitemap" href="/sitemap.xml" />
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?> <?= (!user_is_logged_in() && $_SERVER['HTTP_HOST'] != 'localhost' ? 'oncontextmenu="return false"' : '') ?>>
