@@ -22,7 +22,7 @@
             </div>
             <div class="change-color-product-block text-left col-xs-3 background-white position-absolute preview-color" style="display: block">
                 <div class="col-xs-12 padding-0 border margin-bottom-10" style="overflow: auto">
-                    <div class="subtitle-pic margin-top-0 margin-bottom-10">Colors available:</div>       
+                    <div class="subtitle-pic margin-top-0 margin-bottom-10">Shapes available:</div>       
                     <div class="col-xs-6 block-color-product">
                         <div class="thumbnail thumbnail-hover">
                             <img class="change-color-product 366" 
@@ -455,5 +455,4 @@
         <div class="clear"></div>
         <button class="btn btn-primary btn-crop js-crop">Preview & export <img class="icon-crop" src="<?php print path_to_theme() . '/images/layout_maker/crop.svg' ?>"  alt="crop"></button>
     </div>
-</div>
 </div>
