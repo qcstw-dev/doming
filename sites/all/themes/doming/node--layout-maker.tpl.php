@@ -1,5 +1,5 @@
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-    <div class="col-xs-12 margin-top-20">
+    <div class="col-xs-12 padding-0 margin-top-20">
         <div id="component" class="component">
             <span class="btn btn-primary fileinput-button">
                 <i class="glyphicon glyphicon-plus"></i>
@@ -17,9 +17,6 @@
                 </div>
             </div>
             <img id="image" class="resize-image" data-is-first-image="1" src="<?php print path_to_theme() . '/images/layout_maker/drag-and-drop.png' ?>" alt="image for resizing">
-            <div id="slider-vertical">
-                <img class="icon-rotate" src="<?php print path_to_theme() . '/images/layout_maker/reload.svg' ?>" alt="rotate">
-            </div>
             <div class="change-color-product-block text-left col-xs-3 background-white position-absolute preview-color" style="display: block">
                 <div class="col-xs-12 padding-0 border margin-bottom-10" style="overflow: auto">
                     <div class="subtitle-pic margin-top-0 margin-bottom-10">Shapes available:</div>       
@@ -454,5 +451,6 @@
         </div>
         <div class="clear"></div>
         <button class="btn btn-primary btn-crop js-crop">Preview & export <img class="icon-crop" src="<?php print path_to_theme() . '/images/layout_maker/crop.svg' ?>"  alt="crop"></button>
+        <button class="btn btn-primary margin-left-10 btn-rotate rotate"><span class="glyphicon glyphicon-repeat"></span> Rotate</button>
     </div>
 </div>
