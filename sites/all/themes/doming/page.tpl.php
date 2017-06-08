@@ -43,18 +43,27 @@
             <ol class="breadcrumb hidden-print"><?php print $breadcrumb; ?></ol>
         <?php endif; ?>
         <div class="col-xs-12 padding-0"><?php
-//                  var_dump($page['content']['system_main']['nodes'][2]['#node']->metatags);
             print render($page['content']);
             ?>
         </div>
     </div>
         <?php if ($page['footer']): ?>
         <div id="footer" class="col-xs-12">
-        <?php print render($page['footer']); ?>
+            <div class="col-xs-9">
+                <?php print render($page['footer']); ?>
+            </div>
+            <div class="col-xs-3 font-size-13 bottom-right position-absolute bottom-right text-right margin-bottom-10">
+                <div>    
+                    B to C website: <a href="https://www.giftattitude.com" target="_blank">www.giftattitude.com</a>
+                </div>
+                <div>    
+                    QCS website: <a href="https://www.qcsasia.com" target="_blank">www.qcsasia.com</a>
+                </div>
+            </div>
         </div>
 <?php endif; ?>
     <div class="margin-bottom-20">
-        <div class="col-xs-offset-1 col-xs-2 thumbnail border-none">
+        <div class="col-xs-offset-2 col-xs-2 thumbnail border-none">
             <img src="<?= base_path() . path_to_theme() . "/images/footer/caefi.jpg" ?>" alt="caefi" title="caefi" />
         </div>
 
@@ -68,9 +77,6 @@
 
         <div class="col-xs-2 thumbnail border-none">
             <img src="<?= base_path() . path_to_theme() . "/images/footer/sedex_trans.jpg" ?>" alt="sedex" title="sedex" />
-        </div>
-        <div class="col-xs-2 thumbnail border-none">
-            <img src="<?= base_path() . path_to_theme() . "/images/footer/PPAI-logo-QCS.jpg" ?>" alt="PPAI" title="PPAI" />
         </div>
     </div>
 </div>
