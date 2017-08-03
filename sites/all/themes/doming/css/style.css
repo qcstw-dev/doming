@@ -76,6 +76,10 @@ a {
 .position-absolute {
     position: absolute;
 }
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
 .z-index-150 {
     z-index: 150;
 }
@@ -170,6 +174,9 @@ a {
 }
 .font-size-20 {
     font-size: 20px;
+}
+.font-size-13 {
+    font-size: 13px !important;
 }
 .height-150 {
     min-height: 150px !important;
@@ -500,6 +507,9 @@ a {
     margin-bottom: 15px;
     padding-top: 15px;
     background: #d9534f;
+    color: #fff;
+}
+#footer a{
     color: #fff;
 }
 .footer-logo {

@@ -1,4 +1,17 @@
-<div id="main-content" class="container">
+<div id="main-content" class="container"><?php
+    if (!isset($_SESSION['lang'])) {
+        if(strpos(explode(',', $_SERVER['HTTP_ACCEPT_LANGUAGE'])[0], 'zh') !== false) {
+            $_SESSION['lang'] = 'cn';
+            header('Location: '.$_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'cn');
+        } else {
+            $_SESSION['lang'] = 'en';
+        }
+    } ?>
+    <div class="col-xs-12">
+        <div class="pull-right">
+            <a href="<?= $base_uri.'cn/' ?>" title="中文">中文</a> | EN
+        </div>
+    </div>
     <div id="header" class="row hidden-print">
         <div id="banner" class="col-xs-12">
             <?php if ($logo): ?>

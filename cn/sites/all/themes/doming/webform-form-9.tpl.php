@@ -21,7 +21,7 @@
  * - $form['preview']: A renderable representing the entire submission preview.
  */
 ?>
-<h2>Contact us</h2>
+<h2>联系我们</h2>
 <div class="error-message">Please inform fields marked in red</div>
 <div class="error-message-email">Please enter a valid email address</div>
 <div class="col-xs-12 col-md-offset-3 col-md-6 margin-top-10"><?php
