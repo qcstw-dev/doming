@@ -1,5 +1,7 @@
 <div id="main-content" class="container"><?php
-    if (!isset($_SESSION['lang'])) {
+    if (isset($_GET['switch_lang'])) {
+        $_SESSION['lang'] = 'en';
+    } else if (!isset($_SESSION['lang'])) {
         if(strpos(explode(',', $_SERVER['HTTP_ACCEPT_LANGUAGE'])[0], 'zh') !== false) {
             $_SESSION['lang'] = 'cn';
             header('Location: '.$_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'cn');
@@ -9,7 +11,7 @@
     } ?>
     <div class="col-xs-12">
         <div class="pull-right">
-            <a href="<?= $base_uri.'cn/' ?>" title="中文">中文</a> | EN
+            <a href="<?= $base_uri.'cn/?switch_lang' ?>" title="中文">中文</a> | EN
         </div>
     </div>
     <div id="header" class="row hidden-print">
@@ -62,15 +64,15 @@
     </div>
         <?php if ($page['footer']): ?>
         <div id="footer" class="col-xs-12">
-            <div class="col-xs-9">
+            <div class="col-xs-12 col-md-7">
                 <?php print render($page['footer']); ?>
             </div>
-            <div class="col-xs-3 font-size-13 bottom-right position-absolute bottom-right text-right margin-bottom-10">
+            <div class="col-xs-12 col-md-5 font-size-13 text-right margin-bottom-10">
                 <div>    
-                    B to C website: <a href="https://www.giftattitude.com" target="_blank">www.giftattitude.com</a>
+                    B to C website: <a href="https://www.giftattitude.com" target="_blank" class="text-underline">www.giftattitude.com</a>
                 </div>
                 <div>    
-                    QCS website: <a href="https://www.qcsasia.com" target="_blank">www.qcsasia.com</a>
+                    QCS website: <a href="https://www.qcsasia.com" target="_blank" class="text-underline">www.qcsasia.com</a>
                 </div>
             </div>
         </div>

@@ -90,6 +90,9 @@
             } ?>
         </div><?php
     } ?>
+    <div class="col-xs-12 margin-top-10">
+        Website designed by <a href="https://www.pineapple-web.com" target="_blank" class="text-underline">Pineapple Web - SEO & web agency</a>
+    </div>
 </div>
 <script>
     $('.carousel').carousel();
